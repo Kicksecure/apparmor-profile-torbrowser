@@ -9,6 +9,14 @@ set -o pipefail
 
 version="0.1"
 
+./clean
+
+## Explicitly set access time, so we end up with a deterministic debian.tar.gz file
+shopt -s globstar
+touch -t "201308151102.35" ./debian
+touch -t "201308151102.35" ./debian/**
+shopt -u globstar
+
 rm --force "../apparmor-profile-torbrowser_$version.orig.tar.gz"
 
 git archive \
@@ -21,7 +29,9 @@ fi
 
 ls -la "../apparmor-profile-torbrowser_$version.orig.tar.gz"
 
-debuild
+debuild \
+   --rootcmd="debian/gain-root-command" \
+   -sa
 
 if [ ! "$?" = "0" ]; then
    exit 1
