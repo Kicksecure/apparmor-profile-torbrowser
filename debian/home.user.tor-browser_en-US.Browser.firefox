@@ -1,0 +1,127 @@
+#include <tunables/global>
+
+/home/user/tor-browser_en-US/Browser/firefox {
+	#include <abstractions/base>
+	#include <abstractions/user-tmp>
+	#include <abstractions/bash>
+	#include <abstractions/fonts>
+	#include <abstractions/kde>
+	#include <abstractions/gnome>
+
+	#include <local/home.user.tor-browser_en-US.Browser.firefox>
+
+	capability sys_ptrace,
+
+	deny /etc/host.conf r,
+	deny /etc/hosts r,
+	deny /etc/nsswitch.conf r,
+	deny /etc/resolv.conf r,
+	deny /etc/passwd r,
+	deny /etc/resolv.conf.whonix r,
+	deny /etc/hosts.whonix r,
+
+	@{HOME}/tor-browser_en-US/ r,
+	@{HOME}/tor-browser_en-US/* rw,
+	@{HOME}/tor-browser_en-US/.cache/ r,
+	@{HOME}/tor-browser_en-US/.cache/* rw,
+	@{HOME}/tor-browser_en-US/.mozilla/ w,
+	@{HOME}/tor-browser_en-US/.mozilla/*/ w,
+	@{HOME}/tor-browser_en-US/Browser/** r,
+	@{HOME}/tor-browser_en-US/Browser/*.so mr,
+	@{HOME}/tor-browser_en-US/Browser/browser/components/*.so mr,
+	@{HOME}/tor-browser_en-US/Browser/components/*.so mr,
+	@{HOME}/tor-browser_en-US/Browser/firefox rix,
+	@{HOME}/tor-browser_en-US/Data/Browser/ r,
+	@{HOME}/tor-browser_en-US/Data/Browser/** rwk,
+	@{HOME}/tor-browser_en-US/Desktop/ rw,
+	@{HOME}/tor-browser_en-US/Desktop/** rw,
+	@{HOME}/tor-browser_en-US/Downloads/ rw,
+	@{HOME}/tor-browser_en-US/Downloads/** rw,
+	@{HOME}/tor-browser_en-US/Tor/tor Px,
+
+	@{HOME}/ r,
+	@{HOME}/* r,
+	@{HOME}/Desktop r,
+	@{HOME}/Downloads/ r,
+	@{HOME}/Downloads/** rw,
+# In <abstractions/kde>
+#	@{HOME}/.kde/share/** rw,
+	@{HOME}/.local/share/ r,
+	@{HOME}/.local/share/applications/* r,
+	@{HOME}/.local/share/mime/ r,
+	@{HOME}/.local/share/mime/** r,
+	@{HOME}/.local/share/gvfs-metadata/home r,
+	@{HOME}/.local/share/recently-used.xbel* rw,
+	@{HOME}/.themes/** r,
+	@{HOME}/.cache/ r,
+	@{HOME}/.cache/* rwk,
+	@{HOME}/.config/oxygen-gtk/argb-apps.conf rw,
+	@{HOME}/.config/user-dirs.dirs r,
+# In <abstractions/gnome>
+#	@{HOME}/.gtk-bookmarks r,
+	@{HOME}/.Xauthority r,
+## NOT in <abstractions/kde>
+	@{HOME}/.kde/share/config/gtkrc-2.0 r,
+
+	/usr/share/ r,
+# In <abstractions/kde>
+#	/usr/share/icons/ r,
+#	/usr/share/icons/** r,
+	/usr/share/mime/ r,
+	/usr/share/mime/** r,
+	/usr/share/pixmaps/ r,
+	/usr/share/pixmaps/** r,
+	/usr/share/themes/ r,
+	/usr/share/themes/** r,
+# In <abstractions/kde>
+#	/usr/share/kde4/config/kdeglobals r,
+#	/usr/share/whonix/kde/share/config/kdeglobals r,
+	/usr/share/applications/** r,
+ 	/usr/share/alsa/** r,
+
+ 	/etc/drirc r,
+	/etc/X11/cursors/* r,
+	/etc/mime.types r,
+	/etc/mailcap r,
+	/etc/pkcs11/modules/ r,
+	/etc/pkcs11/modules/* r,
+
+	/bin/dash rix,
+	/bin/open rix,
+	/bin/ps rix,
+
+	/dev/dri/card0 rw,
+	/dev/vboxuser rw,
+	/dev/tty r,
+    /dev/snd/* r,
+
+	@{PROC} r,
+	@{PROC}/[0-9]*/maps r,
+	@{PROC}/tty/drivers r,
+	@{PROC}/[0-9]*/mounts r,
+	@{PROC}/[0-9]*/mountinfo r,
+	@{PROC}/[0-9]*/stat r,
+	@{PROC}/[0-9]*/status r,
+	@{PROC}/[0-9]*/task/*/stat r,
+	@{PROC}/[0-9]*/cmdline r,
+	@{PROC}/[0-9]*/fd/ r,
+	@{PROC}/cpuinfo r,
+	@{PROC}/filesystems r,
+	@{PROC}/meminfo r,
+	@{PROC}/stat r,
+	@{PROC}/sys/kernel/pid_max r,
+	@{PROC}/uptime r,
+
+	/sys/devices/system/cpu/ r,
+	/sys/devices/system/cpu/* r,
+
+	/tmp/.X0-lock r,
+
+# Not in <abstractions/kde>
+	/usr/bin/kde4-config rix,
+
+	/usr/lib/i386-linux-gnu/** mr,
+
+	/var/lib/dbus/machine-id r,
+	/var/lib/whonix/whonixblog/ r,
+}

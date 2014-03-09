@@ -1,0 +1,603 @@
+#############################################################################
+# Whonix license file
+#############################################################################
+
+
+
+*****************************************************************************
+* Conditions for Contributions to Whonix
+*****************************************************************************
+
+Conditions for Contributions to Whonix are not part of Whonix's license.
+
+Any changes you pull into this source will be also licensed under GPL v3 or any
+later. Additionally you grant Patrick Schleizer the right to re-license your
+work under a different license. If that is not acceptable, you can either fork
+this source under GPL v3 or any later or contact Patrick Schleizer. Contact
+Patrick Schleizer, if you require this source code under different license.
+
+*****************************************************************************
+* End of Conditions for Contributions to Whonix
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Whonix source code license
+*****************************************************************************
+
+Except in this file or in files where otherwise noted, content in this the
+Whonix source package is licensed under Whonix source code license.
+
+Copyright:
+    Patrick Schleizer (aka adrelanos) (aka proper)
+    adrelanos@riseup.net
+
+License:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can also find the full text of the GNU General Public License under
+    GPLv3 in the root of this source folder.
+
+Whonix Authors:
+    Patrick Schleizer (aka adrelanos) (aka proper)
+    Big contributions from anonymous.
+    Leaktest and other stuff contributed by smarm.
+
+*****************************************************************************
+* End of Whonix source code license
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Icon Licenses:
+*****************************************************************************
+
+readme.ico
+    Downloaded from: http://findicons.com/icon/254861/readme
+    http://www.webcitation.org/6E754NgDd
+    Icon Pack: Dark Glass
+    Designer: Alessandro Rei
+    License: GNU/GPL
+
+*****************************************************************************
+
+whonix.png
+    Original contributed by CJ for TorBOX (old project name)
+    Rebranded and converted into png by Patrick Schleizer.
+    Same License as Whonix source code license.
+
+*****************************************************************************
+
+torbrowser.png
+    From the Tor Browser Bundle
+    https://gitweb.torproject.org/torbrowser.git/blob_plain/HEAD:/LICENSE
+    http://www.webcitation.org/6E74cLVu8
+    License:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+
+    * Neither the names of the copyright owners nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+*****************************************************************************
+
+timesync.ico
+    Downloaded from: http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Apps-preferences-system-time-icon.html
+    http://www.webcitation.org/6E74mVLa7
+    http://www.webcitation.org/6E74mhnk7
+    Icon Pack: Oxygen Icons
+    Designer: Oxygen Team
+    License: GNU Lesser General Public License
+
+*****************************************************************************
+
+tbupdate.ico
+    Downloaded from:
+        http://findicons.com/icon/235497/system_software_update?id=235819
+        http://archive.is/9R8Uq
+    Designer: Alexander Moore - http://www.famfamfam.com
+    License: GNU/GPL
+
+*****************************************************************************
+
+contribute.png
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/3578/128/earth_hand_internet_share_sharing_world_icon
+        http://www.webcitation.org/6E76dHnyM
+        http://www.webcitation.org/6E76gwf3A
+    Designer: Everaldo Coelho - http://www.everaldo.com/
+    License: LGPL
+
+*****************************************************************************
+
+donate.png
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/59557/32/donate_icon
+        http://www.webcitation.org/6E71V32sH
+        http://www.iconfinder.com/browse/iconset/hamburg/#readme
+        http://www.webcitation.org/6E71Ve8z6
+        https://creativecommons.org/licenses/by/3.0/
+        http://www.webcitation.org/6E71WCyxl
+        https://creativecommons.org/licenses/by/3.0/legalcode
+        http://www.webcitation.org/6E71Wl5BZ
+    Designer: PC - http://pc.de/icons/
+    License: Creative Commons (Attribution 3.0 Unported)
+
+*****************************************************************************
+
+forum.ico
+    Downloaded from:
+       http://findicons.com/icon/238368/users?id=404720
+       http://archive.is/NmNw9
+    Designer: Oxygen Team - http://www.oxygen-icons.org
+    License: GNU/GPL
+
+*****************************************************************************
+
+mailinglist.ico
+    Downloaded from:
+        http://findicons.com/icon/254833/email?id=349526
+        http://archive.is/OpsxQ
+    Designer: Alessandro Rei - http://www.mentalrey.it
+    License: GNU/GPL
+
+*****************************************************************************
+
+featureblog.ico
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/1351/128/news_paper_icon
+        http://www.webcitation.org/6E6pwHBPj
+        https://www.gnu.org/licenses/lgpl.html
+        http://www.webcitation.org/6E6qEeTrD
+    Designer: David Vignoni - http://www.icon-king.com/
+    License: LGPL
+
+*****************************************************************************
+
+importantblog.png
+    Downloaded from:
+    http://www.iconfinder.com/icondetails/203/128/alert_book_important_icon
+    http://www.webcitation.org/6E9BEI19K
+    https://www.gnu.org/copyleft/gpl.html
+    http://www.webcitation.org/6E9BEPls9
+    Designer: Lothar Grimme - http://www.grafixport.org
+    License: GPL
+
+*****************************************************************************
+
+important.png
+    Downloaded from:
+        http://www.iconfinder.com/icondetails/3660/128/file_important_icon
+        http://www.webcitation.org/6E9AC3ndD
+        https://www.gnu.org/licenses/lgpl.html
+        http://www.webcitation.org/6E9AEDdfa
+    Designer: Everaldo Coelho - http://www.everaldo.com/
+    License: LGPL
+
+*****************************************************************************
+
+arm.ico
+    Downloaded from:
+        https://www.torproject.org/projects/arm.html.en
+        https://www.torproject.org/images/screenshot_arm_page1_cropped.png
+    License:
+        Creative Commons Attribution 3.0 United States License
+        http://creativecommons.org/licenses/by/3.0/us/
+
+*****************************************************************************
+
+firewall.png
+    Downloaded from:
+        http://findicons.com/icon/84698/firewall?id=85058
+    License:
+        Creative Commons Attribution (by)
+
+*****************************************************************************
+
+power_restart.ico
+    Downloaded from:
+        http://findicons.com/icon/198204/power_restart?id=198637
+    License:
+        Creative Commons Attribution (by)
+
+*****************************************************************************
+
+quick_restart.ico
+    Downloaded from:
+        http://findicons.com/icon/169828/quick_restart?id=171792
+    License:
+        GNU/GPL
+
+*****************************************************************************
+
+Saki-NuoveXT-2-Actions-stop.ico
+    Downloaded from:
+        http://www.iconarchive.com/show/nuoveXT-2-icons-by-saki/Actions-stop-icon.html
+    License:
+        GNU General Public License
+
+*****************************************************************************
+
+text_x_makefile.ico
+    Downloaded from:
+        http://findicons.com/icon/237880/text_x_makefile?id=395569
+    License:
+        GNU/GPL
+
+*****************************************************************************
+
+advancedsettings.ico
+    Downloaded from:
+        http://findicons.com/icon/168533/advancedsettings?id=391891
+    License:
+        GNU/GPL
+
+*****************************************************************************
+
+restart.ico
+    Downloaded from:
+        http://findicons.com/icon/169219/restart?id=169219
+    License:
+        GNU/GPL
+
+*****************************************************************************
+
+nerolinux.ico
+    Downloaded from:
+        http://findicons.com/icon/93644/nerolinux?id=274498
+    License:
+        GNU/GPL
+
+*****************************************************************************
+* End of Icon Licenses:
+*****************************************************************************
+
+
+
+*****************************************************************************
+* KDE Lowfat Settings License
+*****************************************************************************
+
+    Downloaded from:
+	http://packages.ubuntu.com/raring/kubuntu-settings-low-fat
+    Files:
+	whonix_workstation/usr/share/whonix/kde/share/config/kdedrc
+	whonix_workstation/usr/share/whonix/kde/share/config/kdeglobals
+	whonix_workstation/usr/share/whonix/kde/share/config/knotifyrc
+	whonix_workstation/usr/share/whonix/kde/share/config/krunnerrc
+	whonix_workstation/usr/share/whonix/kde/share/config/ksmserverrc
+	whonix_workstation/usr/share/whonix/kde/share/config/kwinrc
+	whonix_workstation/usr/share/whonix/kde/share/config/nepomukserverrc
+    License:
+
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: Kubuntu Settings
+Source: lp:kubuntu-settings
+
+Files: *
+Copyright: 2005-2010, Canonical Ltd. (Authors: Jonathan Riddell, Kenneth Wimer, Aurelien Gateau)
+Copyright: 2006-2010, Anthony Mercatante <tonio@ubuntu.com>
+Copyright: 2007-2010, Ryan Kavanagh <ryanakca@kubuntu.org>
+Copyright: 2007-2010, Richard A. Johnson <nixternal@kubuntu.org>
+Copyright: 2008-2012, Harald Sitter <apachelogger@ubuntu.com>
+Copyright: 2008-2010, Jonathan Thomas <echidnaman@gmail.com>
+Copyright: 2008-2009, Guillaume Martres <smarter@ubuntu.com>
+Copyright: 2009-2010, Scott Kitterman <scott@kitterman.com>
+Copyright: 2010, Rodrigo Belem <rclbelem@gmail.com>
+License: GPL-3+
+
+Files: desktop/misc/cursors/contrastlarge/*
+Copyright: 2005, Stefan Maundrakke <stefan_mdk@yahoo.de>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL' file.
+
+*****************************************************************************
+* End of KDE Lowfat Settings License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Whonix-Gateway Wallpaper License
+*****************************************************************************
+
+    Downloaded from:
+	http://kde-look.org/content/show.php/Mountain+mist?content=109446
+	http://www.webcitation.org/6GBH1PpX8
+    File:
+        whonix_gateway/usr/share/whonix/mountainmist-orig.jpeg
+    License:
+        Artistic 2.0
+        http://www.perl6.org/archive/rfc/346.html
+        http://www.webcitation.org/6GBGVYg2h
+
+*****************************************************************************
+* End of Whonix-Gateway Wallpaper License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* Whonix-Shared Pictures License
+*****************************************************************************
+
+    Downloaded from:
+        https://en.wikipedia.org/wiki/File:Ambox_warning_pn.svg
+        http://www.webcitation.org/6LsCzZOsz
+    File:
+        whonix_shared/usr/share/pixmaps/whonix/40px-Ambox_warning_pn.svg.png
+    License:
+        public domain
+        https://en.wikipedia.org/wiki/File:Ambox_warning_pn.svg
+        http://www.webcitation.org/6LsCzZOsz
+
+*****************************************************************************
+* End of Whonix-Shared Pictures License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* .bashrc License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/jessie/bash
+    File:
+        whonix_shared/usr/share/whonix/home/.bashrc
+    License:
+        GPLv3+
+        http://ftp-master.metadata.debian.org/changelogs//main/b/bash/bash_4.2+dfsg-1_copyright
+
+*****************************************************************************
+* End of .bashrc License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* grub.whonix License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/wheezy/grub2
+    File:
+        whonix_shared/etc/default/grub.whonix
+    License:
+        GPL-3+
+        http://ftp-master.metadata.debian.org/changelogs//main/g/grub2/grub2_1.99-27+deb7u1_copyright
+
+*****************************************************************************
+* End of grub.whonix License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* kdmrc License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/wheezy/kdm
+    File:
+        whonix_shared/etc/kde4/kdm/kdmrc.whonix
+    License:
+        GPLv2
+        http://ftp-master.metadata.debian.org/changelogs//main/k/kde-workspace/kde-workspace_4.8.4-6_copyright
+
+*****************************************************************************
+* End of kdmrc License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* start-tor-browser License
+*****************************************************************************
+
+    Downloaded from:
+        https://gitweb.torproject.org/torbrowser.git/blob/HEAD:/src/RelativeLink/RelativeLink.sh
+    File:
+        whonix_workstation/usr/share/whonix/start-tor-browser
+    License:
+        BSD 3-Clause
+        https://gitweb.torproject.org/torbrowser.git/blob/HEAD:/LICENSE
+
+*****************************************************************************
+* End of start-tor-browser License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* 00-defaultLayout.js License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/wheezy/plasma-desktop
+    File:
+        whonix_gateway/usr/share/whonix/kde/share/apps/plasma-desktop/init/00-defaultLayout.js
+        whonix_workstation/usr/share/whonix/kde/share/apps/plasma-desktop/init/00-defaultLayout.js
+    License:
+        GPLv2
+        http://ftp-master.metadata.debian.org/changelogs//main/k/kde-workspace/kde-workspace_4.8.4-6_copyright
+
+*****************************************************************************
+* End of 00-defaultLayout.js License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* rawdog, style.css, template, item, featureblog.conf, importantblog.conf, config License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/wheezy/rawdog
+    File:
+        whonix_workstation/etc/whonixcheck_rawdog/style.css
+        whonix_workstation/etc/whonixcheck_rawdog/template
+        whonix_workstation/etc/whonixcheck_rawdog/item
+        whonix_workstation/etc/whonixcheck_rawdog/featureblog.conf
+        whonix_workstation/etc/whonixcheck_rawdog/importantblog.conf
+        whonix_workstation/etc/whonixcheck_rawdog/config
+    License:
+        GPLv2+
+        http://ftp-master.metadata.debian.org/changelogs//main/r/rawdog/rawdog_2.13.dfsg.1-1_copyright
+
+*****************************************************************************
+* End of rawdog, style.css, template, item, featureblog.conf, importantblog.conf, config License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* hosts License
+*****************************************************************************
+
+    Downloaded from:
+        http://sources.debian.net/src/live-config/3.0.23-1/scripts/config/0020-hostname?hl=62#L62
+    File:
+        whonix_shared/etc/hosts.whonix
+    License:
+        GPLv3
+        http://sources.debian.net/src/live-config/3.0.23-1/COPYING
+
+*****************************************************************************
+* End of hosts License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* inittab License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/jessie/sysvinit
+    File:
+        whonix_shared/etc/inittab.whonix
+    License:
+        GPLv2+
+        http://ftp-master.metadata.debian.org/changelogs//main/s/sysvinit/sysvinit_2.88dsf-43_copyright
+
+*****************************************************************************
+* End of inittab License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* curl_exit_codes License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/jessie/curl
+    File:
+        whonix_shared/usr/lib/whonix/curl_exit_codes
+    License:
+        curl
+        http://ftp-master.metadata.debian.org/changelogs//main/c/curl/curl_7.32.0-1_copyright
+
+*****************************************************************************
+* End of curl_exit_codes License
+*****************************************************************************
+
+
+
+*****************************************************************************
+* /etc/default/tor License
+*****************************************************************************
+
+    Downloaded from:
+        http://packages.debian.org/jessie/tor
+    File:
+        whonix_workstation/etc/default/tor
+        whonix_gateway/etc/default/tor
+    License:
+        BSD 3-Clause
+        http://ftp-master.metadata.debian.org/changelogs//main/t/tor/tor_0.2.3.25-1_copyright
+
+*****************************************************************************
+* End of /etc/default/tor License
+*****************************************************************************
+
+
+
+#############################################################################
+# End of Whonix license file
+#############################################################################

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -x
+
+true "$0 .... ok ...."
+
+git archive \
+   --format=tar HEAD \
+   | gzip -n > ../apparmor-profile-torbrowser_0.1.orig.tar.gz

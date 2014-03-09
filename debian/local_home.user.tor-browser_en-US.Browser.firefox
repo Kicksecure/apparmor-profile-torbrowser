@@ -1,0 +1,7 @@
+# In <abstractions/gnome>
+# /etc/gnome-vfs-2.0/modules/ r,
+# /etc/gnome-vfs-2.0/modules/* r,
+
+/usr/share/fontconfig/conf.avail/* r,
+/usr/share/poppler/cMap/ r,
+/usr/share/poppler/cMap/** r,

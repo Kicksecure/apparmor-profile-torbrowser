@@ -1,0 +1,5 @@
+apparmor-profile-torbrowser (0.1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- MAINTAINER <user@host.localdomain>  Sun, 09 Mar 2014 14:47:45 +0000
