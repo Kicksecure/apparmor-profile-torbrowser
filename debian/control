@@ -14,5 +14,8 @@ Standards-Version: 3.9.4
 
 Package: apparmor-profile-torbrowser
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, apparmor
 Description: AppArmor profile for The Tor Browser Bundle (TBB)
+ .
+ An AppArmor profile to confine The Tor Browser Bundle (TBB). This profile
+ is developed by the Whonix team. TBB is developed by The Tor Project.

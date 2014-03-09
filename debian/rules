@@ -4,18 +4,12 @@
 ## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-%:
-	dh $@ --with=config-package
-
 #export DH_VERBOSE=1
 
 clean:
 	dh_testdir
 	dh_testroot
 	dh_clean
-
-prep:
-	$(CURDIR)/debian/prep.bsh
 
 build-arch: build
 
@@ -46,10 +40,7 @@ install: build
 	dh_testroot
 	dh_prep
 	dh_installdirs
+	dh_install --sourcedir ./
+	dh_apparmor --profile-name=home.user.tor-browser_en-US.Browser.firefox -papparmor-profile-torbrowser
 
-	$(CURDIR)/debian/rules-helper.bsh
-
-	dh_install --fail-missing --sourcedir=$(CURDIR)/debian/tmp
-	dh_apparmor
-
-.PHONY: clean prep build binary install
+.PHONY: clean build binary install

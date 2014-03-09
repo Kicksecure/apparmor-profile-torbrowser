@@ -1,5 +1,5 @@
-apparmor-profile-torbrowser (0.1) UNRELEASED; urgency=low
+apparmor-profile-torbrowser (0.1-1) UNRELEASED; urgency=low
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release.
 
- -- MAINTAINER <user@host.localdomain>  Sun, 09 Mar 2014 14:47:45 +0000
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 09 Mar 2014 14:47:45 +0000
