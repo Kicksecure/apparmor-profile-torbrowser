@@ -32,7 +32,8 @@ ls -la "../${package_name}_${version}.orig.tar.gz"
 
 debuild \
    --rootcmd="debian/gain-root-command" \
-   -sa
+   -sa \
+   ${1+"$@"}
 
 if [ ! "$?" = "0" ]; then
    exit 1
