@@ -1,6 +1,0 @@
-## This file is part of Whonix.
-## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
-## See the file COPYING for copying conditions.
-
-home.user.tor-browser_en-US.Browser.firefox /etc/apparmor.d/
-local/home.user.tor-browser_en-US.Browser.firefox /etc/apparmor.d/local/
