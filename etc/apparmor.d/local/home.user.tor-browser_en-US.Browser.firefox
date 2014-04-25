@@ -1,6 +1,5 @@
-# In <abstractions/gnome>
-# /etc/gnome-vfs-2.0/modules/ r,
-# /etc/gnome-vfs-2.0/modules/* r,
+@{HOME}/tor-browser_en-US/.gnome2/accels/ rwk,
+@{HOME}/tor-browser_en-US/.gnome2/accels/* rwk,
 
 /usr/share/fontconfig/conf.avail/* r,
 /usr/share/poppler/cMap/ r,
