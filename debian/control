@@ -4,7 +4,7 @@
 
 Source: apparmor-profile-torbrowser
 Section: misc
-Priority: important
+Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 8), dh-apparmor, faketime, rsync
 Homepage: https://www.whonix.org/wiki/AppArmor
