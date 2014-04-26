@@ -9,27 +9,13 @@
 %:
 	dh $@
 
-override_dh_auto_install:
-	rsync \
-		-C \
-		--verbose \
-		--recursive \
-		--links \
-		--perms \
-		--times \
-		--exclude debian \
-		--exclude t \
-		--exclude .gitignore \
-		--exclude COPYING \
-		--exclude GPLv3 \
-		--exclude build \
-		--exclude clean \
-		--exclude CONTRIBUTING.md \
-		$(CURDIR)/ \
-		debian/$(shell dh_listpackages)
-	dh_apparmor --profile-name=home.user.tor-browser_en-US.Browser.firefox -p$(shell dh_listpackages)
+APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./debian/$(shell dh_listpackages)/etc/apparmor.d/*.*))
+
+override_dh_install:
+	dh_apparmor --profile-name=$(APPARMOR_PROFILE_NAME) -p$(shell dh_listpackages)
+	dh_install
 
 clean:
-	git clean -df
+	make clean
 
 .PHONY: clean build
