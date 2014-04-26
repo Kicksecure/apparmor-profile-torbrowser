@@ -15,6 +15,7 @@ install:
 		--exclude debian \
 		--exclude t \
 		--exclude .gitignore \
+		--exclude .gitattributes \
 		--exclude COPYING \
 		--exclude GPLv3 \
 		--exclude build \
