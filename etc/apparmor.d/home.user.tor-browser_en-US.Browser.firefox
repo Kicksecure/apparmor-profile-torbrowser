@@ -1,4 +1,4 @@
-# Last modified: Mon Apr 14 19:01:23 UTC 2014
+# Last modified: Thu May  8 20:53:18 UTC 2014
 #include <tunables/global>
 
 /home/user/tor-browser_en-US/Browser/firefox {
@@ -11,9 +11,6 @@
 	#include <abstractions/audio>
 	#include <abstractions/freedesktop.org>
 	#include <abstractions/user-download>
-	#include <abstractions/whonix>
-
-	#include <local/home.user.tor-browser_en-US.Browser.firefox>
 
 	capability sys_ptrace,
 
@@ -66,11 +63,6 @@
 	@{HOME}/tor-browser_en-US/Tor/tor Px,
 	@{HOME}/tor-browser_en-US/Browser/dependentlibs.list r,
 
-#	@{HOME}/ r,
-#	@{HOME}/* r,
-#	@{HOME}/Desktop r,
-#	@{HOME}/Downloads/ r,
-#	@{HOME}/Downloads/** rw,
 	@{HOME}/.local/share/ r,
 	@{HOME}/.local/share/** rw,
 	@{HOME}/.thumbnails/ r,
@@ -83,20 +75,21 @@
 	@{HOME}/.Xauthority r,
 	## NOT in <abstractions/kde>
 	@{HOME}/.kde/share/** rw,
+	@{HOME}/tor-browser_en-US/.gnome2/accels/ rwk,
+	@{HOME}/tor-browser_en-US/.gnome2/accels/* rwk,
 
 	/usr/bin/mkdir rix,
 
 	/usr/share/ r,
 	/usr/share/mime/ r,
 	/usr/share/mime/** r,
-#	/usr/share/pixmaps/ r,
-#	/usr/share/pixmaps/** r,
 	/usr/share/themes/ r,
 	/usr/share/themes/** r,
 	/usr/share/whonix/kde/share/config/kdeglobals r,
-#	/usr/share/applications/ r,
  	/usr/share/applications/** rwk,
 	/usr/share/fontconfig/conf.avail/* r,
+	/usr/share/poppler/cMap/ r,
+	/usr/share/poppler/cMap/** r,
 
  	/etc/drirc r,
 	/etc/X11/cursors/* r,
@@ -104,6 +97,7 @@
 	/etc/mailcap r,
 	/etc/pkcs11/modules/ r,
 	/etc/pkcs11/modules/* r,
+	/etc/gai.conf r,
 
 	/bin/dash rix,
 	/bin/open rix,
