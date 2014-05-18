@@ -1,7 +1,7 @@
-# Last modified: Thu May  8 20:53:18 UTC 2014
+# Last modified: Sun May 18 19:22:08 UTC 2014
 #include <tunables/global>
 
-/home/user/tor-browser_en-US/Browser/firefox {
+/home/user/tor-browser_*/Browser/firefox {
 	#include <abstractions/base>
 	#include <abstractions/user-tmp>
 	#include <abstractions/bash>
@@ -122,3 +122,4 @@
 
 	/var/cache/fontconfig/ rwk,
 }
+
