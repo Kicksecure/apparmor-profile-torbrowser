@@ -1,4 +1,4 @@
-Conditions for Contributions to Whonix are not part of Whonix's license.
+Conditions for Contributions to this package are not part of this package's license.
 
 Any changes you pull into this source will be also licensed under GPL v3 or any
 later. Additionally you grant Patrick Schleizer the right to re-license your

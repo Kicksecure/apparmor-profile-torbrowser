@@ -6,7 +6,7 @@ Source: apparmor-profile-torbrowser
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 8), dh-apparmor, faketime, rsync, git
+Build-Depends: debhelper (>= 8), dh-apparmor, faketime, git
 Homepage: https://www.whonix.org/wiki/AppArmor
 Vcs-Browser: https://github.com/Whonix/apparmor-profile-torbrowser
 Vcs-Git: https://github.com/Whonix/apparmor-profile-torbrowser.git
