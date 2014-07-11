@@ -85,7 +85,6 @@
 	/usr/share/mime/** r,
 	/usr/share/themes/ r,
 	/usr/share/themes/** r,
-	/usr/share/whonix/kde/share/config/kdeglobals r,
  	/usr/share/applications/** rwk,
 	/usr/share/fontconfig/conf.avail/* r,
 	/usr/share/poppler/cMap/ r,
