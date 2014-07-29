@@ -1,0 +1,84 @@
+# Last modified: Sun May 18 19:22:08 UTC 2014
+#include <tunables/global>
+
+/home/*/tor-browser_*/Browser/firefox {
+	#include <abstractions/base>
+	#include <abstractions/fonts>
+	#include <abstractions/kde>
+	#include <abstractions/gnome>
+	#include <abstractions/audio>
+	#include <abstractions/user-download>
+	#include <abstractions/user-tmp>
+	#include <abstractions/X>
+
+	capability sys_ptrace,
+
+	deny @{HOME}/* r,
+	deny @{HOME}/.** r,
+
+	deny /etc/host.conf r,
+	deny /etc/hosts r,
+	deny /etc/nsswitch.conf r,
+	deny /etc/resolv.conf r,
+	deny /etc/passwd r,
+	deny /etc/group r,
+	deny /etc/udev/udev.conf r,
+
+	deny @{PROC}/[0-9]*/stat r,
+	deny @{PROC}/[0-9]*/mountinfo r,
+	deny @{PROC}/[0-9]*/task/** r,
+	deny @{PROC}/sys/kernel/random/uuid r,
+
+	deny /run/udev/** r,
+
+	deny /sys/devices/** r,
+
+	## Missing in <abstractions/user-download> #######
+	## Without this line, access is denied to @{HOME},
+	## [dD]ownload{,s}, Desktop... for downloads.
+	@{HOME}/ r,
+	##################################################
+
+	@{HOME}/tor-browser_*/ r,
+	@{HOME}/tor-browser_*/** rwk,
+	@{HOME}/tor-browser_*/Browser/*.so mr,
+	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
+	@{HOME}/tor-browser_*/Browser/components/*.so mr,
+	@{HOME}/tor-browser_*/Browser/firefox rix,
+	@{HOME}/tor-browser_*/Tor/* mr,
+	@{HOME}/tor-browser_*/Tor/tor rix,
+
+	## KDE 4 #########################################
+	/home/user/.kde/share/config/* r,
+	##################################################
+
+	## Xfce4 #########################################
+	/etc/xfce4/defaults.list r,
+	/usr/share/xfce4/applications/ r,
+	##################################################
+
+	/etc/mime.types r,
+
+	/usr/share/ r,
+	/usr/share/mime/ r,
+	/usr/share/mime/** r,
+	/usr/share/themes/ r,
+	/usr/share/themes/** r,
+	/usr/share/applications/** rwk,
+	/usr/share/poppler/cMap/ r,
+	/usr/share/poppler/cMap/** r,
+
+	## Required by some packages ####################
+	/usr/share/fontconfig/conf.avail/* r,
+	/var/cache/fontconfig/ rwk,
+	#################################################
+
+	## For systems used in VirtualBox ###############
+	deny /var/lib/dbus/machine-id r,
+	@{PROC}/[0-9]*/fd/ r,
+	/dev/vboxuser rw,
+	/bin/ps rix,
+	/bin/dash rix,
+	/usr/bin/pulseaudio rix,
+	#################################################
+}
