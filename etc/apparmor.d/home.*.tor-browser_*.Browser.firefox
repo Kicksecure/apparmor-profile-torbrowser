@@ -23,6 +23,7 @@
 	deny /etc/passwd r,
 	deny /etc/group r,
 	deny /etc/udev/udev.conf r,
+	deny /etc/mailcap r,
 
 	deny @{PROC}/[0-9]*/stat r,
 	deny @{PROC}/[0-9]*/mountinfo r,
@@ -30,23 +31,43 @@
 	deny @{PROC}/sys/kernel/random/uuid r,
 
 	deny /run/udev/** r,
-
 	deny /sys/devices/** r,
 
-	## Missing in <abstractions/user-download> #######
-	## Without this line, access is denied to @{HOME},
-	## [dD]ownload{,s}, Desktop... for downloads.
+	## Should be in abstractions/user-download ? #####
+	# Without this line, access is denied to @{HOME},
+	# [dD]ownload{,s}, Desktop... for downloads.
 	@{HOME}/ r,
 	##################################################
 
 	@{HOME}/tor-browser_*/ r,
-	@{HOME}/tor-browser_*/** rwk,
+	@{HOME}/tor-browser_*/* r,
+	@{HOME}/tor-browser_*/Browser/** r,
 	@{HOME}/tor-browser_*/Browser/*.so mr,
-	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/components/*.so mr,
+	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/firefox rix,
+	@{HOME}/tor-browser_*/Data/Browser/profiles.ini r,
+	@{HOME}/tor-browser_*/Data/Browser/profile.default/** rwk,
+	deny @{HOME}/tor-browser_*/Data/Tor/torrc* w,
+	@{HOME}/tor-browser_*/Data/Tor/* rwk,
 	@{HOME}/tor-browser_*/Tor/* mr,
 	@{HOME}/tor-browser_*/Tor/tor rix,
+
+	/etc/mime.types r,
+
+	/usr/share/ r,
+	/usr/share/mime/ r,
+	/usr/share/mime/** r,
+	/usr/share/themes/ r,
+	/usr/share/themes/** r,
+	/usr/share/applications/** rk,
+	/usr/share/poppler/cMap/ r,
+	/usr/share/poppler/cMap/** r,
+
+	## Not in abstractions/fonts #####################
+	/usr/share/fontconfig/conf.avail/* r,
+	/var/cache/fontconfig/ rk,
+	##################################################
 
 	## KDE 4 #########################################
 	/home/user/.kde/share/config/* r,
@@ -57,28 +78,12 @@
 	/usr/share/xfce4/applications/ r,
 	##################################################
 
-	/etc/mime.types r,
-
-	/usr/share/ r,
-	/usr/share/mime/ r,
-	/usr/share/mime/** r,
-	/usr/share/themes/ r,
-	/usr/share/themes/** r,
-	/usr/share/applications/** rwk,
-	/usr/share/poppler/cMap/ r,
-	/usr/share/poppler/cMap/** r,
-
-	## Required by some packages ####################
-	/usr/share/fontconfig/conf.avail/* r,
-	/var/cache/fontconfig/ rwk,
-	#################################################
-
-	## For systems used in VirtualBox ###############
+	## For systems used in VirtualBox ################
 	deny /var/lib/dbus/machine-id r,
 	@{PROC}/[0-9]*/fd/ r,
 	/dev/vboxuser rw,
 	/bin/ps rix,
 	/bin/dash rix,
 	/usr/bin/pulseaudio rix,
-	#################################################
+	##################################################
 }
