@@ -49,7 +49,6 @@
 	@{HOME}/tor-browser_*/Data/Browser/profiles.ini r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/ r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/** rwk,
-	deny @{HOME}/tor-browser_*/Data/Tor/torrc* w,
 	@{HOME}/tor-browser_*/Data/Tor/* rwk,
 	@{HOME}/tor-browser_*/Tor/* mr,
 	@{HOME}/tor-browser_*/Tor/tor rix,
