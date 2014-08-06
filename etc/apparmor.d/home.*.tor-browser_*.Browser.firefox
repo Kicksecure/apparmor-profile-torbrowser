@@ -33,7 +33,7 @@
 	deny /run/udev/** r,
 	deny /sys/devices/** r,
 
-	## Should be in abstractions/user-download ? #####
+	## Missing in <abstractions/user-download> #######
 	# Without this line, access is denied to @{HOME},
 	# [dD]ownload{,s}, Desktop... for downloads.
 	@{HOME}/ r,
@@ -47,9 +47,8 @@
 	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/firefox rix,
 	@{HOME}/tor-browser_*/Data/Browser/profiles.ini r,
-	@{HOME}/tor-browser_*/Data/Browser/profile.default/ r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/** rwk,
-	@{HOME}/tor-browser_*/Data/Browser/Caches/** rwk,
+	deny @{HOME}/tor-browser_*/Data/Tor/torrc* w,
 	@{HOME}/tor-browser_*/Data/Tor/* rwk,
 	@{HOME}/tor-browser_*/Tor/* mr,
 	@{HOME}/tor-browser_*/Tor/tor rix,
@@ -65,26 +64,25 @@
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
 
-	## Not in abstractions/fonts #####################
+	## Not in abstractions/fonts ##
 	/usr/share/fontconfig/conf.avail/* r,
 	/var/cache/fontconfig/ rk,
-	##################################################
 
-	## KDE 4 #########################################
+	## KDE 4 ##
 	/home/user/.kde/share/config/* r,
-	##################################################
 
-	## Xfce4 #########################################
+	## Xfce4 ##
 	/etc/xfce4/defaults.list r,
 	/usr/share/xfce4/applications/ r,
-	##################################################
+	
+	## Gnome2 and VirtualBox ##
+	@{HOME}/tor-browser_en-US/.** rwk,
 
-	## For systems used in VirtualBox ################
+	## For systems used in VirtualBox ##
 	deny /var/lib/dbus/machine-id r,
 	@{PROC}/[0-9]*/fd/ r,
 	/dev/vboxuser rw,
 	/bin/ps rix,
 	/bin/dash rix,
 	/usr/bin/pulseaudio rix,
-	##################################################
 }
