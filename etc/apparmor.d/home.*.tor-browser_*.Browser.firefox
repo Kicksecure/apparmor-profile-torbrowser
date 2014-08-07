@@ -68,14 +68,14 @@
 	/var/cache/fontconfig/ rk,
 
 	## KDE 4 ##
-	/home/user/.kde/share/config/* r,
+	@{HOME}/.kde/share/config/* r,
 
 	## Xfce4 ##
 	/etc/xfce4/defaults.list r,
 	/usr/share/xfce4/applications/ r,
 
 	## Gnome2 and VirtualBox ##
-	@{HOME}/tor-browser_en-US/.** rwk,
+	@{HOME}/tor-browser_*/.** rwk,
 
 	## For systems used in VirtualBox ##
 	deny /var/lib/dbus/machine-id r,
