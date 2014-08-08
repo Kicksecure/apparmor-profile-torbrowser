@@ -51,6 +51,10 @@
 	@{HOME}/tor-browser_*/Data/Tor/* rwk,
 	@{HOME}/tor-browser_*/Tor/* mr,
 	@{HOME}/tor-browser_*/Tor/tor rix,
+	@{HOME}/tor-browser_*/Desktop/ r,
+	@{HOME}/tor-browser_*/Desktop/** rwk,
+	@{HOME}/tor-browser_*/Downloads/ r,
+	@{HOME}/tor-browser_*/Downloads/ rwk,
 
 	/etc/mime.types r,
 
