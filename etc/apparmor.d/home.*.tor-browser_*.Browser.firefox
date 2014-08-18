@@ -47,6 +47,7 @@
 	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/firefox rix,
 	@{HOME}/tor-browser_*/Data/Browser/profiles.ini r,
+	@{HOME}/tor-browser_*/Data/Browser/profile.default/ r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/** rwk,
 	@{HOME}/tor-browser_*/Data/Tor/* rwk,
 	@{HOME}/tor-browser_*/Tor/* mr,
