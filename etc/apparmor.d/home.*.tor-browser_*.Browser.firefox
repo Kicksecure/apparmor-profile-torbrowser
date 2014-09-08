@@ -46,6 +46,7 @@
 	@{HOME}/tor-browser_*/Browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/browser/components/*.so mr,
 	@{HOME}/tor-browser_*/Browser/firefox rix,
+	@{HOME}/tor-browser_*/Data/Browser/Caches/** rwk,   ## from Tor Browser 3.6.5
 	@{HOME}/tor-browser_*/Data/Browser/profiles.ini r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/ r,
 	@{HOME}/tor-browser_*/Data/Browser/profile.default/** rwk,
