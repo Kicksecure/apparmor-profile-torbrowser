@@ -41,7 +41,7 @@
 
 	@{HOME}/tor-browser_*/ r,
 	@{HOME}/tor-browser_*/* r,
-	@{HOME}/tor-browser_*/Browser/.* rw,
+	@{HOME}/tor-browser_*/Browser/.* rwk,
 	@{HOME}/tor-browser_*/Browser/** r,
 	@{HOME}/tor-browser_*/Browser/*.so mr,
 	@{HOME}/tor-browser_*/Browser/components/*.so mr,
