@@ -64,6 +64,8 @@
 
 	/etc/mime.types r,
 
+	/usr/lib/i386-linux-gnu/libvisual-*/*.so mr,
+	
 	/usr/share/ r,
 	/usr/share/mime/ r,
 	/usr/share/mime/** r,
