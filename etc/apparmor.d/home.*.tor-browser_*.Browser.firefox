@@ -63,8 +63,10 @@
 	@{HOME}/tor-browser_*/Downloads/** rwk,
 
 	/etc/mime.types r,
+	/etc/wildmidi/wildmidi.cfg r,  # gstreamer
 
 	/usr/lib/i386-linux-gnu/libvisual-*/*.so mr,
+	/usr/lib/i386-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
 	
 	/usr/share/ r,
 	/usr/share/mime/ r,
