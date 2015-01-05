@@ -67,7 +67,7 @@
 
 	/usr/lib/i386-linux-gnu/libvisual-*/*.so mr,
 	/usr/lib/i386-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
-	
+
 	/usr/share/ r,
 	/usr/share/mime/ r,
 	/usr/share/mime/** r,
@@ -76,6 +76,9 @@
 	/usr/share/applications/** rk,
 	/usr/share/poppler/cMap/ r,
 	/usr/share/poppler/cMap/** r,
+	# Distribution homepage
+	/usr/share/homepage/ r,
+	/usr/share/homepage/** r,
 
 	## Not in abstractions/fonts ##
 	/usr/share/fontconfig/conf.avail/* r,
