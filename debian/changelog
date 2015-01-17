@@ -2,7 +2,7 @@ apparmor-profile-torbrowser (3:1.1-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <user@host.localdomain>  Mon, 05 Jan 2015 15:22:49 +0000
+ -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 05 Jan 2015 15:22:49 +0000
 
 apparmor-profile-torbrowser (3:1.0-1) unstable; urgency=low
 
