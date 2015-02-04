@@ -1,3 +1,9 @@
+apparmor-profile-torbrowser (3:1.2-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 04 Feb 2015 00:51:43 +0000
+
 apparmor-profile-torbrowser (3:1.1-1) unstable; urgency=low
 
   * New upstream version.
