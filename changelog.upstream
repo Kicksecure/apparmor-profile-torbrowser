@@ -1,0 +1,474 @@
+commit c8d1b0289fdf813293eee985e7a8c75ead37823c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:33 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit e894be1df8473c64a7184c2e7172402db4d066d6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:38 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit 70dc5e3da5c92c8afad99d0a5bef43768a897c88
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jan 17 22:55:12 2015 +0000
+
+    fixed changelog
+
+commit ef4b1fad71f04d84c27390d011117212dd51a333
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:37 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 6c6292b7199420507666a3488c7728ea3306df0c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 5 15:22:51 2015 +0000
+
+    bumped version number
+
+commit 6fd6b4ce7fceaecceecf79f984ff2a48f43e35bc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 5 15:21:45 2015 +0000
+
+    added Distribution homepage
+    	/usr/share/homepage/ r,
+    	/usr/share/homepage/** r,
+    Thanks @troubadour
+    https://www.whonix.org/forum/index.php/topic,97.msg5777.html#msg5777
+
+commit 64f14f8292da372d6d26335dd3fd7a10b401e138
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 5 19:01:10 2014 +0000
+
+    updated generic makefile
+
+commit a299d254ad3e73135ceeafb621513e0a4d7eb40e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 9 14:52:53 2014 +0000
+
+    bumped version number
+
+commit f7a341e7760543591ea52124d6feff735519ef02
+Merge: a61460a eb18217
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 9 14:52:16 2014 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit eb182174970f8bfa1f48d35e83f921a6820bfb4f
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Nov 8 17:41:30 2014 +0000
+
+    + gstreamer
+
+commit a61460afd5d23516929d75b473a99458a8cedfac
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 28 22:35:18 2014 +0000
+
+    makefile: refactoring, avoid using IFS
+
+commit ab7cb3022d59ab6fda689a260dd33b68a23f8b72
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Oct 26 17:43:27 2014 +0000
+
+    bumped version number
+
+commit a348027fb83b60de4585aaf739ed42b46cd7bd0b
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Oct 26 17:27:58 2014 +0000
+
+    + libvisual
+
+commit bc11e7c78bd12b3542ea6b6e3785c6d342708a2b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 25 01:58:50 2014 +0000
+
+    makefile:
+    - make debdist; make undebdist
+    - cleanup
+    - refactoring
+
+commit f2c734cd24de7be7988a3f9570050de77e8e5746
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 23 22:43:01 2014 +0000
+
+    makefile:
+    - new target "make undist", which deletes the upstream tarball
+    - $DISTDIR variable for make (un)dist, which defaults to ".." and can be used to create upstream tarballs in arbitrary locations
+    - refactoring, all function names and global variables now start with "make_" to make the script `source`ing friendly
+    - made `source`able
+
+commit db767e90cb095c842d90789c6ea27f2a9da454a3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 18 17:32:52 2014 +0000
+
+    fix
+
+commit c10f412590d5fcd22132c6c874b90904a9db98f5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 16 22:01:34 2014 +0000
+
+    bumped version number
+
+commit 74039cadacf155e5b43fc14ac47ef1fad30f13b6
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Oct 16 21:21:50 2014 +0000
+
+    "k" mask in ".cache"
+
+commit e3abe7f4ae40320a4c94f7e36bf45e00c97ac37c
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Oct 16 20:53:47 2014 +0000
+
+    changes for TBB 4.0
+
+commit fa73bf8102a56237473db7625ddbda0528ccbd00
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 13 12:36:51 2014 +0000
+
+    readme
+
+commit 3d2d52b50653b2d271e68b95d8de9c17f51a37bc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 8 12:01:55 2014 +0000
+
+    bumped changelog version
+
+commit fbc8cb93b45bb0d5378d575f979ddcdd44805cfa
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Sep 8 11:39:09 2014 +0000
+
+    New Cache directory from 3.6.5
+
+commit ac5a0100a9968b1bdc561e96aff11498309cca01
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 19 18:52:36 2014 +0000
+
+    makefile: added new feature "make deb-chl-bumpup" - Bump upstream version number in debian/changelog.
+
+commit c43f44a1408af208e75079a42f4e24a43d760234
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Aug 18 19:14:17 2014 +0000
+
+    @{HOME}/tor-browser_*/Data/Browser/profile.default/ r,
+
+commit fd0493642795c1c82e5660035a65bc34f5868dae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:54:23 2014 +0000
+
+    Updated debian/changelog.
+
+commit 4db1faa3a936449296a65acaa4004fa52e67ebff
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 20:47:25 2014 +0000
+
+    Fixed changelog date.
+
+commit b87274e1e5ec5cf14698d9cd9f90fdb74f044e3a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 17 18:03:24 2014 +0000
+
+    bump version number
+
+commit a7a89b6152d9c14613f6d60d46029e431df1df5f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 14 13:35:14 2014 +0000
+
+    Implemented make deb-icup: Combination of make deb-pkg, make deb-pkg-install and make deb-pkg-cleanup.
+
+commit 9006c3658ce698971a1f1e3b9b278a0ff7eacd4b
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun Aug 10 17:57:43 2014 +0000
+
+    improvements for downloads(2)
+
+commit eba6652fd17c5628930e474e00fb965a8d2cb811
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Aug 8 16:09:31 2014 +0000
+
+    improvements for downloads
+
+commit 9631d1dbce28ed7447a2508358079509060a2d37
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Aug 7 21:46:44 2014 +0000
+
+    paths modifications
+
+commit 04d706b2c1bcf6518278eae37e6add4744bef5ba
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Aug 6 22:27:12 2014 +0000
+
+    -deny @{HOME}/tor-browser_*/Data/Tor/torrc* w, (was put back by mistake)
+
+commit 181293afe5ca9ed5060bcdc7632c06c6ea9ba84e
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Aug 6 20:38:51 2014 +0000
+
+    allowed dot files in /home/*/tor-browser_*/
+
+commit a16fbc15c33fa4a933576401b18b7518ffea7a7e
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Aug 5 18:25:12 2014 +0000
+
+    added Caches folder
+
+commit 4af3880774ca1c31e713a6fd03be32a5547d5a4c
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Jul 31 20:54:17 2014 +0000
+
+    - deny @{HOME}/tor-browser_*/Data/Tor/torrc* w,
+
+commit 6fa32c2b8a111c8919a09c916d78d54fa6fd748a
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jul 30 18:44:43 2014 +0000
+
+    denied message
+
+commit 864de3dba9f0dbe518a1a5663cd23ac80e847bff
+Author: troubadoour <trobador@riseup.net>
+Date:   Wed Jul 30 18:31:41 2014 +0000
+
+    write permissions
+
+commit 8c7bc5c4dab3f7a9030fa38155174a56d871ea06
+Merge: 18198e0 a403228
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Jul 29 21:34:08 2014 +0000
+
+    Merge remote-tracking branch 'origin'
+
+commit 18198e0f244946f2586c81e3e69813f98560ebda
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Jul 29 21:24:17 2014 +0000
+
+    Major revamp
+
+commit a40322866f1416e567ba3a733019b3e6c3801364
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 12:42:25 2014 +0000
+
+    packaging
+
+commit eadccff258e5500e7edf0108cfc28bd28d2897b1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 27 04:01:09 2014 +0000
+
+    packaging
+
+commit aece031d9b395ba9375af1cbd17d07f189f6e719
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:26:35 2014 +0000
+
+    packaging
+
+commit 5454e64d22e1532255f0abfd5b75ad96220a97e7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 26 15:16:02 2014 +0000
+
+    packaging: removed build dependency on git, since the .git folder won't be included in the upstream tarball.
+
+commit e4ad0318eb8ccb9617fa168d369208c558e0ebd1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:29:55 2014 +0000
+
+    packaging
+
+commit ffa10101b85a5aa4d5d7099880ff1445ed7a6eee
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 17:10:59 2014 +0000
+
+    packaging
+
+commit 3d8d35e4934eddacf4ea4910891706cd3fe1d1e8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 12 15:34:15 2014 +0000
+
+    packaging
+
+commit 98cfbba0a3add28ba5c33bf81b153de97822af09
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 11 18:06:48 2014 +0000
+
+    update for Whonix 9
+
+commit c8b36dbb650baf362202384ed33ee6eebf98ff85
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 5 08:09:42 2014 +0000
+
+    Bumped debian revision number to avoid lintian warning "new-package-should-close-itp-bug" so we can use lintian --fail-on-warnings as sanity test.
+
+commit 3c85214508468d7af0e24a27b57993bd6d70624d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 24 15:45:10 2014 +0000
+
+    added debian epoch; added dotglob
+
+commit 9d770ae83cd93791c59d68bb3de8e49985c38a3d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 23:36:05 2014 +0000
+
+    removed extra newline at the end
+
+commit 8b69ff2389a503897eae38fcea4d3e5360a7b234
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jun 3 18:27:24 2014 +0000
+
+    readme
+
+commit 7cf1de513493e047a7023013c6890cc0a549aa87
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 1 15:38:30 2014 +0000
+
+    readme
+
+commit f3625b1d065da0676a0f93b8b19347bc36201699
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 31 14:35:30 2014 +0000
+
+    # On branch master
+    nothing to commit (working directory clean)
+
+commit 09a23875e72a7c4f20dac3b83688693cbe987c5d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 22 23:27:40 2014 +0000
+
+    packaging
+
+commit c1b5c3963ce8ca9301237da635eb7288d2f4e3e4
+Merge: 7ac27ff e298622
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 18 20:30:44 2014 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit e298622826e2f2d3f3a9bb6f4ea67e8ec275e503
+Author: troubadoour <trobador@riseup.net>
+Date:   Sun May 18 20:01:58 2014 +0000
+
+    trobador@riseup.net
+
+commit 7ac27ffb54fd8c10d8a12e4d4ea24103332f6e42
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 16 14:58:28 2014 +0000
+
+    add disclaimer to package description
+
+commit bc3931ebab324a76bd8ab303e1d6b17acfbf03dd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 16 14:57:38 2014 +0000
+
+    fix description
+
+commit b8ec53c937977bd3c36fe4a988b17aa5b6a31019
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu May 8 21:24:42 2014 +0000
+
+    Squashed commit of the following:
+    
+    commit 96a349a6e7b04d4e6a238ed303b476532b419c92
+    Author: troubadoour <trobador@riseup.net>
+    Date:   Thu May 8 21:22:28 2014 +0000
+    
+        etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
+        etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
+    
+    etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
+    etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
+
+commit cba964402ead59fc93210af7b589fbc58f5ac386
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 29 19:16:24 2014 +0000
+
+    license
+
+commit 5c448b81fa5a3c0670deec4c4261c5621eeb4f86
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 29 17:59:34 2014 +0000
+
+    refactoring
+
+commit 27f8519b0c574a6878a2f7abb1eb30080eb540dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 27 18:26:36 2014 +0000
+
+    refactoring
+
+commit 99482cf0588abea8a3e49576a9d858a4d4c5a5fb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 26 12:15:24 2014 +0000
+
+    fix, don't install .gitattributes
+
+commit f58d8fd424b6a0ef1c29bc3e4ce848b295a58474
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 26 11:52:27 2014 +0000
+
+    added git to build depends
+
+commit dd46792d0c6ce4b18831ed46d3554dfac4aa028a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 26 11:15:46 2014 +0000
+
+    lower priority from important to optional to make fit for possible debian inclusion
+
+commit b6f2e9ad48e562d4bfc1df36cac62a34aca05f7c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 26 10:42:43 2014 +0000
+
+    no longer add debian folder to upstream tarball by using .gitattributes
+
+commit dc22788ad4b4600b0529689d6679ad8a210e6cb5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 26 10:22:03 2014 +0000
+
+    packaging simplification
+
+commit c19729188f8b98bdce140496d574db51db48cf3b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Apr 25 22:07:47 2014 +0000
+
+    updated profiles by troubadour from https://www.whonix.org/wiki/AppArmor/Tor_Browser_Bundle
+
+commit 0a47313909c6984becd8d61ed05958f0d0fb8f07
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Apr 25 22:05:35 2014 +0000
+
+    packaging simplification
+
+commit 14b49871c51e5d51b64bef33233519faf636e3d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Apr 18 12:45:46 2014 +0000
+
+    allow passing extra parameters to debuild
+
+commit 4dc9c0b33bb841f1c9ef01011d2de75847143367
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 6 17:07:27 2014 +0000
+
+    refactoring
+
+commit f15b2853384068247271ef34c1b40c96617f9f47
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 11 13:16:46 2014 +0000
+
+    added faketime to build dependencies (required for deterministic package builds)
+
+commit 7685826ee06b9bb718e9337b73edd99dbdccdf92
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Mar 9 17:50:08 2014 +0000
+
+    made package and upstream tarball deterministic
+
+commit 2ee535292d27c3823704196e9a37a1148c97b953
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Mar 9 17:26:30 2014 +0000
+
+    initial implementation
+
+commit d0ebf79bd3da9cd160bf6a827c0e8bc81126f24c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Mar 9 14:59:54 2014 +0000
+
+    initial commit
