@@ -1,3 +1,28 @@
+commit 95ff5f85cd4efef9e77d17e53277d7fe8e4321fe
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:26:27 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit 48889d5f0295e19528eb5ff1e7e154501f8d048f
+Merge: 2fb9c68 b059723
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 26 21:23:09 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit b059723b2a00335e0f385034ca8c7375dd19cfb7
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Feb 26 20:28:20 2015 +0000
+
+    new update directory TBB 4.5a3
+
+commit 2fb9c6886711b5e2b9fea4ff5c75e692a1513cb6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:12 2015 +0000
+
+    bumped changelog version
+
 commit e693134d1b7d27c740fba5a640c3481c5921f922
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 4 00:44:46 2015 +0000
