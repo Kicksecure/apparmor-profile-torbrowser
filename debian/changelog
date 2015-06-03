@@ -1,3 +1,9 @@
+apparmor-profile-torbrowser (3:1.8-1) unstable; urgency=low
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:59:30 +0000
+
 apparmor-profile-torbrowser (3:1.7-1) unstable; urgency=low
 
   * New upstream version (local package).
