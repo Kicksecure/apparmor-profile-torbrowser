@@ -58,6 +58,8 @@
 	@{HOME}/tor-browser_en-US/Browser/updates/** rwk,
 	@{HOME}/tor-browser_en-US/Browser/updates*.xml rwk,
 	@{HOME}/tor-browser_en-US/Browser/active-update*.xml rwk,
+	@{HOME}/tor-browser_en-US/update.test/ rwk,
+	@{HOME}/tor-browser_en-US/update.test rwk,
 	@{HOME}/tor-browser_en-US/Browser/update.test/ rwk,
 	@{HOME}/tor-browser_en-US/Browser/update.test rwk,
 	@{HOME}/tor-browser_en-US/Browser/updates/0/updater rix,
