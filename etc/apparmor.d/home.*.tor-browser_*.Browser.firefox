@@ -28,6 +28,7 @@
 	deny @{PROC}/[0-9]*/mountinfo r,
 	deny @{PROC}/[0-9]*/task/** r,
 	deny @{PROC}/sys/kernel/random/uuid r,
+	deny @{PROC}/sys/vm/overcommit_memory r,
 
 	deny /run/udev/** r,
 	deny /sys/devices/** r,
@@ -71,6 +72,8 @@
 
 	/etc/mime.types r,
 	/etc/wildmidi/wildmidi.cfg r,  # gstreamer
+
+	/tmp/MozUpdater/bgupdate/updater rix,
 
 	/usr/lib/i386-linux-gnu/libvisual-*/*.so mr,
 	/usr/lib/i386-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
