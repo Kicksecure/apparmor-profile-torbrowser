@@ -1,6 +1,6 @@
 #include <tunables/global>
 
-/home/*/tor-browser_*/{Browser/,}start-tor-browser {
+/home/**/tor-browser_*/{Browser/,}start-tor-browser {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
@@ -21,15 +21,15 @@
   /dev/pts/[0-9]* rw,
   /dev/tty rw,
   /etc/magic r,
-# owner @{HOME}/*/tor-browser_*/* rwk,
-# owner @{HOME}/*/tor-browser_*/Browser/.config/ w,
-# owner @{HOME}/*/tor-browser_*/Browser/.config/ibus/ w,
-# owner @{HOME}/*/tor-browser_*/Browser/.config/ibus/bus w,
-# owner @{HOME}/*/tor-browser_*/Browser/firefox Px,
-# owner @{HOME}/*/tor-browser_*/{Browser/TorBrowser/,}Tor/tor r,
-#owner @{HOME}/*/tor-browser_*/{Browser/,}start-tor-browser r,
-#@{HOME}/*/tor-browser_*/start-tor-browser.desktop r,
-#@{HOME}/*/tor-browser_*/Browser/start-tor-browser.desktop r,
+# owner @{HOME}/**/tor-browser_*/* rwk,
+# owner @{HOME}/**/tor-browser_*/Browser/.config/ w,
+# owner @{HOME}/**/tor-browser_*/Browser/.config/ibus/ w,
+# owner @{HOME}/**/tor-browser_*/Browser/.config/ibus/bus w,
+# owner @{HOME}/**/tor-browser_*/Browser/firefox Px,
+# owner @{HOME}/**/tor-browser_*/{Browser/TorBrowser/,}Tor/tor r,
+#owner @{HOME}/**/tor-browser_*/{Browser/,}start-tor-browser r,
+#@{HOME}/**/tor-browser_*/start-tor-browser.desktop r,
+#@{HOME}/**/tor-browser_*/Browser/start-tor-browser.desktop r,
   @{PROC}/ r,
   @{PROC}/[0-9]*/status r,
   @{PROC}/[0-9]*/stat r,
