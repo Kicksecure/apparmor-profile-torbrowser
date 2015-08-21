@@ -9,10 +9,9 @@
 %:
 	dh $@
 
-APPARMOR_PROFILE_NAME=$(shell basename $$(echo ./debian/$(shell dh_listpackages)/etc/apparmor.d/*.*))
-
 override_dh_install:
-	dh_apparmor --profile-name=$(APPARMOR_PROFILE_NAME) -p$(shell dh_listpackages)
+	dh_apparmor --profile-name='home.*.tor-browser_*.Browser.firefox'
+	dh_apparmor --profile-name='home.*.tor-browser_*.Browser.start-tor-browser'
 
 override_dh_installchangelogs:
 	dh_installchangelogs changelog.upstream upstream
