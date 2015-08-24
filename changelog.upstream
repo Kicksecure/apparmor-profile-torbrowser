@@ -1,3 +1,53 @@
+commit 7deea174e12769bb8ead29ae572d67cdfd91e5f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 21 18:05:07 2015 +0000
+
+    more fixes
+
+commit bdd223b2ca8fbccb80d6889104540b7c55d04e02
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 21 17:32:23 2015 +0000
+
+    fix, make sure the profile /etc/apparmor.d/home.*.tor-browser_*.Browser.start-tor-browser gets added to Debian maintainer scripts so it gets actually enabled
+
+commit 2fa40df26d3f25d2c40bc6627fb2857378d40000
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 21 17:05:34 2015 +0000
+
+    various fixes for Whonix 12, multi platform (amd64 [Qubes]) and multi language support
+
+commit e88bc0025d243c12cf6f4b9608b2f42c4af0c347
+Merge: 23ddaaa 013c7fc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 25 01:30:47 2015 +0200
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 013c7fcd7101634386981945f813d38b466490aa
+Author: troubadoour <trobador@riseup.net>
+Date:   Mon Jul 13 14:29:52 2015 +0000
+
+    + start-tor-browser profile
+
+commit 23ddaaa15c2c0bcf971333c493e8e5c61a6506d3
+Merge: ba89412 ba49d7a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 28 20:03:11 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit ba49d7a460386e6ca9974b8933c53ce841b2f772
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Jun 27 21:27:35 2015 +0000
+
+    new messages fron internal updater
+
+commit ba89412b0f6fb5de0a845177b0f0e82eee02292e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 11 20:44:19 2015 +0000
+
+    bumped changelog version
+
 commit 1ebcd6d86f6e179a4e16a96e0a0acfb2e76c8336
 Merge: 575c99a c1e6cf3
 Author: Patrick Schleizer <adrelanos@riseup.net>
