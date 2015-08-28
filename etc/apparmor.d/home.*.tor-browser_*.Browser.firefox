@@ -11,9 +11,6 @@
 	#include <abstractions/user-tmp>
 	#include <abstractions/X>
 
-	deny @{HOME}/* r,
-	deny @{HOME}/.** r,
-
 	deny /etc/host.conf r,
 	deny /etc/hosts r,
 	deny /etc/nsswitch.conf r,
@@ -29,6 +26,7 @@
 	deny @{PROC}/[0-9]*/task/** r,
 	deny @{PROC}/sys/kernel/random/uuid r,
 	deny @{PROC}/sys/vm/overcommit_memory r,
+	deny @{PROC}/[0-9]*/cmdline r,
 
 	deny /run/udev/** r,
 	deny /sys/devices/** r,
@@ -37,48 +35,51 @@
 	# Without this line, access is denied to @{HOME},
 	# [dD]ownload{,s}, Desktop... for downloads.
 	@{HOME}/ r,
+	@{HOME}/* r,
 	##################################################
 
-	/home/**/tor-browser_*/ r,
-	/home/**/tor-browser_*/* r,
+	@{HOME}/**/tor-browser_*/ r,
+	@{HOME}/**/tor-browser_*/* r,
 	## TBB 5.0.2 internal updater ####
-	/home/**/tor-browser_*/Browser/ rw,
+	@{HOME}/**/tor-browser_*/Browser/ rw,
 	##################################
-	/home/**/tor-browser_*/Browser/** rwk,
-	/home/**/tor-browser_*/Browser/*.so mr,
-	/home/**/tor-browser_*/Browser/components/*.so mr,
-	/home/**/tor-browser_*/Browser/browser/components/*.so mr,
-	/home/**/tor-browser_*/Browser/firefox rix,
-	/home/**/tor-browser_*/Browser/TorBrowser/Tor/* mr,
-	/home/**/tor-browser_*/Data/Browser/Caches/** rwk,
-	/home/**/tor-browser_*/Data/Browser/profiles.ini r,
-	/home/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/ r,
-	/home/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
-	/home/**/tor-browser_*/Data/Tor/* rwk,
-	/home/**/tor-browser_*/Tor/* mr,
-	/home/**/tor-browser_*/Tor/tor rix,
-	/home/**/tor-browser_*/Browser/updates/ r,
-	/home/**/tor-browser_*/Browser/updates/** rwk,
-	/home/**/tor-browser_*/Browser/updates*.xml rwk,
-	/home/**/tor-browser_*/Browser/active-update*.xml rwk,
-	/home/**/tor-browser_*/update.test/ rwk,
-	/home/**/tor-browser_*/update.test rwk,
-	/home/**/tor-browser_*/Browser/update.test/ rwk,
-	/home/**/tor-browser_*/Browser/update.test rwk,
-	/home/**/tor-browser_*/Browser/updates/0/updater rix,
+	@{HOME}/**/tor-browser_*/Browser/** rwk,
+	@{HOME}/**/tor-browser_*/Browser/*.so mr,
+	@{HOME}/**/tor-browser_*/Browser/components/*.so mr,
+	@{HOME}/**/tor-browser_*/Browser/browser/components/*.so mr,
+	@{HOME}/**/tor-browser_*/Browser/firefox rix,
+	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Tor/* mr,
+	@{HOME}/**/tor-browser_*/Data/Browser/Caches/** rwk,
+	@{HOME}/**/tor-browser_*/Data/Browser/profiles.ini r,
+	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/ r,
+	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
+	@{HOME}/**/tor-browser_*/Data/Tor/* rwk,
+	@{HOME}/**/tor-browser_*/Tor/* mr,
+	@{HOME}/**/tor-browser_*/Tor/tor rix,
+	@{HOME}/**/tor-browser_*/Browser/updates/ r,
+	@{HOME}/**/tor-browser_*/Browser/updates/** rwk,
+	@{HOME}/**/tor-browser_*/Browser/updates*.xml rwk,
+	@{HOME}/**/tor-browser_*/Browser/active-update*.xml rwk,
+	@{HOME}/**/tor-browser_*/update.test/ rwk,
+	@{HOME}/**/tor-browser_*/update.test rwk,
+	@{HOME}/**/tor-browser_*/Browser/update.test/ rwk,
+	@{HOME}/**/tor-browser_*/Browser/update.test rwk,
+	@{HOME}/**/tor-browser_*/Browser/updates/0/updater rix,
     ## TBB 5.0.2 internal updater ####
-    /home/**/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    @{HOME}/**/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
     ##################################
-	/home/**/tor-browser_*/Browser/Desktop/ rw,
-	/home/**/tor-browser_*/Desktop/ rwk,
-	/home/**/tor-browser_*/Desktop/** rwk,
-	/home/**/tor-browser_*/Browser/Downloads/ r,
-	/home/**/tor-browser_*/Browser/Downloads/** rwk,
+	@{HOME}/**/tor-browser_*/Browser/Desktop/ rw,
+	@{HOME}/**/tor-browser_*/Desktop/ rwk,
+	@{HOME}/**/tor-browser_*/Desktop/** rwk,
+	@{HOME}/**/tor-browser_*/Browser/Downloads/ r,
+	@{HOME}/**/tor-browser_*/Browser/Downloads/** rwk,
 
 	/etc/mime.types r,
 	/etc/wildmidi/wildmidi.cfg r,  # gstreamer
 
 	/tmp/MozUpdater/bgupdate/updater rix,
+
+	/usr/bin/kde4-config rix,
 
 	## XXX
 	#/usr/lib/*-linux-gnu/libvisual-*/*.so mr,
@@ -104,14 +105,14 @@
 	/var/cache/fontconfig/ rk,
 
 	## KDE 4 ##
-	/home/**/.kde/share/config/* r,
+	@{HOME}/.kde/share/config/* r,
 
 	## Xfce4 ##
 	/etc/xfce4/defaults.list r,
 	/usr/share/xfce4/applications/ r,
 
 	## Gnome2 and VirtualBox ##
-	/home/**/tor-browser_*/.** rwk,
+	owner /home/**/tor-browser_*/.** rwk,
 
 	## For systems used in VirtualBox ##
 	deny /var/lib/dbus/machine-id r,
