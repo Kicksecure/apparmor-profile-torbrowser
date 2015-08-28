@@ -41,7 +41,9 @@
 
 	/home/**/tor-browser_*/ r,
 	/home/**/tor-browser_*/* r,
-	/home/**/tor-browser_*/Browser/ r,
+	## TBB 5.0.2 internal updater ####
+	/home/**/tor-browser_*/Browser/ rw,
+	##################################
 	/home/**/tor-browser_*/Browser/** rwk,
 	/home/**/tor-browser_*/Browser/*.so mr,
 	/home/**/tor-browser_*/Browser/components/*.so mr,
@@ -64,6 +66,9 @@
 	/home/**/tor-browser_*/Browser/update.test/ rwk,
 	/home/**/tor-browser_*/Browser/update.test rwk,
 	/home/**/tor-browser_*/Browser/updates/0/updater rix,
+    ## TBB 5.0.2 internal updater ####
+    /home/**/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    ##################################
 	/home/**/tor-browser_*/Browser/Desktop/ rw,
 	/home/**/tor-browser_*/Desktop/ rwk,
 	/home/**/tor-browser_*/Desktop/** rwk,
