@@ -1,6 +1,8 @@
 ## start-tor-browser profile
 #include <tunables/global>
 
+@{TBB} = @{HOME}*
+
 /home*/tor-browser_*/{Browser/,}start-tor-browser {
   #include <abstractions/base>
   #include <abstractions/bash>
@@ -23,18 +25,15 @@
   /dev/tty rw,
   /etc/magic r,
 
-  owner @{HOME}/**/tor-browser_*/* rwk,
-  owner @{HOME}/**/tor-browser_*/Browser/.config/ w,
-  owner @{HOME}/**/tor-browser_*/Browser/.config/ibus/ w,
-  owner @{HOME}/**/tor-browser_*/Browser/.config/ibus/bus w,
-  owner /home/*/tor-browser_*/Browser/firefox Px,
-  owner @{HOME}/**/tor-browser_*/Browser/*.so mr,
-  owner @{HOME}/**/tor-browser_*/{Browser/TorBrowser/,}Tor/tor r,
-  owner @{HOME}/**/tor-browser_*/{Browser/TorBrowser/,}Tor/*.so* mr,
-  owner @{HOME}/**/tor-browser_*/{Browser/,}start-tor-browser r,
-  owner @{HOME}/**/tor-browser_*/start-tor-browser.desktop rw,
-  owner @{HOME}/**/tor-browser_*/Browser/start-tor-browser.desktop r,
-  owner @{HOME}/**/tor-browser_*/Browser/dependentlibs.list r,
+  owner @{TBB}/tor-browser_*/Browser/*.so mr,
+  owner @{TBB}/tor-browser_*/{Browser/TorBrowser/,}Tor/tor r,
+  owner @{TBB}/tor-browser_*/{Browser/TorBrowser/,}Tor/*.so* mr,
+  owner @{TBB}/tor-browser_*/{Browser/,}start-tor-browser r,
+  owner @{TBB}/tor-browser_*/start-tor-browser.desktop rw,
+  owner @{TBB}/tor-browser_*/Browser/start-tor-browser.desktop r,
+  owner @{TBB}/tor-browser_*/Browser/dependentlibs.list r,
+  ## No slash for a child profile.
+  owner @{TBB}tor-browser_*/Browser/firefox Px,
 
   @{PROC}/ r,
   @{PROC}/[0-9]*/status r,

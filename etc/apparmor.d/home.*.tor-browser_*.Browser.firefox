@@ -1,6 +1,8 @@
 # Last modified: Sun May 18 19:22:08 UTC 2014
 #include <tunables/global>
 
+@{TBB} = @{HOME}*
+
 /home/**/tor-browser_*/Browser/firefox {
 	#include <abstractions/base>
 	#include <abstractions/fonts>
@@ -38,41 +40,41 @@
 	@{HOME}/* r,
 	##################################################
 
-	@{HOME}/**/tor-browser_*/ r,
-	@{HOME}/**/tor-browser_*/* r,
+	owner @{TBB}/tor-browser_*/ r,
+	owner @{TBB}/tor-browser_*/* r,
 	## TBB 5.0.2 internal updater ####
-	@{HOME}/**/tor-browser_*/Browser/ rw,
+	owner @{TBB}/tor-browser_*/Browser/ rw,
 	##################################
-	@{HOME}/**/tor-browser_*/Browser/** rwk,
-	@{HOME}/**/tor-browser_*/Browser/*.so mr,
-	@{HOME}/**/tor-browser_*/Browser/components/*.so mr,
-	@{HOME}/**/tor-browser_*/Browser/browser/components/*.so mr,
-	@{HOME}/**/tor-browser_*/Browser/firefox rix,
-	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Tor/* mr,
-	@{HOME}/**/tor-browser_*/Data/Browser/Caches/** rwk,
-	@{HOME}/**/tor-browser_*/Data/Browser/profiles.ini r,
-	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/ r,
-	@{HOME}/**/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
-	@{HOME}/**/tor-browser_*/Data/Tor/* rwk,
-	@{HOME}/**/tor-browser_*/Tor/* mr,
-	@{HOME}/**/tor-browser_*/Tor/tor rix,
-	@{HOME}/**/tor-browser_*/Browser/updates/ r,
-	@{HOME}/**/tor-browser_*/Browser/updates/** rwk,
-	@{HOME}/**/tor-browser_*/Browser/updates*.xml rwk,
-	@{HOME}/**/tor-browser_*/Browser/active-update*.xml rwk,
-	@{HOME}/**/tor-browser_*/update.test/ rwk,
-	@{HOME}/**/tor-browser_*/update.test rwk,
-	@{HOME}/**/tor-browser_*/Browser/update.test/ rwk,
-	@{HOME}/**/tor-browser_*/Browser/update.test rwk,
-	@{HOME}/**/tor-browser_*/Browser/updates/0/updater rix,
+	owner @{TBB}/tor-browser_*/Browser/** rwk,
+	owner @{TBB}/tor-browser_*/Browser/*.so mr,
+	owner @{TBB}/tor-browser_*/Browser/components/*.so mr,
+	owner @{TBB}/tor-browser_*/Browser/browser/components/*.so mr,
+	owner @{TBB}/tor-browser_*/Browser/firefox rix,
+	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Tor/* mr,
+	owner @{TBB}/tor-browser_*/Data/Browser/Caches/** rwk,
+	owner @{TBB}/tor-browser_*/Data/Browser/profiles.ini r,
+	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/ r,
+	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
+	owner @{TBB}/tor-browser_*/Data/Tor/* rwk,
+	owner @{TBB}/tor-browser_*/Tor/* mr,
+	owner @{TBB}/tor-browser_*/Tor/tor rix,
+	owner @{TBB}/tor-browser_*/Browser/updates/ r,
+	owner @{TBB}/tor-browser_*/Browser/updates/** rwk,
+	owner @{TBB}/tor-browser_*/Browser/updates*.xml rwk,
+	owner @{TBB}/tor-browser_*/Browser/active-update*.xml rwk,
+	owner @{TBB}/tor-browser_*/update.test/ rwk,
+	owner @{TBB}/tor-browser_*/update.test rwk,
+	owner @{TBB}/tor-browser_*/Browser/update.test/ rwk,
+	owner @{TBB}/tor-browser_*/Browser/update.test rwk,
+	owner @{TBB}/tor-browser_*/Browser/updates/0/updater rix,
     ## TBB 5.0.2 internal updater ####
-    @{HOME}/**/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    owner @{TBB}/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
     ##################################
-	@{HOME}/**/tor-browser_*/Browser/Desktop/ rw,
-	@{HOME}/**/tor-browser_*/Desktop/ rwk,
-	@{HOME}/**/tor-browser_*/Desktop/** rwk,
-	@{HOME}/**/tor-browser_*/Browser/Downloads/ r,
-	@{HOME}/**/tor-browser_*/Browser/Downloads/** rwk,
+	owner @{TBB}/tor-browser_*/Browser/Desktop/ rw,
+	owner @{TBB}/tor-browser_*/Desktop/ rwk,
+	owner @{TBB}/tor-browser_*/Desktop/** rwk,
+	owner @{TBB}/tor-browser_*/Browser/Downloads/ r,
+	owner @{TBB}/tor-browser_*/Browser/Downloads/** rwk,
 
 	/etc/mime.types r,
 	/etc/wildmidi/wildmidi.cfg r,  # gstreamer
@@ -112,7 +114,7 @@
 	/usr/share/xfce4/applications/ r,
 
 	## Gnome2 and VirtualBox ##
-	@{HOME}/**/tor-browser_*/.** rwk,
+	owner @{TBB}/tor-browser_*/.** rwk,
 
 	## For systems used in VirtualBox ##
 	deny /var/lib/dbus/machine-id r,
