@@ -112,7 +112,7 @@
 	/usr/share/xfce4/applications/ r,
 
 	## Gnome2 and VirtualBox ##
-	owner /home/**/tor-browser_*/.** rwk,
+	@{HOME}/**/tor-browser_*/.** rwk,
 
 	## For systems used in VirtualBox ##
 	deny /var/lib/dbus/machine-id r,
