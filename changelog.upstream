@@ -1,3 +1,74 @@
+commit 7393ad17e17c31922137e708a7189a05d3416851
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Aug 29 16:34:57 2015 +0000
+
+    refactoring
+
+commit 37c7b5a3c93cbc043be1984b27764c9ad41a70a2
+Merge: 792c0b5 3a4564a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Aug 29 16:32:33 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 3a4564a4738cff31302e56f7e4d8a14011311c6c
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Aug 29 16:00:30 2015 +0000
+
+    @{TBB} = @{HOME}* variable
+
+commit 5163805754c6734e34ccff68859c47edb2d8d938
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Aug 29 15:57:08 2015 +0000
+
+    misc fixes
+
+commit 7cfcbaa765e5623607234643338d0068f5f6fa94
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Aug 29 15:30:47 2015 +0000
+
+    @{HOME}/**/ <-> owner /home/**/
+
+commit 792c0b5da5fc8577e9f0d16c694e6abcc4c39cfc
+Merge: 3d416c7 94a58cc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Aug 29 02:18:15 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 94a58ccf7955f74a8cf1fad29bfb598a7b874088
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Aug 28 23:09:34 2015 +0000
+
+    remove deny @{HOME}/*[.**] to allow cache directories --> only allowed is .tb
+    add @{HOME}/* r, to prevent a batch of denied messages when opening HOME
+    fix a few denied messages by TBB 5.0.2
+
+commit 3d416c7d788c9a959b03019481557c738c214b8f
+Merge: d0f65ba 60bf3b9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 28 16:09:16 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 60bf3b98cf3cd0b20c9f186a3e896cb678758e99
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Aug 28 15:44:47 2015 +0000
+
+    changes in TBB 5.0.2 internal updater
+
+commit c6c89f59ef1e4a336805a037c656ace2a716e02c
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Aug 28 15:35:46 2015 +0000
+
+    @{HOME}/**/ breaks the profile. Replaced with /home/**/
+
+commit d0f65ba191b9bdba0d5c089b534cff596b8d507f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:07:53 2015 +0000
+
+    bumped changelog version
+
 commit 80c0dad06b153a43e824d97ec19e8013190956ab
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:17 2015 +0000
