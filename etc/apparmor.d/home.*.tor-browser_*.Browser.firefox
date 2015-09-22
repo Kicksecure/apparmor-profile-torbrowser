@@ -98,6 +98,8 @@
 	#/usr/lib/*-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
 	/usr/lib/*-linux-gnu/** mrix,
 
+	/usr/local/share/applications/meminfo.cache r,
+
 	/usr/share/ r,
 	/usr/share/mime/ r,
 	/usr/share/mime/** r,
