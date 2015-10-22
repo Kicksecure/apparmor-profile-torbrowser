@@ -1,3 +1,21 @@
+commit 870b138cc654900a19c955fe1f02e2b65689d1e7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 22 19:33:53 2015 +0000
+
+    /usr/local/share/applications/ r,
+
+commit 02c0da137ac8902b21f48950e915a4a9e97b3671
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 22 19:32:58 2015 +0000
+
+    /usr/local/share/applications/meminfo.cache r,
+
+commit 4d28be459628e52bf025e18172f6f2ed01b4e11d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 18 19:55:52 2015 +0000
+
+    bumped upstream changelog
+
 commit 7393ad17e17c31922137e708a7189a05d3416851
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Aug 29 16:34:57 2015 +0000
