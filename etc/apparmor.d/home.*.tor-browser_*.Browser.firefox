@@ -25,12 +25,11 @@
 
     deny @{PROC}/[0-9]*/stat r,
     deny @{PROC}/[0-9]*/mountinfo r,
+    deny @{PROC}/[0-9]*/task/ r,
     deny @{PROC}/[0-9]*/task/** r,
     deny @{PROC}/sys/kernel/random/uuid r,
     deny @{PROC}/sys/vm/overcommit_memory r,
     deny @{PROC}/[0-9]*/cmdline r,
-    deny @{PROC}/[0-9]*/task r,
-    deny @{PROC}/[0-9]*/environ r,
 
     @{PROC}/*/environ r,
 
