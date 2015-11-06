@@ -30,6 +30,8 @@
 	deny @{PROC}/sys/vm/overcommit_memory r,
 	deny @{PROC}/[0-9]*/cmdline r,
 
+	@{PROC}/*/environ r,
+
 	deny /run/udev/** r,
 	deny /sys/devices/** r,
 
@@ -100,6 +102,7 @@
 
 	/usr/local/share/applications/ r,
 	/usr/local/share/applications/meminfo.cache r,
+	/usr/local/share/applications/mimeinfo.cache r,
 
 	/usr/share/ r,
 	/usr/share/mime/ r,
