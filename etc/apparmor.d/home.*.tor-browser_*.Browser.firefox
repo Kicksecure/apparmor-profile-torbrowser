@@ -77,6 +77,7 @@
 	owner @{TBB}/tor-browser*/Desktop/** rwk,
 	owner @{TBB}/tor-browser*/Browser/Downloads/ r,
 	owner @{TBB}/tor-browser*/Browser/Downloads/** rwk,
+	owner @{TBB}/tor-browser*/Browser.bak/ r,
 
 	## Gnome2 and VirtualBox ##
 	owner @{TBB}/tor-browse*/.** rwk,
