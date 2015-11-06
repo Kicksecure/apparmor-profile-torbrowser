@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home/**/tor-browser_*/Browser/firefox {
+/home/**/tor-browse*/Browser/firefox {
 	#include <abstractions/base>
 	#include <abstractions/fonts>
 	#include <abstractions/kde>
@@ -40,44 +40,44 @@
 	@{HOME}/* r,
 	##################################################
 
-	owner @{TBB}/tor-browser_*/ r,
-	owner @{TBB}/tor-browser_*/* r,
+	owner @{TBB}/tor-browse*/ r,
+	owner @{TBB}/tor-browse*/* r,
 	## TBB 5.0.2 internal updater ####
-	owner @{TBB}/tor-browser_*/Browser/ rw,
+	owner @{TBB}/tor-browse*/Browser/ rw,
 	##################################
-	owner @{TBB}/tor-browser_*/Browser/** rwk,
-	owner @{TBB}/tor-browser_*/Browser/*.so mr,
-	owner @{TBB}/tor-browser_*/Browser/components/*.so mr,
-	owner @{TBB}/tor-browser_*/Browser/browser/components/*.so mr,
-	owner @{TBB}/tor-browser_*/Browser/firefox rix,
-	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Tor/* mr,
-	owner @{TBB}/tor-browser_*/Data/Browser/Caches/** rwk,
-	owner @{TBB}/tor-browser_*/Data/Browser/profiles.ini r,
-	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/ r,
-	owner @{TBB}/tor-browser_*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
-	owner @{TBB}/tor-browser_*/Data/Tor/* rwk,
-	owner @{TBB}/tor-browser_*/Tor/* mr,
-	owner @{TBB}/tor-browser_*/Tor/tor rix,
-	owner @{TBB}/tor-browser_*/Browser/updates/ r,
-	owner @{TBB}/tor-browser_*/Browser/updates/** rwk,
-	owner @{TBB}/tor-browser_*/Browser/updates*.xml rwk,
-	owner @{TBB}/tor-browser_*/Browser/active-update*.xml rwk,
-	owner @{TBB}/tor-browser_*/update.test/ rwk,
-	owner @{TBB}/tor-browser_*/update.test rwk,
-	owner @{TBB}/tor-browser_*/Browser/update.test/ rwk,
-	owner @{TBB}/tor-browser_*/Browser/update.test rwk,
-	owner @{TBB}/tor-browser_*/Browser/updates/0/updater rix,
+	owner @{TBB}/tor-browse*/Browser/** rwk,
+	owner @{TBB}/tor-browse*/Browser/*.so mr,
+	owner @{TBB}/tor-browse*/Browser/components/*.so mr,
+	owner @{TBB}/tor-browse*/Browser/browser/components/*.so mr,
+	owner @{TBB}/tor-browse*/Browser/firefox rix,
+	owner @{TBB}/tor-browse*/Browser/TorBrowser/Tor/* mr,
+	owner @{TBB}/tor-browse*/Data/Browser/Caches/** rwk,
+	owner @{TBB}/tor-browse*/Data/Browser/profiles.ini r,
+	owner @{TBB}/tor-browse*/Browser/TorBrowser/Data/Browser/profile.default/ r,
+	owner @{TBB}/tor-browse*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
+	owner @{TBB}/tor-browse*/Data/Tor/* rwk,
+	owner @{TBB}/tor-browse*/Tor/* mr,
+	owner @{TBB}/tor-browse*/Tor/tor rix,
+	owner @{TBB}/tor-browse*/Browser/updates/ r,
+	owner @{TBB}/tor-browse*/Browser/updates/** rwk,
+	owner @{TBB}/tor-browse*/Browser/updates*.xml rwk,
+	owner @{TBB}/tor-browse*/Browser/active-update*.xml rwk,
+	owner @{TBB}/tor-browse*/update.test/ rwk,
+	owner @{TBB}/tor-browse*/update.test rwk,
+	owner @{TBB}/tor-browse*/Browser/update.test/ rwk,
+	owner @{TBB}/tor-browse*/Browser/update.test rwk,
+	owner @{TBB}/tor-browse*/Browser/updates/0/updater rix,
     ## TBB 5.0.2 internal updater ####
-    owner @{TBB}/tor-browser_*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    owner @{TBB}/tor-browse*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
     ##################################
-	owner @{TBB}/tor-browser_*/Browser/Desktop/ rw,
-	owner @{TBB}/tor-browser_*/Desktop/ rwk,
-	owner @{TBB}/tor-browser_*/Desktop/** rwk,
-	owner @{TBB}/tor-browser_*/Browser/Downloads/ r,
-	owner @{TBB}/tor-browser_*/Browser/Downloads/** rwk,
+	owner @{TBB}/tor-browse*/Browser/Desktop/ rw,
+	owner @{TBB}/tor-browse*/Desktop/ rwk,
+	owner @{TBB}/tor-browse*/Desktop/** rwk,
+	owner @{TBB}/tor-browse*/Browser/Downloads/ r,
+	owner @{TBB}/tor-browse*/Browser/Downloads/** rwk,
 
 	## Gnome2 and VirtualBox ##
-	owner @{TBB}/tor-browser_*/.** rwk,
+	owner @{TBB}/tor-browse*/.** rwk,
 
 	## KDE 4 ##
 	@{HOME}/.kde/share/config/* r,
