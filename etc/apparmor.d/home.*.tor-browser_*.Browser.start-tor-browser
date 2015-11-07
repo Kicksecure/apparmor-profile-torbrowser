@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home*/tor-browse*/{Browser/,}start-tor-browser {
+/home*/tor-browser*/{Browser/,}start-tor-browser {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
@@ -25,15 +25,15 @@
   /dev/tty rw,
   /etc/magic r,
 
-  owner @{TBB}/tor-browse*/Browser/*.so mr,
-  owner @{TBB}/tor-browse*/{Browser/TorBrowser/,}Tor/tor r,
-  owner @{TBB}/tor-browse*/{Browser/TorBrowser/,}Tor/*.so* mr,
-  owner @{TBB}/tor-browse*/{Browser/,}start-tor-browser r,
-  owner @{TBB}/tor-browse*/start-tor-browser.desktop rw,
-  owner @{TBB}/tor-browse*/Browser/start-tor-browser.desktop r,
-  owner @{TBB}/tor-browse*/Browser/dependentlibs.list r,
+  owner @{TBB}/tor-browser*/Browser/*.so mr,
+  owner @{TBB}/tor-browser*/{Browser/TorBrowser/,}Tor/tor r,
+  owner @{TBB}/tor-browser*/{Browser/TorBrowser/,}Tor/*.so* mr,
+  owner @{TBB}/tor-browser*/{Browser/,}start-tor-browser r,
+  owner @{TBB}/tor-browser*/start-tor-browser.desktop rw,
+  owner @{TBB}/tor-browser*/Browser/start-tor-browser.desktop r,
+  owner @{TBB}/tor-browser*/Browser/dependentlibs.list r,
   ## No slash for a child profile.
-  owner @{TBB}tor-browse*/Browser/firefox Px,
+  owner @{TBB}tor-browser*/Browser/firefox Px,
 
   @{PROC}/ r,
   @{PROC}/[0-9]*/status r,

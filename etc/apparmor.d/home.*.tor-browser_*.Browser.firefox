@@ -3,130 +3,133 @@
 
 @{TBB} = @{HOME}*
 
-/home/**/tor-browse*/Browser/firefox {
-	#include <abstractions/base>
-	#include <abstractions/fonts>
-	#include <abstractions/kde>
-	#include <abstractions/gnome>
-	#include <abstractions/audio>
-	#include <abstractions/user-download>
-	#include <abstractions/user-tmp>
-	#include <abstractions/X>
+/home/**/tor-browser*/Browser/firefox {
+    #include <abstractions/base>
+    #include <abstractions/fonts>
+    #include <abstractions/kde>
+    #include <abstractions/gnome>
+    #include <abstractions/audio>
+    #include <abstractions/user-download>
+    #include <abstractions/user-tmp>
+    #include <abstractions/X>
 
-	deny /etc/host.conf r,
-	deny /etc/hosts r,
-	deny /etc/nsswitch.conf r,
-	deny /etc/resolv.conf r,
-	deny /etc/passwd r,
-	deny /etc/group r,
-	deny /etc/udev/udev.conf r,
-	deny /etc/mailcap r,
-	deny /etc/fstab r,
+    deny /etc/host.conf r,
+    deny /etc/hosts r,
+    deny /etc/nsswitch.conf r,
+    deny /etc/resolv.conf r,
+    deny /etc/passwd r,
+    deny /etc/group r,
+    deny /etc/udev/udev.conf r,
+    deny /etc/mailcap r,
+    deny /etc/fstab r,
 
-	deny @{PROC}/[0-9]*/stat r,
-	deny @{PROC}/[0-9]*/mountinfo r,
-	deny @{PROC}/[0-9]*/task/** r,
-	deny @{PROC}/sys/kernel/random/uuid r,
-	deny @{PROC}/sys/vm/overcommit_memory r,
-	deny @{PROC}/[0-9]*/cmdline r,
+    deny @{PROC}/[0-9]*/stat r,
+    deny @{PROC}/[0-9]*/mountinfo r,
+    deny @{PROC}/[0-9]*/task/ r,
+    deny @{PROC}/[0-9]*/task/** r,
+    deny @{PROC}/sys/kernel/random/uuid r,
+    deny @{PROC}/sys/vm/overcommit_memory r,
+    deny @{PROC}/[0-9]*/cmdline r,
 
-	@{PROC}/*/environ r,
+    @{PROC}/*/environ r,
 
-	deny /run/udev/** r,
-	deny /sys/devices/** r,
+    deny /run/udev/** r,
+    deny /sys/devices/** r,
 
-	## Missing in <abstractions/user-download> #######
-	# Without this line, access is denied to @{HOME},
-	# [dD]ownload{,s}, Desktop... for downloads.
-	@{HOME}/ r,
-	@{HOME}/* r,
-	##################################################
+    ## Missing in <abstractions/user-download> #######
+    # Without this line, access is denied to @{HOME},
+    # [dD]ownload{,s}, Desktop... for downloads.
+    @{HOME}/ r,
+    @{HOME}/* r,
+    ##################################################
 
-	owner @{TBB}/tor-browse*/ r,
-	owner @{TBB}/tor-browse*/* r,
-	## TBB 5.0.2 internal updater ####
-	owner @{TBB}/tor-browse*/Browser/ rw,
-	##################################
-	owner @{TBB}/tor-browse*/Browser/** rwk,
-	owner @{TBB}/tor-browse*/Browser/*.so mr,
-	owner @{TBB}/tor-browse*/Browser/components/*.so mr,
-	owner @{TBB}/tor-browse*/Browser/browser/components/*.so mr,
-	owner @{TBB}/tor-browse*/Browser/firefox rix,
-	owner @{TBB}/tor-browse*/Browser/TorBrowser/Tor/* mr,
-	owner @{TBB}/tor-browse*/Data/Browser/Caches/** rwk,
-	owner @{TBB}/tor-browse*/Data/Browser/profiles.ini r,
-	owner @{TBB}/tor-browse*/Browser/TorBrowser/Data/Browser/profile.default/ r,
-	owner @{TBB}/tor-browse*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
-	owner @{TBB}/tor-browse*/Data/Tor/* rwk,
-	owner @{TBB}/tor-browse*/Tor/* mr,
-	owner @{TBB}/tor-browse*/Tor/tor rix,
-	owner @{TBB}/tor-browse*/Browser/updates/ r,
-	owner @{TBB}/tor-browse*/Browser/updates/** rwk,
-	owner @{TBB}/tor-browse*/Browser/updates*.xml rwk,
-	owner @{TBB}/tor-browse*/Browser/active-update*.xml rwk,
-	owner @{TBB}/tor-browse*/update.test/ rwk,
-	owner @{TBB}/tor-browse*/update.test rwk,
-	owner @{TBB}/tor-browse*/Browser/update.test/ rwk,
-	owner @{TBB}/tor-browse*/Browser/update.test rwk,
-	owner @{TBB}/tor-browse*/Browser/updates/0/updater rix,
+    owner @{TBB}/tor-browser*/ r,
+    owner @{TBB}/tor-browser*/* r,
     ## TBB 5.0.2 internal updater ####
-    owner @{TBB}/tor-browse*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    owner @{TBB}/tor-browser*/Browser/ rw,
     ##################################
-	owner @{TBB}/tor-browse*/Browser/Desktop/ rw,
-	owner @{TBB}/tor-browse*/Desktop/ rwk,
-	owner @{TBB}/tor-browse*/Desktop/** rwk,
-	owner @{TBB}/tor-browse*/Browser/Downloads/ r,
-	owner @{TBB}/tor-browse*/Browser/Downloads/** rwk,
+    owner @{TBB}/tor-browser*/Browser/** rwk,
+    owner @{TBB}/tor-browser*/Browser/*.so mr,
+    owner @{TBB}/tor-browser*/Browser/components/*.so mr,
+    owner @{TBB}/tor-browser*/Browser/browser/components/*.so mr,
+    owner @{TBB}/tor-browser*/Browser/firefox rix,
+    owner @{TBB}/tor-browser*/Browser/TorBrowser/Tor/* mr,
+    owner @{TBB}/tor-browser*/Data/Browser/Caches/** rwk,
+    owner @{TBB}/tor-browser*/Data/Browser/profiles.ini r,
+    owner @{TBB}/tor-browser*/Browser/TorBrowser/Data/Browser/profile.default/ r,
+    owner @{TBB}/tor-browser*/Browser/TorBrowser/Data/Browser/profile.default/** rwk,
+    owner @{TBB}/tor-browser*/Data/Tor/* rwk,
+    owner @{TBB}/tor-browser*/Tor/* mr,
+    owner @{TBB}/tor-browser*/Tor/tor rix,
+    owner @{TBB}/tor-browser*/Browser/updates/ r,
+    owner @{TBB}/tor-browser*/Browser/updates/** rwk,
+    owner @{TBB}/tor-browser*/Browser/updates*.xml rwk,
+    owner @{TBB}/tor-browser*/Browser/active-update*.xml rwk,
+    owner @{TBB}/tor-browser*/update.test/ rwk,
+    owner @{TBB}/tor-browser*/update.test rwk,
+    owner @{TBB}/tor-browser*/Browser/update.test/ rwk,
+    owner @{TBB}/tor-browser*/Browser/update.test rwk,
+    owner @{TBB}/tor-browser*/Browser/updates/0/updater rix,
+    ## TBB 5.0.2 internal updater ####
+    owner @{TBB}/tor-browser*/Browser/updates/0/MozUpdater/bgupdate/updater rix,
+    ##################################
+    owner @{TBB}/tor-browser*/Browser/Desktop/ rw,
+    owner @{TBB}/tor-browser*/Desktop/ rwk,
+    owner @{TBB}/tor-browser*/Desktop/** rwk,
+    owner @{TBB}/tor-browser*/Browser/Downloads/ r,
+    owner @{TBB}/tor-browser*/Browser/Downloads/** rwk,
+    owner @{TBB}/tor-browser*/Browser.bak/ r,
+    owner @{TBB}/tor-browser*/Browser/.cache/fontconfig/* lr,
 
-	## Gnome2 and VirtualBox ##
-	owner @{TBB}/tor-browse*/.** rwk,
+    ## Gnome2 and VirtualBox ##
+    owner @{TBB}/tor-browse*/.** rwk,
 
-	## KDE 4 ##
-	@{HOME}/.kde/share/config/* r,
+    ## KDE 4 ##
+    @{HOME}/.kde/share/config/* r,
 
-	## Xfce4 ##
-	/etc/xfce4/defaults.list r,
-	/usr/share/xfce4/applications/ r,
+    ## Xfce4 ##
+    /etc/xfce4/defaults.list r,
+    /usr/share/xfce4/applications/ r,
 
-	/etc/mime.types r,
-	/etc/wildmidi/wildmidi.cfg r,  # gstreamer
+    /etc/mime.types r,
+    /etc/wildmidi/wildmidi.cfg r,  # gstreamer
 
-	/tmp/MozUpdater/bgupdate/updater rix,
+    /tmp/MozUpdater/bgupdate/updater rix,
 
-	/usr/bin/kde4-config rix,
+    /usr/bin/kde4-config rix,
 
-	## XXX
-	#/usr/lib/*-linux-gnu/libvisual-*/*.so mr,
-	#/usr/lib/*-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
-	/usr/lib/*-linux-gnu/** mrix,
+    ## XXX
+    #/usr/lib/*-linux-gnu/libvisual-*/*.so mr,
+    #/usr/lib/*-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner rix,
+    /usr/lib/*-linux-gnu/** mrix,
 
-	/usr/local/share/applications/ r,
-	/usr/local/share/applications/meminfo.cache r,
-	/usr/local/share/applications/mimeinfo.cache r,
+    /usr/local/share/applications/ r,
+    /usr/local/share/applications/meminfo.cache r,
+    /usr/local/share/applications/mimeinfo.cache r,
 
-	/usr/share/ r,
-	/usr/share/mime/ r,
-	/usr/share/mime/** r,
-	/usr/share/themes/ r,
-	/usr/share/themes/** r,
-	/usr/share/applications/** rk,
-	/usr/share/poppler/cMap/ r,
-	/usr/share/poppler/cMap/** r,
-	/usr/share/libthai/ r,
-	/usr/share/libthai/** r,
-	# Distribution homepage
-	/usr/share/homepage/ r,
-	/usr/share/homepage/** r,
+    /usr/share/ r,
+    /usr/share/mime/ r,
+    /usr/share/mime/** r,
+    /usr/share/themes/ r,
+    /usr/share/themes/** r,
+    /usr/share/applications/** rk,
+    /usr/share/poppler/cMap/ r,
+    /usr/share/poppler/cMap/** r,
+    /usr/share/libthai/ r,
+    /usr/share/libthai/** r,
+    # Distribution homepage
+    /usr/share/homepage/ r,
+    /usr/share/homepage/** r,
 
-	## Not in abstractions/fonts ##
-	/usr/share/fontconfig/conf.avail/* r,
-	/var/cache/fontconfig/ rk,
+    ## Not in abstractions/fonts ##
+    /usr/share/fontconfig/conf.avail/* r,
+    /var/cache/fontconfig/ rk,
 
-	## For systems used in VirtualBox ##
-	deny /var/lib/dbus/machine-id r,
-	@{PROC}/[0-9]*/fd/ r,
-	/dev/vboxuser rw,
-	/bin/ps rix,
-	/bin/dash rix,
-	/usr/bin/pulseaudio rix,
+    ## For systems used in VirtualBox ##
+    deny /var/lib/dbus/machine-id r,
+    @{PROC}/[0-9]*/fd/ r,
+    /dev/vboxuser rw,
+    /bin/ps rix,
+    /bin/dash rix,
+    /usr/bin/pulseaudio rix,
 }
