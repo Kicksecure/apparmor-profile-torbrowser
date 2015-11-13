@@ -1,3 +1,77 @@
+commit 889e4d9a2d4b8870735bd8e0bc40ea3f76eefc02
+Merge: aef84a4 4acb99d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 7 22:13:23 2015 +0100
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 4acb99d1a653628b4f8454f077df295062ec91e1
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Nov 7 16:38:19 2015 +0000
+
+    give all required permissions (mrlwkix) to all files in Tor browser directory
+
+commit bcaab7c56f479af59b68ab40cb7cdaf43a7ec1b0
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Nov 7 16:16:41 2015 +0000
+
+    write acccees to /Browser.bak/
+
+commit aef84a4ea58833e7fac0370793118f01edca2c68
+Merge: a85da23 d4e214c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 7 13:20:11 2015 +0100
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit d4e214cbc6edb5658ec27a3f80859c6d290e0c4d
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 21:27:33 2015 +0000
+
+    + /Browser/.cache/fontconfig/* lr,  (TB 5.5a4)
+
+commit fd3468736b72fba0333285bd1b4f9d7677b3c952
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 20:14:55 2015 +0000
+
+    undo 026917f2b6ec2153321478db7393d507f88218a2, add deny @{PROC}/[0-9]*/task/ r,
+
+commit 1a5523e5613ad57916af746455beac0117306221
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 19:52:13 2015 +0000
+
+    tor-browse* -> tor-browser*
+
+commit 9c2f73ea0863f2a8fc254a544d2be8198aadc5be
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 19:41:22 2015 +0000
+
+    replace tabs by white spaces
+
+commit 026917f2b6ec2153321478db7393d507f88218a2
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 19:39:34 2015 +0000
+
+    +  deny @{PROC}/[0-9]*/task r, deny @{PROC}/[0-9]*/environ r,
+
+commit a1d41331750d067ca9b8af8acfc51a3c2bb8cdf5
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 19:31:27 2015 +0000
+
+    + owner @{TBB}/tor-browser*/Browser.bak/ r, (internal updater 5.0.4)
+
+commit 8ec1a90a39d7fcf6690ef5d205d811ff8bb6b168
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Nov 6 19:28:42 2015 +0000
+
+    tor-browse* - > tor-browser*
+
+commit a85da236e085b7330268f70469dd9694cf42a500
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Nov 6 13:45:08 2015 +0000
+
+    bumped changelog version
+
 commit b55e40d82c87f2a6161af184e27ff4f0c7650782
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 6 13:11:45 2015 +0000
