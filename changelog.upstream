@@ -1,3 +1,23 @@
+commit c16452b161a384eb43bff81bd2d7067bc8dd7519
+Merge: 60b6204 e34bec4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 5 13:31:19 2015 +0000
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit e34bec464196a5e7375dd17aec7abef057757b54
+Author: troubadoour <trobador@riseup.net>
+Date:   Fri Dec 4 19:33:02 2015 +0000
+
+    + /usr/share/glib-2.0/schemas/gschemas.compiled r,
+    as per https://github.com/micahflee/torbrowser-launcher/pull/215
+
+commit 60b62042d4fe661853159b721b39006c178e9e5b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Nov 13 15:51:23 2015 +0000
+
+    bumped changelog version
+
 commit 889e4d9a2d4b8870735bd8e0bc40ea3f76eefc02
 Merge: aef84a4 4acb99d
 Author: Patrick Schleizer <adrelanos@riseup.net>
