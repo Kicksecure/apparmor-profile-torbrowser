@@ -44,6 +44,8 @@
     ##################################################
 
     owner @{TBB}/tor-browser*/** mrlwkix,
+    ## Allow TBB installations in /home/user (not only /home/user/*/ )
+    owner @{HOME}/tor-browser*/** mrlwkix,
 
     #################################################################################
     #owner @{TBB}/tor-browser*/ r,
