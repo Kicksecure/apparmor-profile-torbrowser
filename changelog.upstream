@@ -1,3 +1,31 @@
+commit 77f050552d17ae2adb4ec61715d12fc7686da510
+Merge: 41bdd99 6c56d3f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 4 22:12:56 2016 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6c56d3f413530d9bcad2e9b735c4d17e84cc864a
+Merge: 41bdd99 173a254
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 4 22:12:23 2016 +0200
+
+    Merge pull request #1 from 3n7r0p1/patch-1
+    
+    Allow TBB installations in /home/user/ (not only /home/user/*/ )
+
+commit 173a2543cc5ff16b814be4ed9f969c4205c2d6d1
+Author: 3n7r0p1 <3n7r0py@riseup.net>
+Date:   Mon May 2 03:23:34 2016 +0000
+
+    Allow TBB installations in /home/user/ (not only /home/user/*/ )
+
+commit 41bdd9921625a3cb7d12c82e5ce26dddb7ff6ea5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 7 22:54:32 2016 +0000
+
+    bumped changelog version
+
 commit c16452b161a384eb43bff81bd2d7067bc8dd7519
 Merge: 60b6204 e34bec4
 Author: Patrick Schleizer <adrelanos@riseup.net>
