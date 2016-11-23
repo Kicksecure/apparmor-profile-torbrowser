@@ -96,4 +96,7 @@
     /bin/ps rix,
     /bin/dash rix,
     /usr/bin/pulseaudio rix,
+
+    /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
+    /run/anon-ws-disable-stacked-tor/127.0.0.1_9151.sock rw,
 }
