@@ -1,3 +1,27 @@
+commit a6f7d51c9eb863f1101b7148cbce3b6bce263b38
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Nov 23 15:11:34 2016 +0100
+
+    add SocksSocket anon-ws-disable-stacked-tor support
+
+commit 728705b9458ea8ad4facefbdd66dac53fc9b642d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 21 17:39:33 2016 +0000
+
+    readme
+
+commit d5b80a75e82617ffec919e7d0b5d4a08907db150
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 20 00:59:29 2016 +0100
+
+    cleanup
+
+commit 5cd5062299fa4b12782595cc9cfd9cd8def834bb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 4 22:06:10 2016 +0000
+
+    bumped changelog version
+
 commit 77f050552d17ae2adb4ec61715d12fc7686da510
 Merge: 41bdd99 6c56d3f
 Author: Patrick Schleizer <adrelanos@riseup.net>
