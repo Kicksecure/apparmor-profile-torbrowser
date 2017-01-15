@@ -1,3 +1,23 @@
+commit 1c37c48a69a79d88a6cdcb8763febdbbeefd5241
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 12:20:42 2017 +0000
+
+    renamed apparmor profile file names
+    
+    removed '*' to fix lintian warning
+
+commit 5c41b5202b180776cee3d0d6491784e2ebc49c48
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 08:35:29 2017 +0100
+
+    packaging, bumped Standards-Version from 3.9.6 to 3.9.8 for jessie support
+
+commit 898be6abd85485224c8921187f6c70fb9df65083
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 00:20:30 2016 +0000
+
+    bumped changelog version
+
 commit a6f7d51c9eb863f1101b7148cbce3b6bce263b38
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Nov 23 15:11:34 2016 +0100
@@ -479,8 +499,8 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 5 15:21:45 2015 +0000
 
     added Distribution homepage
-    	/usr/share/homepage/ r,
-    	/usr/share/homepage/** r,
+            /usr/share/homepage/ r,
+            /usr/share/homepage/** r,
     Thanks @troubadour
     https://www.whonix.org/forum/index.php/topic,97.msg5777.html#msg5777
 
