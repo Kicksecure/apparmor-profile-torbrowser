@@ -1,0 +1,2 @@
+rm_conffile "/etc/apparmor.d/home.*.tor-browser_*.Browser.firefox"
+rm_conffile "/etc/apparmor.d/home.*.tor-browser_*.Browser.start-tor-browser"
