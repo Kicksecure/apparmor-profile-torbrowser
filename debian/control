@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile, dh-apparmor
 Homepage: https://www.whonix.org/wiki/AppArmor
 Vcs-Browser: https://github.com/Whonix/apparmor-profile-torbrowser
 Vcs-Git: https://github.com/Whonix/apparmor-profile-torbrowser.git
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: apparmor-profile-torbrowser
 Architecture: all
