@@ -32,6 +32,7 @@
     deny @{PROC}/[0-9]*/cmdline r,
 
     @{PROC}/*/environ r,
+    @{PROC}/[0-9]*/status r,
 
     deny /run/udev/** r,
     deny /sys/devices/** r,
@@ -84,6 +85,9 @@
     ## Distribution homepage
     /usr/share/homepage/ r,
     /usr/share/homepage/** r,
+
+    /usr/share/xul-ext/foxyproxy-standard/ r,
+    /usr/share/xul-ext/foxyproxy-standard/** r,
 
     ## Not in abstractions/fonts ##
     /usr/share/fontconfig/conf.avail/* r,
