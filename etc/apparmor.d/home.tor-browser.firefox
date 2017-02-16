@@ -81,7 +81,7 @@
     /usr/share/libthai/ r,
     /usr/share/glib-2.0/schemas/gschemas.compiled r,
     /usr/share/libthai/** r,
-    # Distribution homepage
+    ## Distribution homepage
     /usr/share/homepage/ r,
     /usr/share/homepage/** r,
 
