@@ -31,8 +31,12 @@
     deny @{PROC}/sys/vm/overcommit_memory r,
     deny @{PROC}/[0-9]*/cmdline r,
 
+    /dev/shm/org.chromium.* rw,
+
     @{PROC}/*/environ r,
     @{PROC}/[0-9]*/status r,
+    @{PROC}/[0-9]*/net/route r,
+    @{PROC}/[0-9]*/net/arp r,
 
     deny /run/udev/** r,
     deny /sys/devices/** r,
