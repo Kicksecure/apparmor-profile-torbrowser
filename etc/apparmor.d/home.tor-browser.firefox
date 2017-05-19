@@ -62,6 +62,9 @@
     /etc/mime.types r,
     /etc/wildmidi/wildmidi.cfg r,  # gstreamer
 
+    ## VPN support.
+    /run/resolvconf/resolv.conf r,
+
     /tmp/MozUpdater/bgupdate/updater rix,
 
     /usr/bin/kde4-config rix,
