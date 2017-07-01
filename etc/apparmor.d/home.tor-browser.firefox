@@ -101,8 +101,8 @@
     /var/cache/fontconfig/ rk,
     
     ## /run/user/ not in abstractions/user-tmp ##
-    ## Firefox creates this file when certain extensions are installed ##
-    # owner /run/user/[0-9]*/dconf/user rw,
+    ## Firefox uses /run/user when certain extensions are installed ##
+    # owner /run/user/[0-9]*/** rw,
 
     ## For systems used in VirtualBox ##
     deny /var/lib/dbus/machine-id r,
