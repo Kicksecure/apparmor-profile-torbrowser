@@ -102,6 +102,8 @@
     
     ## /run/user/ not in abstractions/user-tmp ##
     ## Firefox uses /run/user when certain extensions are installed ##
+    ## https://phabricator.whonix.org/T662 ##
+    ## https://bugs.launchpad.net/apparmor/+bug/1702360 ##
     # owner /run/user/[0-9]*/** rwkl,
 
     ## For systems used in VirtualBox ##
