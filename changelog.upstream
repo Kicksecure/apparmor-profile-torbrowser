@@ -1,3 +1,62 @@
+commit 6d5c2b2353cf7dd034b8c28d08d0f18fb23b33a7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 26 14:08:40 2017 +0000
+
+    signed commit
+
+commit c0fc3e21ef30baa0c8883b2ee6b609a60cc54da2
+Merge: 7305284 b99d089
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jul 1 11:57:36 2017 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b99d089dd371c162b06d3fa0033d7fadb32b42b8
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Jun 30 20:45:46 2017 -0500
+
+    rw -> rwkl to better match user-tmp
+
+commit 47cf2829a8de7d7a819b53dfdc5e3200f0a6387e
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Jun 30 20:37:48 2017 -0500
+
+    # owner /run/user/[0-9]*/** rw,
+
+commit 4f2bd450deffdbf3cd39956c6530c796f5e641ad
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Jun 30 20:24:18 2017 -0500
+
+    missed comma
+
+commit ed9855ecbb8836688d1815ef8a0139863e0338a9
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Jun 30 19:51:36 2017 -0500
+
+    # owner /run/user/[0-9]*/dconf/user rw for firefox extensions
+
+commit 730528483a5a7aba08412feb8c7eabcbddb8ec29
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 19 15:33:39 2017 +0200
+
+    VPN support.
+    
+    /run/resolvconf/resolv.conf r,
+
+commit 9032e909c2b10e20ecf104d4eb1acc120df167d1
+Author: name <email@address.com>
+Date:   Fri May 5 16:11:32 2017 +0200
+
+    Tor Browser 7.0a3 apparmor fixes
+    
+    https://phabricator.whonix.org/T672
+
+commit 4c52a69cbad5767d5a3a476ed0e7bdd253b6174f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 13:48:20 2017 +0000
+
+    bumped changelog version
+
 commit 87da8111e20d8d9a281fb2de365754c1b1833bd7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Feb 16 22:31:35 2017 +0100
@@ -15,7 +74,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:49 2017 +0000
 
     remove faketime from Build-Depends:
-
+    
     since no longer used for reproducible builds
 
 commit 94cf73c8221b5d37cdf77f05d3fda2be95417a32
@@ -35,7 +94,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 12:20:42 2017 +0000
 
     renamed apparmor profile file names
-
+    
     removed '*' to fix lintian warning
 
 commit 5c41b5202b180776cee3d0d6491784e2ebc49c48
@@ -87,7 +146,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 4 22:12:23 2016 +0200
 
     Merge pull request #1 from 3n7r0p1/patch-1
-
+    
     Allow TBB installations in /home/user/ (not only /home/user/*/ )
 
 commit 173a2543cc5ff16b814be4ed9f969c4205c2d6d1
@@ -201,7 +260,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 6 13:11:45 2015 +0000
 
     @{PROC}/*/environ r,
-
+    
     /usr/local/share/applications/mimeinfo.cache r,
 
 commit 029cdcb375280543e2926c520ac043024107606a
@@ -864,14 +923,14 @@ Author: troubadoour <trobador@riseup.net>
 Date:   Thu May 8 21:24:42 2014 +0000
 
     Squashed commit of the following:
-
+    
     commit 96a349a6e7b04d4e6a238ed303b476532b419c92
     Author: troubadoour <trobador@riseup.net>
     Date:   Thu May 8 21:22:28 2014 +0000
-
+    
         etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
         etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
-
+    
     etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
     etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
 
