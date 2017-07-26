@@ -15,7 +15,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:49 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit 94cf73c8221b5d37cdf77f05d3fda2be95417a32
@@ -35,7 +35,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 12:20:42 2017 +0000
 
     renamed apparmor profile file names
-    
+
     removed '*' to fix lintian warning
 
 commit 5c41b5202b180776cee3d0d6491784e2ebc49c48
@@ -87,7 +87,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 4 22:12:23 2016 +0200
 
     Merge pull request #1 from 3n7r0p1/patch-1
-    
+
     Allow TBB installations in /home/user/ (not only /home/user/*/ )
 
 commit 173a2543cc5ff16b814be4ed9f969c4205c2d6d1
@@ -201,7 +201,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 6 13:11:45 2015 +0000
 
     @{PROC}/*/environ r,
-    
+
     /usr/local/share/applications/mimeinfo.cache r,
 
 commit 029cdcb375280543e2926c520ac043024107606a
@@ -864,14 +864,14 @@ Author: troubadoour <trobador@riseup.net>
 Date:   Thu May 8 21:24:42 2014 +0000
 
     Squashed commit of the following:
-    
+
     commit 96a349a6e7b04d4e6a238ed303b476532b419c92
     Author: troubadoour <trobador@riseup.net>
     Date:   Thu May 8 21:22:28 2014 +0000
-    
+
         etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
         etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
-    
+
     etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
     etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
 
