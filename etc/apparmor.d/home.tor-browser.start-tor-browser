@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home*/tor-browser*/{Browser/,}start-tor-browser {
+/home*/tor-browser*/{Browser/,}start-tor-browser flags=(attach_disconnected) {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
