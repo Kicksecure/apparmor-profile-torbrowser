@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home/**/tor-browser*/Browser/firefox {
+/home/**/tor-browser*/Browser/firefox flags=(attach_disconnected) {
     #include <abstractions/base>
     #include <abstractions/fonts>
     #include <abstractions/kde>
