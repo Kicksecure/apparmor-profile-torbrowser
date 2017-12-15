@@ -1,3 +1,31 @@
+commit e46e62a1b936243c636cb2b4bbd0e41a486f917c
+Merge: 846ece9 10b7f3e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Dec 4 09:35:49 2017 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 10b7f3ecda804f645a7398ac192ba47134eeb942
+Merge: 846ece9 0a5a01d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Nov 30 22:19:59 2017 +0100
+
+    Merge pull request #2 from Algernon-01/master
+    
+    Patches for Whonix live
+
+commit 0a5a01dddc0adda4762fe973c4f7632e465abd4e
+Author: user <33966997+Algernon-01@users.noreply.github.com>
+Date:   Mon Nov 27 15:30:43 2017 -0500
+
+    Patches for Whonix live
+
+commit 846ece9b4e26e1b2dce72e093852f2ba56e6d3ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 26 15:34:40 2017 +0000
+
+    bumped changelog version
+
 commit e4bb377029877d67a249bd640031af6e8d8370a5
 Merge: df0a5bf 43f69c3
 Author: Patrick Schleizer <adrelanos@riseup.net>
