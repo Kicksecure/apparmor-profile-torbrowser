@@ -1,3 +1,15 @@
+commit 5c26d78cfb6ae6690209eae92bd7ffd8582872e8
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Dec 19 23:33:15 2017 +0000
+
+    Some additions for Tor Browser 7.0xx
+
+commit 978a9adb8285b9e445bdb8c5fe59cfc9ce9b6941
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 15 18:40:17 2017 +0000
+
+    bumped changelog version
+
 commit e46e62a1b936243c636cb2b4bbd0e41a486f917c
 Merge: 846ece9 10b7f3e
 Author: Patrick Schleizer <adrelanos@riseup.net>
