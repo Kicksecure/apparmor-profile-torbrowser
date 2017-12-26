@@ -43,7 +43,7 @@
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
     /dev/shm/org.chromium.* rwk,
-    
+
     deny /run/udev/** r,
     deny /sys/devices/** r,
 
@@ -105,7 +105,7 @@
     ## Not in abstractions/fonts ##
     /usr/share/fontconfig/conf.avail/* r,
     /var/cache/fontconfig/ rk,
-    
+
     ## /run/user/ not in abstractions/user-tmp ##
     ## Firefox uses /run/user when certain extensions are installed ##
     ## https://phabricator.whonix.org/T662 ##
