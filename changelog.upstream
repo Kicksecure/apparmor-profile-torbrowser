@@ -1,3 +1,15 @@
+commit b89b38ba7651918c499c950307e17c149f976e75
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Dec 26 23:01:40 2017 +0100
+
+    remove trailing spaces
+
+commit 8359f47e6ab0c43df9fd4b1ddd7b2f898751c304
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Dec 20 14:51:27 2017 +0000
+
+    bumped changelog version
+
 commit 5c26d78cfb6ae6690209eae92bd7ffd8582872e8
 Author: troubadoour <trobador@riseup.net>
 Date:   Tue Dec 19 23:33:15 2017 +0000
