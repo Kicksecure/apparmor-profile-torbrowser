@@ -13,6 +13,9 @@
     #include <abstractions/user-tmp>
     #include <abstractions/X>
 
+    signal,
+    ptrace,
+
     deny /etc/host.conf r,
     deny /etc/hosts r,
     deny /etc/nsswitch.conf r,
