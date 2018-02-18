@@ -1,3 +1,29 @@
+commit fc28cf03762ddffd6f71def56820ddcec74a39c5
+Merge: 26d270c f8d3ab5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 18 14:38:09 2018 +0100
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit f8d3ab54689b92d08b24a77c73321b1e69ee7de9
+Merge: b70b19c 853340b
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Feb 17 18:50:02 2018 +0000
+
+    Merge branch 'master' of https://github.com/troubadoour/apparmor-profile-torbrowser
+
+commit b70b19c86d386f3ffdd565c32a5f978f7aa979b8
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Feb 17 17:44:52 2018 +0000
+
+    + signal + ptrace
+
+commit 26d270cb383063f0223e98809635dd18d5fc52a5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 14:55:06 2018 +0000
+
+    bumped changelog version
+
 commit b79225e09df25c94a24ba5863763f86b410bdf02
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 29 15:50:14 2018 +0000
@@ -47,6 +73,12 @@ Date:   Wed Dec 20 14:51:27 2017 +0000
     bumped changelog version
 
 commit 5c26d78cfb6ae6690209eae92bd7ffd8582872e8
+Author: troubadoour <trobador@riseup.net>
+Date:   Tue Dec 19 23:33:15 2017 +0000
+
+    Some additions for Tor Browser 7.0xx
+
+commit 853340b6e228ac33770e2b22206f9fabf51ce05d
 Author: troubadoour <trobador@riseup.net>
 Date:   Tue Dec 19 23:33:15 2017 +0000
 
