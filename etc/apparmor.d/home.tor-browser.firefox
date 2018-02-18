@@ -13,6 +13,9 @@
     #include <abstractions/user-tmp>
     #include <abstractions/X>
 
+    signal,
+    ptrace,
+
     deny /etc/host.conf r,
     deny /etc/hosts r,
     deny /etc/nsswitch.conf r,
@@ -44,6 +47,12 @@
     /dev/ r,
     /dev/shm/org.chromium.* rwk,
 
+    ## Added 20/12/2017
+    deny @{PROC}/[0-9]*/net/route r,
+    deny @{PROC}/[0-9]*/net/arp r,
+    /dev/ r,
+    /dev/shm/org.chromium.* rwk,
+    
     deny /run/udev/** r,
     deny /sys/devices/** r,
 
