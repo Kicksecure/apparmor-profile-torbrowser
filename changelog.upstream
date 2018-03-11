@@ -1,3 +1,22 @@
+commit f4c79573f87b5fdb5ef57ac2fbcaa7cfca504524
+Merge: 021a961 a6144ea
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Mar 11 14:36:58 2018 +0100
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit a6144ea7765a5537d17206a776be4470950e43c4
+Author: troubadoour <trobador@riseup.net>
+Date:   Sat Mar 10 19:47:37 2018 +0000
+
+    signal and ptrace fine tuning
+
+commit 021a9614ee9174fbe150ebef42f1a69a1b58df8d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 18 14:05:40 2018 +0000
+
+    bumped changelog version
+
 commit fc28cf03762ddffd6f71def56820ddcec74a39c5
 Merge: 26d270c f8d3ab5
 Author: Patrick Schleizer <adrelanos@riseup.net>
