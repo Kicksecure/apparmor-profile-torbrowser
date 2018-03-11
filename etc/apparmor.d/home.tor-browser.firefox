@@ -14,7 +14,9 @@
     #include <abstractions/X>
 
     signal,
+    signal (send) peer=@{profile_name},
     ptrace,
+    ptrace (tracedby),
 
     deny /etc/host.conf r,
     deny /etc/hosts r,
@@ -52,7 +54,7 @@
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
     /dev/shm/org.chromium.* rwk,
-    
+
     deny /run/udev/** r,
     deny /sys/devices/** r,
 
