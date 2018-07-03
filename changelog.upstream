@@ -1,3 +1,22 @@
+commit 067c32a3fc4e37a3925e886d26ddb4dad8996188
+Merge: c52f679 6fdd44d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 1 13:34:43 2018 +0800
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 6fdd44d17d616acaac90ada6d3f3c268692071df
+Author: troubadoour <user@host.localdomain>
+Date:   Sat Jun 30 14:51:40 2018 +0000
+
+    update for TB 8.0a9
+
+commit c52f679c0b051023da8feda4f7b798cf71947947
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Mar 11 15:03:15 2018 +0100
+
+    bumped changelog version
+
 commit f4c79573f87b5fdb5ef57ac2fbcaa7cfca504524
 Merge: 021a961 a6144ea
 Author: Patrick Schleizer <adrelanos@riseup.net>
