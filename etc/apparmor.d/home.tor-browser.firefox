@@ -85,7 +85,6 @@
     /etc/ld.so.conf.d/* r,
     /etc/ld.so.conf r,
     /etc/debian_version r,
-    /etc/dpkg/origins/whonix r,
 
     /etc/mime.types r,
     /etc/wildmidi/wildmidi.cfg r,  # gstreamer
