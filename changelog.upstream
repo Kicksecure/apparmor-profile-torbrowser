@@ -1,3 +1,15 @@
+commit 96bdf8dd2d9a33a84b3a28b2476b2644d3eb204e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 6 07:01:20 2018 +0000
+
+    move "/etc/dpkg/origins/whonix r," to apparmor-profile-anondist
+
+commit 453fc5f484d80e9c46fa9bdea4c07d64c3df9bef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jul 3 05:39:21 2018 +0000
+
+    bumped changelog version
+
 commit 067c32a3fc4e37a3925e886d26ddb4dad8996188
 Merge: c52f679 6fdd44d
 Author: Patrick Schleizer <adrelanos@riseup.net>
