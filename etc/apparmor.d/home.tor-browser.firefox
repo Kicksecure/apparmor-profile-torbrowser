@@ -98,6 +98,7 @@
     /usr/bin/kde4-config rix,
     /usr/bin/lsb_release rix,
     /usr/bin/apt-cache rix,
+    /usr/bin/dirname rix,
 
     /usr/lib/*-linux-gnu/** mrix,
     /usr/lib/python3.5/lib-dynload/* mr,
