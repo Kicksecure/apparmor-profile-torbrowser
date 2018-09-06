@@ -1,3 +1,21 @@
+commit 5b1550cc51d73652d63af1fd010d9beb34e2069e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Sep 6 07:23:26 2018 +0000
+
+    fix for Tor Browser 8
+    
+    /usr/bin/dirname rix,
+    
+    https://forums.whonix.org/t/tor-browser-8-wont-launch/5863
+    
+    Thanks to @qubenix for suggesting to fix!
+
+commit 00170353032f9d8d8402db82c5e0f6f0e4a0d20d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 15:56:40 2018 +0000
+
+    bumped changelog version
+
 commit b892599a97a28e5e44cec110e4c77b4716e743ce
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Aug 21 05:17:55 2018 +0800
