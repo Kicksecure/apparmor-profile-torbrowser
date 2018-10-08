@@ -59,7 +59,6 @@
     deny @{PROC}/[0-9]*/net/route r,
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
-    /dev/dri/ r,
     /dev/shm/org.chromium.* rwk,
 
     deny /run/udev/** r,
