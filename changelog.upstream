@@ -1,3 +1,37 @@
+commit d6d5594e9646ecbf3eaf824c02c9d006e963cd8f
+Merge: 78f191f 6443074
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 8 11:35:22 2018 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6443074798998513d6ed8535e518ff862949b23a
+Merge: 78f191f a69ae58
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 8 11:34:32 2018 +0000
+
+    Merge pull request #3 from eyedeekay/master
+    
+    wildcard for non-tor TBB's
+
+commit a69ae58f49037192d7de883153b346a611f6240d
+Author: idk <problemsolver@openmailbox.org>
+Date:   Mon Oct 8 01:25:40 2018 -0400
+
+    added globbing for start-*-browser
+
+commit 0c28ac65a2e964b608862948376ce565af8c2506
+Author: idk <problemsolver@openmailbox.org>
+Date:   Tue Oct 2 20:38:08 2018 -0400
+
+    wildcard for tbb firefox
+
+commit 78f191f398569cf6abf52b3e7f46a3156ae41898
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Sep 6 07:37:43 2018 +0000
+
+    bumped changelog version
+
 commit 5b1550cc51d73652d63af1fd010d9beb34e2069e
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Sep 6 07:23:26 2018 +0000
