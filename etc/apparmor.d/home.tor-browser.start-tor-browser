@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home*/*-browser*/{Browser/,}start-*-browser flags=(attach_disconnected) {
+/home/**/*-browser*/{Browser/,}start-*-browser flags=(attach_disconnected) {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
