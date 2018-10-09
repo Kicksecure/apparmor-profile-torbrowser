@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home*/{tor,i2p}-browser/Browser/start-{tor,i2p}-browser flags=(attach_disconnected) {
+/home*/{tor,i2p}-browser/{Browser/,}start-{tor,i2p}-browser flags=(attach_disconnected) {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
@@ -26,9 +26,9 @@
   /etc/magic r,
 
   owner @{TBB}/{tor,i2p}-browser/Browser/*.so mr,
-  owner @{TBB}/{tor,i2p}-browser/Browser/TorBrowser/Tor/tor r,
-  owner @{TBB}/{tor,i2p}-browser/Browser/TorBrowser/Tor/*.so* mr,
-  owner @{TBB}/{tor,i2p}-browser/Browser/start-{tor,i2p}-browser r,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/TorBrowser/,}Tor/tor r,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/TorBrowser/,}Tor/*.so* mr,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/,}start-{tor,i2p}-browser r,
   owner @{TBB}/{tor,i2p}-browser/start-{tor,i2p}-browser.desktop rw,
   owner @{TBB}/{tor,i2p}-browser/Browser/start-{tor,i2p}-browser.desktop r,
   owner @{TBB}/{tor,i2p}-browser/Browser/dependentlibs.list r,
