@@ -1,3 +1,50 @@
+commit 6290886e4260ad74aec77bec87b4831d304997d8
+Merge: b71ac82 da23e45
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 10 03:43:40 2018 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit da23e45fdb44e4019a29b5a851b5be2ca8ed7ae6
+Merge: b71ac82 3a36610
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Oct 10 07:42:25 2018 +0000
+
+    Merge pull request #4 from eyedeekay/master
+    
+    More precise apparmor profile
+
+commit 3a3661026df44636bfae0756c229c3d226126c43
+Merge: a2c4a67 b71ac82
+Author: idk <problemsolver@openmailbox.org>
+Date:   Tue Oct 9 17:18:36 2018 -0400
+
+    Merge branch 'master' of https://github.com/Whonix/apparmor-profile-torbrowser
+
+commit a2c4a67fb556c14d7a2759edcabc259b321aa810
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 8 11:41:59 2018 +0000
+
+    bumped changelog version
+
+commit 37fa59ee0768db9d92bda5eac04073058f5a6204
+Author: idk <problemsolver@openmailbox.org>
+Date:   Tue Oct 9 17:09:55 2018 -0400
+
+    more precise apparmor profile
+
+commit 5518912b08e8474f8d31a8bf0adc20646432fe75
+Author: idk <problemsolver@openmailbox.org>
+Date:   Tue Oct 9 17:06:48 2018 -0400
+
+    more precise apparmor profile
+
+commit b71ac823c3b651e9590c00a32858cbd1b434775d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 8 11:41:59 2018 +0000
+
+    bumped changelog version
+
 commit d6d5594e9646ecbf3eaf824c02c9d006e963cd8f
 Merge: 78f191f 6443074
 Author: Patrick Schleizer <adrelanos@riseup.net>
