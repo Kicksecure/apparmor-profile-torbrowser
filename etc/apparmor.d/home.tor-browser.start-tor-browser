@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home/**/*-browser*/{Browser/,}start-*-browser flags=(attach_disconnected) {
+/home*/{tor,i2p}-browser/{Browser/,}start-{tor,i2p}-browser flags=(attach_disconnected) {
   #include <abstractions/base>
   #include <abstractions/bash>
   #include <abstractions/fonts>
@@ -25,15 +25,15 @@
   /dev/tty rw,
   /etc/magic r,
 
-  owner @{TBB}/*-browser*/Browser/*.so mr,
-  owner @{TBB}/*-browser*/{Browser/TorBrowser/,}Tor/tor r,
-  owner @{TBB}/*-browser*/{Browser/TorBrowser/,}Tor/*.so* mr,
-  owner @{TBB}/*-browser*/{Browser/,}start-*-browser r,
-  owner @{TBB}/*-browser*/start-*-browser.desktop rw,
-  owner @{TBB}/*-browser*/Browser/start-*-browser.desktop r,
-  owner @{TBB}/*-browser*/Browser/dependentlibs.list r,
+  owner @{TBB}/{tor,i2p}-browser/Browser/*.so mr,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/TorBrowser/,}Tor/tor r,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/TorBrowser/,}Tor/*.so* mr,
+  owner @{TBB}/{tor,i2p}-browser/{Browser/,}start-{tor,i2p}-browser r,
+  owner @{TBB}/{tor,i2p}-browser/start-{tor,i2p}-browser.desktop rw,
+  owner @{TBB}/{tor,i2p}-browser/Browser/start-{tor,i2p}-browser.desktop r,
+  owner @{TBB}/{tor,i2p}-browser/Browser/dependentlibs.list r,
   ## No slash for a child profile.
-  owner @{TBB}*-browser*/Browser/firefox Px,
+  owner @{TBB}{tor,i2p}-browser/Browser/firefox Px,
 
   @{PROC}/ r,
   @{PROC}/[0-9]*/status r,
