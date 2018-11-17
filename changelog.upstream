@@ -1,3 +1,18 @@
+commit 21c36545df427bd8943a92279af78e53ea627056
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 17 06:10:40 2018 +0000
+
+    deprecate /etc/apparmor.d/home.tor-browser.start-tor-browser due to
+    low attack surface and broken. Patches welcome.
+    
+    fix apparmor profile matching
+
+commit 8e76b163daca04e046100231b7999982be0a2e86
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 17 05:19:45 2018 +0000
+
+    bumped changelog version
+
 commit 54887577bb0460915cd11252838e8060800ec156
 Merge: ad4536c 230eb07
 Author: Patrick Schleizer <adrelanos@riseup.net>
