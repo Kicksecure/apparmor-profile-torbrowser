@@ -3,7 +3,7 @@
 
 @{TBB} = @{HOME}*
 
-/home*/{tor,i2p}-browser/Browser/firefox flags=(attach_disconnected) {
+/home/*/{tor,i2p}-browser/Browser/firefox flags=(attach_disconnected) {
     #include <abstractions/base>
     #include <abstractions/fonts>
     #include <abstractions/kde>
