@@ -1,9 +1,7 @@
 # Last modified: Sun May 18 19:22:08 UTC 2014
 #include <tunables/global>
 
-@{TBB} = @{HOME}*
-
-/home/*/{tor,i2p}-browser/Browser/firefox flags=(attach_disconnected) {
+/**/*-browser/Browser/firefox flags=(attach_disconnected) {
     #include <abstractions/base>
     #include <abstractions/fonts>
     #include <abstractions/kde>
@@ -71,9 +69,8 @@
     @{HOME}/* r,
     ##################################################
 
-    owner @{TBB}/{tor,i2p}-browser/** mrlwkix,
     ## Allow TBB installations in /home/user (not only /home/user/*/ )
-    owner @{HOME}/{tor,i2p}-browser/** mrlwkix,
+    owner /**/*-browser/** mrlwkix,
 
     ## KDE 4 ##
     @{HOME}/.kde/share/config/* r,
@@ -101,11 +98,14 @@
     /usr/bin/dirname rix,
 
     /usr/lib/*-linux-gnu/** mrix,
-    /usr/lib/python3.5/lib-dynload/* mr,
+    /usr/lib/python*/lib-dynload/* mr,
 
     /usr/local/share/applications/ r,
     /usr/local/share/applications/meminfo.cache r,
     /usr/local/share/applications/mimeinfo.cache r,
+
+    /usr/local/lib/python*/dist-packages/ r,
+    /usr/local/lib/python*/dist-packages/** r,
 
     /usr/share/ r,
     /usr/share/mime/ r,
