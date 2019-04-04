@@ -5,11 +5,11 @@ Source: apparmor-profile-torbrowser
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), genmkfile, dh-apparmor
+Build-Depends: debhelper (>= 12), genmkfile, dh-apparmor
 Homepage: https://www.whonix.org/wiki/AppArmor
 Vcs-Browser: https://github.com/Whonix/apparmor-profile-torbrowser
 Vcs-Git: https://github.com/Whonix/apparmor-profile-torbrowser.git
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 
 Package: apparmor-profile-torbrowser
 Architecture: all
