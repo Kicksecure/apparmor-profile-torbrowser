@@ -84,7 +84,7 @@
     /etc/debian_version r,
 
     /etc/mime.types r,
-    /etc/wildmidi/wildmidi.cfg r,  # gstreamer
+    /etc/wildmidi/wildmidi.cfg r, # gstreamer
 
     ## VPN support.
     /run/resolvconf/resolv.conf r,
