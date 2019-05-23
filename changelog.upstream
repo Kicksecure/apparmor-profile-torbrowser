@@ -1,3 +1,31 @@
+commit e4abbfcc4004a5af69489cf71ceeff69f2a53282
+Merge: da8bd6b 05390d6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 22 12:28:39 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 05390d604d82ae52e56ba05f758b5a01502c526b
+Merge: da8bd6b f72a36a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 22 16:28:13 2019 +0000
+
+    Merge pull request #6 from madaidan/patch-1
+    
+    Removes unnecessary capabilities.
+
+commit f72a36a1b6ea667e5245c52e338b57b5bc7df530
+Author: madaidan <50278627+madaidan@users.noreply.github.com>
+Date:   Tue May 21 22:48:21 2019 +0000
+
+    Update home.tor-browser.firefox
+
+commit da8bd6bca8c9380a7a36d0268faf153660197cb8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 10:31:46 2019 +0000
+
+    bumped changelog version
+
 commit 52435a7ee7699129d7ff899ca2dea24d3a2a5f8f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun May 12 03:09:50 2019 -0400
