@@ -1,3 +1,15 @@
+commit 70bb1f49be323c5e774ec139c722cde0cb9f2ffc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 20 07:47:51 2019 -0400
+
+    UsrMerge support
+
+commit 7545d8be741d637d7b96e1a1ceaf833fdc813fb9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 10:16:26 2019 +0000
+
+    bumped changelog version
+
 commit edf77a80c1f6970afd5fa7a3a28422eaa9b30cfc
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jun 8 00:05:30 2019 -0400
