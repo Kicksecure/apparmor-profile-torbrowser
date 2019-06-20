@@ -132,8 +132,13 @@
     deny /var/lib/dbus/machine-id r,
     @{PROC}/[0-9]*/fd/ r,
     /dev/vboxuser rw,
+
     /bin/ps rix,
     /bin/dash rix,
+
+    /usr/bin/ps rix,
+    /usr/bin/dash rix,
+
     /usr/bin/pulseaudio rix,
 
     /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
