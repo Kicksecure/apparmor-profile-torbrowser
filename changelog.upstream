@@ -1,3 +1,37 @@
+commit 4e46493d7767eb85362af06b25d35a8772fa0d9b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:12:36 2019 +0000
+
+    copyright
+
+commit ab625790aa608ba564724baa27e7af597704b89e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:11:38 2019 +0000
+
+    license
+
+commit bee0786d80bbd6d2b331934f2a3dc1b1f6f66b12
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:11:22 2019 +0000
+
+    cleanup
+
+commit 721477d57263f1a6089c5479455839ca69aeef5a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 23 17:09:27 2019 +0000
+
+    remove no longer existing profile
+    
+    dh_apparmor --profile-name='home.tor-browser.start-tor-browser'
+    
+    add support for local profile
+
+commit 7b75bc7f67e921eabfe191de199e2e49ee158934
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jun 20 12:22:56 2019 +0000
+
+    bumped changelog version
+
 commit 70bb1f49be323c5e774ec139c722cde0cb9f2ffc
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jun 20 07:47:51 2019 -0400
