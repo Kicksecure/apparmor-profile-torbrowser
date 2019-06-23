@@ -143,4 +143,7 @@
 
     /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
     /run/anon-ws-disable-stacked-tor/127.0.0.1_9151.sock rw,
+
+    # Site-specific additions and overrides. See local/README for details.
+    #include <local/home.tor-browser.firefox>
 }
