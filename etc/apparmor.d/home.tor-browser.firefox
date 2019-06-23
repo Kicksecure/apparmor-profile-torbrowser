@@ -1,7 +1,6 @@
-# Last modified: Sun May 18 19:22:08 UTC 2014
 #include <tunables/global>
 
-/**/*-browser/Browser/firefox flags=(attach_disconnected) {
+/**/*browser/Browser/firefox flags=(attach_disconnected) {
     #include <abstractions/base>
     #include <abstractions/fonts>
     #include <abstractions/kde>
@@ -10,6 +9,26 @@
     #include <abstractions/user-download>
     #include <abstractions/user-tmp>
     #include <abstractions/X>
+
+    capability sys_ptrace,
+    capability sys_resource,
+    capability sys_admin,
+    capability sys_time,
+    capability sys_module,
+    capability setuid,
+    capability setgid,
+    capability chown,
+    capability fowner,
+    capability fsetid,
+    capability dac_override,
+    capability dac_read_search,
+    capability kill,
+    capability sys_rawio,
+    capability audit_write,
+    capability syslog,
+    ## Required for systemctl.
+    capability net_admin,
+    capability sys_chroot,
 
     signal,
     signal (send) peer=@{profile_name},
@@ -65,7 +84,7 @@
     ##################################################
 
     ## Allow TBB installations in /home/user (not only /home/user/*/ )
-    owner /**/*-browser/** mrlwkix,
+    owner /**/*browser/** mrlwkix,
 
     ## KDE 4 ##
     @{HOME}/.kde/share/config/* r,
@@ -120,6 +139,9 @@
     ## Distribution homepage
     /usr/share/homepage/ r,
     /usr/share/homepage/** r,
+
+    /usr/share/secbrowser/ r,
+    /usr/share/secbrowser/** r,
 
     /usr/share/xul-ext/foxyproxy-standard/ r,
     /usr/share/xul-ext/foxyproxy-standard/** r,
