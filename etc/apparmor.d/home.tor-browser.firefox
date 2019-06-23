@@ -9,6 +9,10 @@
     #include <abstractions/user-download>
     #include <abstractions/user-tmp>
     #include <abstractions/X>
+    
+    network netlink raw,
+    network udp,
+    network tcp,
 
     capability sys_ptrace,
     capability sys_resource,
