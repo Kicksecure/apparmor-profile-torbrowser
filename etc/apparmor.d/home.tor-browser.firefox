@@ -1,4 +1,3 @@
-# Last modified: Sun May 18 19:22:08 UTC 2014
 #include <tunables/global>
 
 /**/*-browser/Browser/firefox flags=(attach_disconnected) {
