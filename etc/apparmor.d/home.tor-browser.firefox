@@ -9,6 +9,11 @@
     #include <abstractions/user-download>
     #include <abstractions/user-tmp>
     #include <abstractions/X>
+    #include <abstractions/nameservice>
+
+    network netlink raw,
+    network udp,
+    network tcp,
 
     capability sys_ptrace,
     capability sys_resource,
@@ -33,24 +38,6 @@
     signal,
     signal (send) peer=@{profile_name},
 
-    deny /etc/host.conf r,
-    deny /etc/hosts r,
-    deny /etc/nsswitch.conf r,
-    deny /etc/resolv.conf r,
-    deny /etc/passwd r,
-    deny /etc/group r,
-    deny /etc/udev/udev.conf r,
-    deny /etc/mailcap r,
-    deny /etc/fstab r,
-
-    deny @{PROC}/[0-9]*/stat r,
-    deny @{PROC}/[0-9]*/mountinfo r,
-    deny @{PROC}/[0-9]*/task/ r,
-    deny @{PROC}/[0-9]*/task/** r,
-    deny @{PROC}/sys/kernel/random/uuid r,
-    deny @{PROC}/sys/vm/overcommit_memory r,
-    deny @{PROC}/[0-9]*/cmdline r,
-
     /dev/shm/org.chromium.* rw,
 
     @{PROC}/*/environ r,
@@ -62,19 +49,12 @@
     @{PROC}/[0-9]*/setgroups rw,
 
     ## Added 20/12/2017
-    deny @{PROC}/[0-9]*/net/route r,
-    deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
     /dev/shm/org.chromium.* rwk,
 
     ## Added 20/12/2017
-    deny @{PROC}/[0-9]*/net/route r,
-    deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
     /dev/shm/org.chromium.* rwk,
-
-    deny /run/udev/** r,
-    deny /sys/devices/** r,
 
     ## Missing in <abstractions/user-download> #######
     # Without this line, access is denied to @{HOME},
@@ -151,7 +131,6 @@
     /var/cache/fontconfig/ rk,
 
     ## For systems used in VirtualBox ##
-    deny /var/lib/dbus/machine-id r,
     @{PROC}/[0-9]*/fd/ r,
     /dev/vboxuser rw,
 
