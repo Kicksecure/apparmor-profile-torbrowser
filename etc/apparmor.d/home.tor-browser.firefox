@@ -14,8 +14,13 @@
     #include <abstractions/user-tmp>
     #include <abstractions/X>
 
+    capability sys_admin,
+    capability sys_chroot,
+
     signal,
     signal (send) peer=@{profile_name},
+    ptrace,
+    ptrace (tracedby),
 
     deny /etc/host.conf r,
     deny /etc/hosts r,
