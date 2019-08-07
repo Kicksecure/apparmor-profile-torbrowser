@@ -14,6 +14,8 @@
     #include <abstractions/user-tmp>
     #include <abstractions/X>
 
+    ## Why does the Tor Browser AppArmor profile have sys_admin, sys_chroot and ptrace capabilities?
+    ## https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilities/7409
     capability sys_admin,
     capability sys_chroot,
 
