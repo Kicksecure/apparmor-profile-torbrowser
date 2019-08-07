@@ -1,3 +1,25 @@
+commit 7d29598f92f0695c323598771276402ba53a7d4f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 7 06:56:42 2019 +0000
+
+    comment
+
+commit 2428d2a1843b39df48291e764bbc76460fa8e64d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 7 06:55:30 2019 +0000
+
+    https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilties/7409
+    
+    Revert "Update home.tor-browser.firefox"
+    
+    This reverts commit f72a36a1b6ea667e5245c52e338b57b5bc7df530.
+
+commit cefb9a9c2a03f2725a730bd68dca8e45b19ff041
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:26:51 2019 +0000
+
+    bumped changelog version
+
 commit 2da8fffd5169870a75a276f5d18cc5c726ac8e4c
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:35 2019 +0000
