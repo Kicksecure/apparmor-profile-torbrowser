@@ -19,11 +19,6 @@
     capability sys_admin,
     capability sys_chroot,
 
-    signal,
-    signal (send) peer=@{profile_name},
-    ptrace,
-    ptrace (tracedby),
-
     deny /etc/host.conf r,
     deny /etc/hosts r,
     deny /etc/nsswitch.conf r,
@@ -101,7 +96,7 @@
     /usr/bin/lsb_release rix,
     /usr/bin/apt-cache rix,
     /usr/bin/dirname rix,
-
+apparmor-profiles-hardened-debian
     /usr/lib/*-linux-gnu/** mrix,
     /usr/lib/python*/lib-dynload/* mr,
 
