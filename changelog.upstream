@@ -1,3 +1,29 @@
+commit dd3be1322a0752f7b90c4ab1888cd9d6888a9b84
+Merge: ea1caad 5fbc1f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 8 22:03:05 2019 -0400
+
+    Merge remote-tracking branch 'troubadoour/master'
+
+commit 5fbc1f8815f1b482db4aea3c05cd460647bac4af
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Aug 8 19:26:47 2019 +0000
+
+    remove unwanted line
+
+commit b7d84aa576cca3e13d965f3553e8d6cd2f1c822f
+Author: troubadoour <trobador@riseup.net>
+Date:   Thu Aug 8 19:03:09 2019 +0000
+
+    remove ptrace and signal
+    https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilities
+
+commit ea1caad9336301e3ed690f8ac577e69f01feabdf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 7 07:15:54 2019 +0000
+
+    bumped changelog version
+
 commit 7d29598f92f0695c323598771276402ba53a7d4f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Aug 7 06:56:42 2019 +0000
