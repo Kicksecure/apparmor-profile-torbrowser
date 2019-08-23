@@ -1,3 +1,21 @@
+commit c2bff1d2b28ccd4a8ca39634c9b303ac22d265bb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 18 13:55:02 2019 +0000
+
+    /usr/share/secbrowser/** r, ; /usr/share/tb-profile-i2p/** r,
+
+commit 4b9c0de165643b06107b3f28b06b036fe2a73684
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Aug 18 13:53:30 2019 +0000
+
+    /usr/share/tb-profile-i2p/** r,
+
+commit 2362ac16acb831d447e49d6711e28ce67bd0f58d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 9 08:08:57 2019 +0000
+
+    bumped changelog version
+
 commit dd3be1322a0752f7b90c4ab1888cd9d6888a9b84
 Merge: ea1caad 5fbc1f8
 Author: Patrick Schleizer <adrelanos@riseup.net>
