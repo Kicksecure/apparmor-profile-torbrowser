@@ -18,6 +18,7 @@
     ## https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilities
     capability sys_admin,
     capability sys_chroot,
+    capability sys_ptrace,
 
     deny /etc/host.conf r,
     deny /etc/hosts r,
@@ -37,7 +38,10 @@
     deny @{PROC}/sys/vm/overcommit_memory r,
     deny @{PROC}/[0-9]*/cmdline r,
 
-    /dev/shm/org.chromium.* rw,
+    ## comment out later after 9.x got stable
+    /dev/shm/org.chromium.* rwk,
+
+    /dev/shm/org.mozilla.ipc.* rwk,
 
     @{PROC}/*/environ r,
     @{PROC}/[0-9]*/status r,
@@ -51,13 +55,11 @@
     deny @{PROC}/[0-9]*/net/route r,
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
-    /dev/shm/org.chromium.* rwk,
 
     ## Added 20/12/2017
     deny @{PROC}/[0-9]*/net/route r,
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
-    /dev/shm/org.chromium.* rwk,
 
     deny /run/udev/** r,
     deny /sys/devices/** r,
@@ -85,6 +87,8 @@
 
     /etc/mime.types r,
     /etc/wildmidi/wildmidi.cfg r, # gstreamer
+
+    /etc/dconf/** r,
 
     ## VPN support.
     /run/resolvconf/resolv.conf r,
@@ -153,6 +157,8 @@
 
     /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
     /run/anon-ws-disable-stacked-tor/127.0.0.1_9151.sock rw,
+
+    /run/**/**/dconf/** rw,
 
     # Site-specific additions and overrides. See local/README for details.
     #include <local/home.tor-browser.firefox>
