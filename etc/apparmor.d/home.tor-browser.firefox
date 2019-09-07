@@ -56,11 +56,6 @@
     deny @{PROC}/[0-9]*/net/arp r,
     /dev/ r,
 
-    ## Added 20/12/2017
-    deny @{PROC}/[0-9]*/net/route r,
-    deny @{PROC}/[0-9]*/net/arp r,
-    /dev/ r,
-
     deny /run/udev/** r,
     deny /sys/devices/** r,
 
