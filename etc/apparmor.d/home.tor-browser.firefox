@@ -43,6 +43,15 @@
 
     /dev/shm/org.mozilla.ipc.* rwk,
 
+    ## Tor Browser 8.5.5
+    ## Sep 07 03:25:10 host kernel: audit: type=1400 audit(1567826710.402:34): apparmor="DENIED" operation="open" profile="/**/*-browser/Browser/firefox" name="/dev/dri/" pid=7525 comm="firefox.real" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+    /dev/dri/ r,
+    /dev/dri/** r,
+
+    ## Tor Browser 8.5.5 with firejail.
+    ## Sep 07 03:25:54 host kernel: audit: type=1400 audit(1567826754.074:42): apparmor="DENIED" operation="open" profile="/**/*-browser/Browser/firefox" name="/run/firejail/lib/libpostexecseccomp.so" pid=7879 comm="firefox.real" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+    /run/firejail/lib/libpostexecseccomp.so rm,
+
     @{PROC}/*/environ r,
     @{PROC}/[0-9]*/status r,
     @{PROC}/[0-9]*/net/route r,
