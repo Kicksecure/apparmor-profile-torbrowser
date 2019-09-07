@@ -1,3 +1,21 @@
+commit 5dcae544d446c2a98d7b1fb3feddcb51b920cd9f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 06:05:49 2019 +0000
+
+    fixes for VirtualBox and firejail
+
+commit f62ca8e0ef50fd442498eac29478036a112c978d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 05:59:00 2019 +0000
+
+    remove duplicate
+
+commit 5a887bb0d0a169bd8676a5967846fbf72ae7b661
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 6 13:29:54 2019 +0000
+
+    bumped changelog version
+
 commit 38c59dcb12e75cf4841bd4d63725f1fdbb78af6f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Sep 6 13:28:39 2019 +0000
