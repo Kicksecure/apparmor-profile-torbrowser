@@ -30,13 +30,13 @@
     deny /etc/mailcap r,
     deny /etc/fstab r,
 
-    deny @{PROC}/[0-9]*/stat r,
-    deny @{PROC}/[0-9]*/mountinfo r,
-    deny @{PROC}/[0-9]*/task/ r,
-    deny @{PROC}/[0-9]*/task/** r,
+    deny @{PROC}/@{pid}/stat r,
+    deny @{PROC}/@{pid}/mountinfo r,
+    deny @{PROC}/@{pid}/task/ r,
+    deny @{PROC}/@{pid}/task/** r,
     deny @{PROC}/sys/kernel/random/uuid r,
     deny @{PROC}/sys/vm/overcommit_memory r,
-    deny @{PROC}/[0-9]*/cmdline r,
+    deny @{PROC}/@{pid}/cmdline r,
 
     ## comment out later after 9.x got stable
     /dev/shm/org.chromium.* rwk,
@@ -53,16 +53,16 @@
     /run/firejail/lib/libpostexecseccomp.so rm,
 
     @{PROC}/*/environ r,
-    @{PROC}/[0-9]*/status r,
-    @{PROC}/[0-9]*/net/route r,
-    @{PROC}/[0-9]*/net/arp r,
-    @{PROC}/[0-9]*/uid_map rw,
-    @{PROC}/[0-9]*/gid_map rw,
-    @{PROC}/[0-9]*/setgroups rw,
+    @{PROC}/@{pid}/status r,
+    @{PROC}/@{pid}/net/route r,
+    @{PROC}/@{pid}/net/arp r,
+    @{PROC}/@{pid}/uid_map rw,
+    @{PROC}/@{pid}/gid_map rw,
+    @{PROC}/@{pid}/setgroups rw,
 
     ## Added 20/12/2017
-    deny @{PROC}/[0-9]*/net/route r,
-    deny @{PROC}/[0-9]*/net/arp r,
+    deny @{PROC}/@{pid}/net/route r,
+    deny @{PROC}/@{pid}/net/arp r,
     /dev/ r,
 
     deny /run/udev/** r,
@@ -148,7 +148,7 @@
 
     ## For systems used in VirtualBox ##
     deny /var/lib/dbus/machine-id r,
-    @{PROC}/[0-9]*/fd/ r,
+    @{PROC}/@{pid}/fd/ r,
     /dev/vboxuser rw,
 
     /bin/ps rix,
