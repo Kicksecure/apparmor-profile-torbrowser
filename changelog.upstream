@@ -1,3 +1,43 @@
+commit ddc281f8f03a81310dd76250fd48e1ab6a55e937
+Merge: a20721e a146b32
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 31 03:04:42 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a146b327f3cafead6c750fc407ebd03d99340e7d
+Merge: a20721e aa651e2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 31 07:04:25 2019 +0000
+
+    Merge pull request #8 from miteigi/use-pid-variable
+    
+    Use @{pid} variable where appropriate
+
+commit aa651e299ee60b21704be36dcacced9acfc05157
+Author: miteigi <miteigi@disroot.org>
+Date:   Thu Oct 31 00:33:26 2019 +0900
+
+    Use @{pid} variable where appropriate
+
+commit a20721e77165c946a5b4861992a2980db226c011
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 29 10:37:16 2019 -0400
+
+    /run/**/**/dconf/ rw,
+    
+    fix:
+    
+    host kernel: audit: type=1400 audit(1572359679.202:27): apparmor="DENIED" operation="mkdir" profile="/**/*-browser/Browser/firefox" name="/run/user/1000/dconf/" pid=2307 comm="firefox.real" requested_mask="c" denied_mask="c" fsuid=1000 ouid=1000
+    
+    https://forums.whonix.org/t/tor-browser-issue/8358/7
+
+commit 13bbba2f4484ff2453bb6c8edd4a65dcfc7b9d3e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Sep 17 13:41:31 2019 +0000
+
+    bumped changelog version
+
 commit 98da2a8db9fba1329d29634f488e47dd5b01b1c0
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Sep 17 07:24:07 2019 +0000
