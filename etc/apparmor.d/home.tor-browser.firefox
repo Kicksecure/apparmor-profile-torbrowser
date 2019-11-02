@@ -54,8 +54,6 @@
 
     @{PROC}/*/environ r,
     @{PROC}/@{pid}/status r,
-    @{PROC}/@{pid}/net/route r,
-    @{PROC}/@{pid}/net/arp r,
     @{PROC}/@{pid}/uid_map rw,
     @{PROC}/@{pid}/gid_map rw,
     @{PROC}/@{pid}/setgroups rw,
