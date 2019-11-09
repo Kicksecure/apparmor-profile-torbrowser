@@ -1,3 +1,33 @@
+commit def4e9838a13d21a7ea5687aa504b96387e46978
+Merge: b173d79 8f50a8b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 2 01:43:10 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8f50a8bb18415d28482765b03c23ad8a8f80da8f
+Merge: b173d79 bfcdb3d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Nov 2 05:42:35 2019 +0000
+
+    Merge pull request #9 from miteigi/cleanup
+    
+    Remove overridden rules on net/arp and net/route
+
+commit bfcdb3dff4449e845231b5401c8cf8ac6edca23f
+Author: miteigi <miteigi@disroot.org>
+Date:   Fri Nov 1 22:52:19 2019 +0900
+
+    Remove overridden rules on net/arp and net/route
+    
+    See also: https://github.com/micahflee/torbrowser-launcher/commit/88d862a3828ef0b287232018e300dd6ce66b57a1
+
+commit b173d7989a232c1021faba881c5f6dfd7461b15c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Oct 31 16:05:29 2019 +0000
+
+    bumped changelog version
+
 commit ddc281f8f03a81310dd76250fd48e1ab6a55e937
 Merge: a20721e a146b32
 Author: Patrick Schleizer <adrelanos@riseup.net>
