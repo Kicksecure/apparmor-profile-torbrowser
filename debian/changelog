@@ -2,412 +2,412 @@ apparmor-profile-torbrowser (3:6.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 16 Apr 2020 12:25:23 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 16 Apr 2020 12:25:23 +0000
 
 apparmor-profile-torbrowser (3:6.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 02 Apr 2020 11:36:54 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 02 Apr 2020 11:36:54 +0000
 
 apparmor-profile-torbrowser (3:6.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 01 Apr 2020 14:28:57 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 01 Apr 2020 14:28:57 +0000
 
 apparmor-profile-torbrowser (3:6.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 09 Nov 2019 12:22:27 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 09 Nov 2019 12:22:27 +0000
 
 apparmor-profile-torbrowser (3:6.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 31 Oct 2019 16:05:29 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 31 Oct 2019 16:05:29 +0000
 
 apparmor-profile-torbrowser (3:6.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 17 Sep 2019 13:41:31 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 17 Sep 2019 13:41:31 +0000
 
 apparmor-profile-torbrowser (3:6.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 07 Sep 2019 06:10:47 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 07 Sep 2019 06:10:47 +0000
 
 apparmor-profile-torbrowser (3:6.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 06 Sep 2019 13:29:54 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 06 Sep 2019 13:29:54 +0000
 
 apparmor-profile-torbrowser (3:6.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 23 Aug 2019 16:54:08 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 23 Aug 2019 16:54:08 +0000
 
 apparmor-profile-torbrowser (3:5.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 09 Aug 2019 08:08:57 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 09 Aug 2019 08:08:57 +0000
 
 apparmor-profile-torbrowser (3:5.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 07 Aug 2019 07:15:54 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 07 Aug 2019 07:15:54 +0000
 
 apparmor-profile-torbrowser (3:5.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 01 Aug 2019 11:26:51 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 01 Aug 2019 11:26:51 +0000
 
 apparmor-profile-torbrowser (3:5.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 23 Jun 2019 19:53:54 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 23 Jun 2019 19:53:54 +0000
 
 apparmor-profile-torbrowser (3:5.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 20 Jun 2019 12:22:56 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 20 Jun 2019 12:22:56 +0000
 
 apparmor-profile-torbrowser (3:5.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 08 Jun 2019 10:16:26 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 08 Jun 2019 10:16:26 +0000
 
 apparmor-profile-torbrowser (3:5.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 24 May 2019 20:12:44 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 24 May 2019 20:12:44 +0000
 
 apparmor-profile-torbrowser (3:5.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 23 May 2019 22:37:33 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 23 May 2019 22:37:33 +0000
 
 apparmor-profile-torbrowser (3:5.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 12 May 2019 10:31:46 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 12 May 2019 10:31:46 +0000
 
 apparmor-profile-torbrowser (3:5.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 03 May 2019 11:19:46 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 03 May 2019 11:19:46 +0000
 
 apparmor-profile-torbrowser (3:4.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 06 Apr 2019 11:59:21 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 06 Apr 2019 11:59:21 +0000
 
 apparmor-profile-torbrowser (3:4.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 29 Mar 2019 09:48:52 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 29 Mar 2019 09:48:52 +0000
 
 apparmor-profile-torbrowser (3:4.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 12 Mar 2019 11:22:11 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 12 Mar 2019 11:22:11 +0000
 
 apparmor-profile-torbrowser (3:4.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 17 Nov 2018 06:19:07 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 17 Nov 2018 06:19:07 +0000
 
 apparmor-profile-torbrowser (3:4.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 17 Nov 2018 05:19:45 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 17 Nov 2018 05:19:45 +0000
 
 apparmor-profile-torbrowser (3:4.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 10 Oct 2018 13:39:37 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 10 Oct 2018 13:39:37 +0000
 
 apparmor-profile-torbrowser (3:4.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 08 Oct 2018 11:41:59 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 08 Oct 2018 11:41:59 +0000
 
 apparmor-profile-torbrowser (3:4.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 06 Sep 2018 07:37:43 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 06 Sep 2018 07:37:43 +0000
 
 apparmor-profile-torbrowser (3:4.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 27 Aug 2018 15:56:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 27 Aug 2018 15:56:40 +0000
 
 apparmor-profile-torbrowser (3:4.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 06 Jul 2018 07:05:44 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 06 Jul 2018 07:05:44 +0000
 
 apparmor-profile-torbrowser (3:3.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 03 Jul 2018 05:39:21 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 03 Jul 2018 05:39:21 +0000
 
 apparmor-profile-torbrowser (3:3.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 11 Mar 2018 14:03:15 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 11 Mar 2018 14:03:15 +0000
 
 apparmor-profile-torbrowser (3:3.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 18 Feb 2018 14:05:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 18 Feb 2018 14:05:40 +0000
 
 apparmor-profile-torbrowser (3:3.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 01 Feb 2018 14:55:06 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 01 Feb 2018 14:55:06 +0000
 
 apparmor-profile-torbrowser (3:3.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 27 Dec 2017 18:28:12 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 27 Dec 2017 18:28:12 +0000
 
 apparmor-profile-torbrowser (3:3.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 20 Dec 2017 14:51:22 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 20 Dec 2017 14:51:22 +0000
 
 apparmor-profile-torbrowser (3:3.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 15 Dec 2017 18:40:17 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 15 Dec 2017 18:40:17 +0000
 
 apparmor-profile-torbrowser (3:3.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 26 Jul 2017 15:34:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 26 Jul 2017 15:34:40 +0000
 
 apparmor-profile-torbrowser (3:3.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 26 Jul 2017 14:27:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 26 Jul 2017 14:27:40 +0000
 
 apparmor-profile-torbrowser (3:3.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 17 Feb 2017 13:48:20 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 17 Feb 2017 13:48:20 +0000
 
 apparmor-profile-torbrowser (3:2.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 15 Jan 2017 15:22:58 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 15 Jan 2017 15:22:58 +0000
 
 apparmor-profile-torbrowser (3:2.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 10 Dec 2016 00:20:30 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 10 Dec 2016 00:20:30 +0000
 
 apparmor-profile-torbrowser (3:2.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 04 May 2016 22:06:10 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 04 May 2016 22:06:10 +0000
 
 apparmor-profile-torbrowser (3:2.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 07 Apr 2016 22:54:32 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 07 Apr 2016 22:54:32 +0000
 
 apparmor-profile-torbrowser (3:2.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 13 Nov 2015 15:51:15 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 13 Nov 2015 15:51:15 +0000
 
 apparmor-profile-torbrowser (3:2.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 06 Nov 2015 13:45:04 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 06 Nov 2015 13:45:04 +0000
 
 apparmor-profile-torbrowser (3:2.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 22 Oct 2015 23:12:35 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 22 Oct 2015 23:12:35 +0000
 
 apparmor-profile-torbrowser (3:2.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 18 Sep 2015 19:55:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Fri, 18 Sep 2015 19:55:40 +0000
 
 apparmor-profile-torbrowser (3:2.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 25 Aug 2015 14:07:53 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 25 Aug 2015 14:07:53 +0000
 
 apparmor-profile-torbrowser (3:2.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 24 Aug 2015 17:47:17 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 24 Aug 2015 17:47:17 +0000
 
 apparmor-profile-torbrowser (3:1.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 11 Jun 2015 20:44:13 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 11 Jun 2015 20:44:13 +0000
 
 apparmor-profile-torbrowser (3:1.8-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:59:30 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 03 Jun 2015 14:59:30 +0000
 
 apparmor-profile-torbrowser (3:1.7-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 30 Apr 2015 17:56:08 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 30 Apr 2015 17:56:08 +0000
 
 apparmor-profile-torbrowser (3:1.6-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 15 Apr 2015 21:26:50 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 15 Apr 2015 21:26:50 +0000
 
 apparmor-profile-torbrowser (3:1.5-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 14 Apr 2015 09:33:59 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 14 Apr 2015 09:33:59 +0000
 
 apparmor-profile-torbrowser (3:1.4-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 07 Apr 2015 17:41:31 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 07 Apr 2015 17:41:31 +0000
 
 apparmor-profile-torbrowser (3:1.3-1) unstable; urgency=low
 
   * New upstream version (local package).
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 24 Mar 2015 17:29:03 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 24 Mar 2015 17:29:03 +0000
 
 apparmor-profile-torbrowser (3:1.2-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 04 Feb 2015 00:51:43 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 04 Feb 2015 00:51:43 +0000
 
 apparmor-profile-torbrowser (3:1.1-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 05 Jan 2015 15:22:49 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 05 Jan 2015 15:22:49 +0000
 
 apparmor-profile-torbrowser (3:1.0-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 09 Nov 2014 14:52:40 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 09 Nov 2014 14:52:40 +0000
 
 apparmor-profile-torbrowser (3:0.9-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 26 Oct 2014 17:43:24 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 26 Oct 2014 17:43:24 +0000
 
 apparmor-profile-torbrowser (3:0.8-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 23 Oct 2014 22:38:38 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 23 Oct 2014 22:38:38 +0000
 
 apparmor-profile-torbrowser (3:0.7-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 18 Oct 2014 17:32:49 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 18 Oct 2014 17:32:49 +0000
 
 apparmor-profile-torbrowser (3:0.6-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 16 Oct 2014 22:01:18 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 16 Oct 2014 22:01:18 +0000
 
 apparmor-profile-torbrowser (3:0.5-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 13 Oct 2014 12:33:03 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 13 Oct 2014 12:33:03 +0000
 
 apparmor-profile-torbrowser (3:0.4-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 08 Sep 2014 12:01:44 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 08 Sep 2014 12:01:44 +0000
 
 apparmor-profile-torbrowser (3:0.3-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 19 Aug 2014 18:41:21 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 19 Aug 2014 18:41:21 +0000
 
 apparmor-profile-torbrowser (3:0.2-2) unstable; urgency=low
 
   * Fixed changelog date.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 20:49:56 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 17 Aug 2014 20:49:56 +0000
 
 apparmor-profile-torbrowser (3:0.2-1) unstable; urgency=low
 
   * New upstream version.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 20:45:10 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 17 Aug 2014 20:45:10 +0000
 
 apparmor-profile-torbrowser (3:0.1-2) unstable; urgency=low
 
   * Initial release.
 
- -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 17:56:25 +0000
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sun, 17 Aug 2014 17:56:25 +0000
