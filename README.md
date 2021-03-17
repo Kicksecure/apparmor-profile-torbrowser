@@ -7,7 +7,7 @@ This package is produced independently of, and carries no guarantee from,
 The Tor Project.
 ## How to install `apparmor-profile-torbrowser` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc
@@ -18,13 +18,13 @@ Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_
 2\. Add Whonix's signing key.
 
 ```
-sudo apt-key --keyring /etc/apt/trusted.gpg.d/whonix.gpg add ~/patrick.asc
+sudo apt-key --keyring /etc/apt/trusted.gpg.d/derivative.gpg add ~/patrick.asc
 ```
 
 3\. Add Whonix's APT repository.
 
 ```
-echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/whonix.list
+echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/derivative.list
 ```
 
 4\. Update your package lists.
