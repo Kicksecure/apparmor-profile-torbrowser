@@ -131,9 +131,6 @@
     /usr/share/homepage/ r,
     /usr/share/homepage/** r,
 
-    /usr/share/secbrowser/ r,
-    /usr/share/secbrowser/** r,
-
     /usr/share/tb-profile-i2p/ r,
     /usr/share/tb-profile-i2p/** r,
 
