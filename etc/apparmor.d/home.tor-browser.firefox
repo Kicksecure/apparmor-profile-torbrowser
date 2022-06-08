@@ -4,11 +4,6 @@
 
 #include <tunables/global>
 
-## Copyright (C) 2014 troubadour <trobador@riseup.net>
-## Copyright (C) 2014 - 2022 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
-## See the file COPYING for copying conditions.
-
-
 /**/*-browser/Browser/firefox flags=(attach_disconnected) {
   #include <abstractions/X>
   #include <abstractions/audio>
@@ -99,6 +94,4 @@
   @{PROC}/@{pid}/uid_map rw,
   owner /**/*-browser/** mrwlkix,
   owner /proc/*/cgroup r,
-
 }
-   
