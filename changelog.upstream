@@ -1,3 +1,45 @@
+commit c01bd373ad9aa7f4dfce805f065ea3e13dc7dde0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 08:38:32 2022 -0400
+
+    re-add comments
+
+commit 2e4cfc13d8f6930ffd5808a9ea443ddccc302022
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 08:26:42 2022 -0400
+
+    minor
+
+commit cf059743584a2c763010e6a7077ca0bc0f90e048
+Merge: 6c71395 7dde436
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 08:25:49 2022 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 7dde4367eef81bf43c1a888258d71eacd3dd88f4
+Merge: 6c71395 403edb2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 08:22:37 2022 -0400
+
+    Merge pull request #12 from TNTBOMBOM/patch-1
+    
+    Update home.tor-browser.firefox
+
+commit 403edb228c3695d983868e95f1452a756f1fc6ff
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Mon Jun 6 09:06:16 2022 +0000
+
+    Update home.tor-browser.firefox
+    
+    Fixes numerous DENIED messages.
+
+commit 6c713952888df1209ebee1907a8fa8e32781ee56
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:05:40 2022 -0400
+
+    bumped changelog version
+
 commit 90d19c2f06345ac1209068ef878fa966a5166ebe
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 15:27:03 2022 -0400
