@@ -142,4 +142,9 @@
   owner /**/*-browser/** mrwlkix,
 
   owner /proc/*/cgroup r,
+
+  ## Split Browser for Qubes ##
+  /usr/share/split-browser-disp/firefox/sb-load.js r,
+  /run/split-browser-disp/into-firefox rw,
+  /run/split-browser-disp/from-firefox w,
 }
