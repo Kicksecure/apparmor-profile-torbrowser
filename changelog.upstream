@@ -1,3 +1,16 @@
+commit 610ebe6509bc1b0501111d8fb51f52142140e8be
+Merge: 3a8c37f 2000aa6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jun 13 07:22:59 2022 -0400
+
+    Merge remote-tracking branch 'fyqwbdzsfjh/master'
+
+commit 3a8c37ffb442810e72a783215dd170c7a600f1fe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 8 10:28:39 2022 -0400
+
+    bumped changelog version
+
 commit c01bd373ad9aa7f4dfce805f065ea3e13dc7dde0
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 8 08:38:32 2022 -0400
@@ -63,6 +76,12 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Nov 9 14:32:29 2021 -0500
 
     readme
+
+commit 2000aa62e6130df538a6cbb02d1b7a974d523821
+Author: fyqwbdzsfjh <90468453+fyqwbdzsfjh@users.noreply.github.com>
+Date:   Wed Sep 15 18:16:43 2021 +0000
+
+    add qubes split-browser
 
 commit b6cf76f8d810f87851a75b9b095b99773964933e
 Author: Patrick Schleizer <adrelanos@whonix.org>
