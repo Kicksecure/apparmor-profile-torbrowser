@@ -1,3 +1,18 @@
+commit 2e3d89f2ee4a135960028d603ad9344eefb967e0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 2 15:14:46 2022 -0400
+
+    remove `#include <abstractions/totem>`
+    
+    because not available by default
+    to avoid error message during installation
+
+commit 0ff6687096ca8126e2e97620c752d8137b241346
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 18 04:52:00 2022 -0400
+
+    bumped changelog version
+
 commit 610ebe6509bc1b0501111d8fb51f52142140e8be
 Merge: 3a8c37f 2000aa6
 Author: Patrick Schleizer <adrelanos@whonix.org>
