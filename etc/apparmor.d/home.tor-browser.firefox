@@ -1,8 +1,10 @@
+# Last Modified: Fri Aug 12 11:33:54 2022
+#include <tunables/global>
+
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
 ## Copyright (C) 2014 - 2022 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-#include <tunables/global>
 
 /**/*-browser/Browser/firefox flags=(attach_disconnected) {
   #include <abstractions/X>
@@ -11,14 +13,11 @@
   #include <abstractions/fonts>
   #include <abstractions/gnome>
   #include <abstractions/kde>
+  #include <abstractions/totem>
   #include <abstractions/user-download>
   #include <abstractions/user-tmp>
-
-  # Site-specific additions and overrides. See local/README for details.
   #include <local/home.tor-browser.firefox>
 
-  ## Why does the Tor Browser AppArmor profile have sys_admin, sys_chroot and ptrace capabilities?
-  ## https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilities
   capability sys_admin,
   capability sys_chroot,
   capability sys_ptrace,
@@ -34,10 +33,7 @@
   deny /etc/udev/udev.conf r,
   deny /run/udev/** r,
   deny /sys/devices/** r,
-
-  ## For systems used in VirtualBox
   deny /var/lib/dbus/machine-id r,
-
   deny @{PROC}/@{pid}/cmdline r,
   deny @{PROC}/@{pid}/mountinfo r,
   deny @{PROC}/@{pid}/net/arp r,
@@ -50,43 +46,25 @@
 
   /bin/dash rix,
   /bin/ps rix,
-
-  ## Tor Browser 8.5.5
-  ## Sep 07 03:25:10 host kernel: audit: type=1400 audit(1567826710.402:34): apparmor="DENIED" operation="open" profile="/**/*-browser/Browser/firefox" name="/dev/dri/" pid=7525 comm="firefox.real" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
   /dev/dri/** r,
-
-  ## comment out later after 9.x got stable
   /dev/shm/org.chromium.* rwk,
-
   /dev/shm/org.mozilla.ipc.* rwk,
-
-  ## For systems used in VirtualBox
   /dev/vboxuser rw,
-
   /etc/dconf/** r,
   /etc/debian_version r,
   /etc/ld.so.conf r,
   /etc/ld.so.conf.d/* r,
   /etc/mime.types r,
-
-  ## gstreamer
   /etc/wildmidi/wildmidi.cfg r,
-
-  ## Xfce4
   /etc/xfce4/defaults.list r,
-
   /run/**/**/dconf/ rw,
   /run/**/**/dconf/** rw,
   /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
   /run/anon-ws-disable-stacked-tor/127.0.0.1_9151.sock rw,
-
-  ## Tor Browser 8.5.5 with firejail.
-  ## Sep 07 03:25:54 host kernel: audit: type=1400 audit(1567826754.074:42): apparmor="DENIED" operation="open" profile="/**/*-browser/Browser/firefox" name="/run/firejail/lib/libpostexecseccomp.so" pid=7879 comm="firefox.real" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
   /run/firejail/lib/libpostexecseccomp.so mr,
-
-  ## VPN support.
   /run/resolvconf/resolv.conf r,
-
+  /run/split-browser-disp/from-firefox w,
+  /run/split-browser-disp/into-firefox rw,
   /tmp/MozUpdater/bgupdate/updater rix,
   /usr/bin/apt-cache rix,
   /usr/bin/dash rix,
@@ -100,50 +78,25 @@
   /usr/local/lib/python*/dist-packages/ r,
   /usr/local/lib/python*/dist-packages/** r,
   /usr/share/applications/** rk,
-
-  ## distribution homepage
   /usr/share/doc/homepage/** r,
-
-  ## Not in abstractions/fonts
   /usr/share/fontconfig/conf.avail/* r,
-
   /usr/share/libthai/** r,
   /usr/share/mime/** r,
   /usr/share/poppler/cMap/** r,
   /usr/share/tb-profile-i2p/** r,
   /usr/share/themes/** r,
   /usr/share/xul-ext/foxyproxy-standard/** r,
-
-  ## Not in abstractions/fonts ##
   /var/cache/fontconfig/ rk,
-
-  ## Missing in <abstractions/user-download> #######
-  ## Without this line, access is denied to @{HOME},
-  ## [dD]ownload{,s}, Desktop... for downloads.
   @{HOME}/ r,
   @{HOME}/* r,
-  ##################################################
-
-  ## KDE 4 ##
   @{HOME}/.kde/share/config/* r,
-
   @{PROC}/*/environ r,
-
-  ## For systems used in VirtualBox
   @{PROC}/@{pid}/fd/ r,
-
   @{PROC}/@{pid}/gid_map rw,
   @{PROC}/@{pid}/setgroups rw,
   @{PROC}/@{pid}/status r,
   @{PROC}/@{pid}/uid_map rw,
-
-  ## Allow TBB installations in /home/user (not only /home/user/*/ )
   owner /**/*-browser/** mrwlkix,
-
   owner /proc/*/cgroup r,
 
-  ## Split Browser for Qubes ##
-  /usr/share/split-browser-disp/firefox/sb-load.js r,
-  /run/split-browser-disp/into-firefox rw,
-  /run/split-browser-disp/from-firefox w,
 }
