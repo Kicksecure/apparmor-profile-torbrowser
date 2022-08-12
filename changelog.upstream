@@ -1,3 +1,15 @@
+commit 95af46a947d9cde44fe3681b6b8385d7035f608b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 12 07:38:33 2022 -0400
+
+    move to format by aa-genproof
+
+commit c8361a4c36fe8771bcfe7367bde1c26d438711b9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jul 2 15:31:19 2022 -0400
+
+    bumped changelog version
+
 commit 2e3d89f2ee4a135960028d603ad9344eefb967e0
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 2 15:14:46 2022 -0400
