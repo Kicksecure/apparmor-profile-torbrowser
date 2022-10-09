@@ -90,6 +90,7 @@
   @{HOME}/ r,
   @{HOME}/* r,
   @{HOME}/.kde/share/config/* r,
+  @{HOME}/.config/ibus/bus/* r,
   @{PROC}/*/environ r,
   @{PROC}/@{pid}/fd/ r,
   @{PROC}/@{pid}/gid_map rw,
