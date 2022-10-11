@@ -1,3 +1,19 @@
+commit 7617d363615478cf589d0f880d75ecc368f2b48f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Oct 9 09:15:07 2022 -0400
+
+    @{HOME}/.config/ibus/bus/* r,
+    
+    Thanks to @vvoovv for the suggestion!
+    
+    Fixes https://forums.whonix.org/t/cant-type-japanese-only-in-tor-browser/14620/5
+
+commit bc0db7ac9598a42cd7638a1ef864548b510cdeb2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Aug 12 07:52:02 2022 -0400
+
+    bumped changelog version
+
 commit 95af46a947d9cde44fe3681b6b8385d7035f608b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Aug 12 07:38:33 2022 -0400
