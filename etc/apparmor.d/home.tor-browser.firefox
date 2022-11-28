@@ -57,6 +57,7 @@
   /etc/mime.types r,
   /etc/wildmidi/wildmidi.cfg r,
   /etc/xfce4/defaults.list r,
+  /etc/python*/** r,
   /run/**/**/dconf/ rw,
   /run/**/**/dconf/** rw,
   /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
