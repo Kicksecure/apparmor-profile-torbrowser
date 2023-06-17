@@ -1,5 +1,5 @@
-# Last Modified: Fri Aug 12 11:33:54 2022
-#include <tunables/global>
+# Last Modified: Sat Jun 17 13:42:31 2023
+include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
 ## Copyright (C) 2014 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
@@ -7,16 +7,16 @@
 
 
 /**/*-browser/Browser/firefox flags=(attach_disconnected) {
-  #include <abstractions/X>
-  #include <abstractions/audio>
-  #include <abstractions/base>
-  #include <abstractions/fonts>
-  #include <abstractions/gnome>
-  #include <abstractions/kde>
-  #include <abstractions/totem>
-  #include <abstractions/user-download>
-  #include <abstractions/user-tmp>
-  #include <local/home.tor-browser.firefox>
+  include <abstractions/X>
+  include <abstractions/audio>
+  include <abstractions/base>
+  include <abstractions/fonts>
+  include <abstractions/gnome>
+  include <abstractions/kde>
+  include <abstractions/totem>
+  include <abstractions/user-download>
+  include <abstractions/user-tmp>
+  include <local/home.tor-browser.firefox>
 
   capability sys_admin,
   capability sys_chroot,
@@ -55,9 +55,9 @@
   /etc/ld.so.conf r,
   /etc/ld.so.conf.d/* r,
   /etc/mime.types r,
+  /etc/python*/** r,
   /etc/wildmidi/wildmidi.cfg r,
   /etc/xfce4/defaults.list r,
-  /etc/python*/** r,
   /run/**/**/dconf/ rw,
   /run/**/**/dconf/** rw,
   /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
@@ -70,6 +70,7 @@
   /usr/bin/apt-cache rix,
   /usr/bin/dash rix,
   /usr/bin/dirname rix,
+  /usr/bin/getopt mrix,
   /usr/bin/kde4-config rix,
   /usr/bin/lsb_release rix,
   /usr/bin/ps rix,
@@ -90,8 +91,8 @@
   /var/cache/fontconfig/ rk,
   @{HOME}/ r,
   @{HOME}/* r,
-  @{HOME}/.kde/share/config/* r,
   @{HOME}/.config/ibus/bus/* r,
+  @{HOME}/.kde/share/config/* r,
   @{PROC}/*/environ r,
   @{PROC}/@{pid}/fd/ r,
   @{PROC}/@{pid}/gid_map rw,
