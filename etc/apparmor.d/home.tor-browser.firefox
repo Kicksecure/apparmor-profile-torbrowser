@@ -1,4 +1,4 @@
-# Last Modified: Sat Jun 17 13:42:31 2023
+# Last Modified: Sat Jun 17 14:10:52 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -68,6 +68,7 @@ include <tunables/global>
   /run/split-browser-disp/into-firefox rw,
   /tmp/MozUpdater/bgupdate/updater rix,
   /usr/bin/apt-cache rix,
+  /usr/bin/cut mrix,
   /usr/bin/dash rix,
   /usr/bin/dirname rix,
   /usr/bin/getopt mrix,
@@ -75,6 +76,7 @@ include <tunables/global>
   /usr/bin/lsb_release rix,
   /usr/bin/ps rix,
   /usr/bin/pulseaudio rix,
+  /usr/bin/tr mrix,
   /usr/lib/*-linux-gnu/** mrix,
   /usr/lib/python*/lib-dynload/* mr,
   /usr/local/lib/python*/dist-packages/ r,
