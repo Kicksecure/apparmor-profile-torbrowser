@@ -73,7 +73,6 @@ include <tunables/global>
   /sys/bus/pci/devices/ r,
   /sys/class/ r,
   /sys/class/input/ r,
-  /tmp/MozUpdater/bgupdate/updater rix,
   /usr/bin/apt-cache rix,
   /usr/bin/cut mrix,
   /usr/bin/dash rix,
