@@ -1,4 +1,4 @@
-# Last Modified: Tue Oct 24 13:20:19 2023
+# Last Modified: Tue Oct 24 13:26:24 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -42,6 +42,8 @@ include <tunables/global>
   deny @{PROC}/@{pid}/task/** r,
   deny @{PROC}/sys/kernel/random/uuid r,
   deny @{PROC}/sys/vm/overcommit_memory r,
+  deny owner /home/*/* r,
+  deny owner /home/*/.* rw,
 
   /bin/dash rix,
   /bin/ps rix,
@@ -98,12 +100,13 @@ include <tunables/global>
   @{PROC}/@{pid}/status r,
   @{PROC}/@{pid}/uid_map rw,
   owner /**/*-browser/** mrwlkix,
-  deny owner /home/*/.* rw,
   owner /home/*/Downloads/ r,
   owner /home/*/Downloads/* rw,
   owner /proc/*/cgroup r,
   owner /proc/*/oom_score_adj w,
+  owner /tmp/** k,
   owner /tmp/** rw,
+  owner /tmp/firefox/** k,
   owner /tmp/firefox/** rw,
 
 }
