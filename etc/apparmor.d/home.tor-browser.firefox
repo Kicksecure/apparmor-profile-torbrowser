@@ -1,4 +1,4 @@
-# Last Modified: Tue Oct 24 12:39:22 2023
+# Last Modified: Tue Oct 24 12:41:01 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -53,6 +53,7 @@ include <tunables/global>
   /dev/vboxuser rw,
   /etc/dconf/** r,
   /etc/debian_version r,
+  /etc/glvnd/egl_vendor.d/ r,
   /etc/ld.so.conf r,
   /etc/ld.so.conf.d/* r,
   /etc/mime.types r,
@@ -71,6 +72,7 @@ include <tunables/global>
   /sys/bus/ r,
   /sys/bus/pci/devices/ r,
   /sys/class/ r,
+  /sys/class/input/ r,
   /tmp/MozUpdater/bgupdate/updater rix,
   /usr/bin/apt-cache rix,
   /usr/bin/cut mrix,
@@ -89,6 +91,7 @@ include <tunables/global>
   /usr/share/applications/** rk,
   /usr/share/doc/homepage/** r,
   /usr/share/fontconfig/conf.avail/* r,
+  /usr/share/glvnd/egl_vendor.d/ r,
   /usr/share/libthai/** r,
   /usr/share/mime/** r,
   /usr/share/poppler/cMap/** r,
