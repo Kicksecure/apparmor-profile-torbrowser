@@ -1,4 +1,4 @@
-# Last Modified: Tue Oct 24 13:32:11 2023
+# Last Modified: Tue Oct 24 16:34:53 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -33,6 +33,8 @@ include <tunables/global>
   deny /etc/udev/udev.conf r,
   deny /run/udev/** r,
   deny /sys/devices/** r,
+  /var/cache/fontconfig/** r,
+  deny /var/cache/fontconfig/** wk,
   deny /var/lib/dbus/machine-id r,
   deny @{PROC}/@{pid}/cmdline r,
   deny @{PROC}/@{pid}/mountinfo r,
