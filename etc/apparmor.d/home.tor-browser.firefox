@@ -11,8 +11,6 @@ include <tunables/global>
   include <abstractions/audio>
   include <abstractions/base>
   include <abstractions/fonts>
-  include <abstractions/gnome>
-  include <abstractions/kde>
   include <local/home.tor-browser.firefox>
 
   capability sys_admin,
@@ -99,7 +97,6 @@ include <tunables/global>
   /usr/share/xul-ext/foxyproxy-standard/** r,
   /var/cache/fontconfig/ rk,
   @{HOME}/ r,
-  @{HOME}/* r,
   @{HOME}/.config/ibus/bus/* r,
   @{HOME}/.kde/share/config/* r,
   @{PROC}/*/environ r,
