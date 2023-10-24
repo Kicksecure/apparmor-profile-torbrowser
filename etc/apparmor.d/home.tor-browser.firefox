@@ -1,4 +1,4 @@
-# Last Modified: Sat Jun 17 14:10:52 2023
+# Last Modified: Tue Oct 24 12:34:39 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -13,9 +13,6 @@ include <tunables/global>
   include <abstractions/fonts>
   include <abstractions/gnome>
   include <abstractions/kde>
-  include <abstractions/totem>
-  include <abstractions/user-download>
-  include <abstractions/user-tmp>
   include <local/home.tor-browser.firefox>
 
   capability sys_admin,
@@ -56,6 +53,7 @@ include <tunables/global>
   /etc/ld.so.conf.d/* r,
   /etc/mime.types r,
   /etc/python*/** r,
+  /etc/timezone r,
   /etc/wildmidi/wildmidi.cfg r,
   /etc/xfce4/defaults.list r,
   /run/**/**/dconf/ rw,
@@ -102,6 +100,8 @@ include <tunables/global>
   @{PROC}/@{pid}/status r,
   @{PROC}/@{pid}/uid_map rw,
   owner /**/*-browser/** mrwlkix,
+  owner /home/*/Downloads/* rw,
   owner /proc/*/cgroup r,
+  owner /proc/*/oom_score_adj w,
 
 }
