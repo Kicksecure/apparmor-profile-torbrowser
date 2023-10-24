@@ -1,4 +1,4 @@
-# Last Modified: Tue Oct 24 12:34:39 2023
+# Last Modified: Tue Oct 24 12:39:22 2023
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
@@ -18,6 +18,10 @@ include <tunables/global>
   capability sys_admin,
   capability sys_chroot,
   capability sys_ptrace,
+
+  network inet stream,
+  network inet6 stream,
+  network netlink raw,
 
   deny /etc/fstab r,
   deny /etc/group r,
@@ -64,6 +68,9 @@ include <tunables/global>
   /run/resolvconf/resolv.conf r,
   /run/split-browser-disp/from-firefox w,
   /run/split-browser-disp/into-firefox rw,
+  /sys/bus/ r,
+  /sys/bus/pci/devices/ r,
+  /sys/class/ r,
   /tmp/MozUpdater/bgupdate/updater rix,
   /usr/bin/apt-cache rix,
   /usr/bin/cut mrix,
@@ -100,6 +107,7 @@ include <tunables/global>
   @{PROC}/@{pid}/status r,
   @{PROC}/@{pid}/uid_map rw,
   owner /**/*-browser/** mrwlkix,
+  owner /home/*/Downloads/ r,
   owner /home/*/Downloads/* rw,
   owner /proc/*/cgroup r,
   owner /proc/*/oom_score_adj w,
