@@ -1,3 +1,57 @@
+commit 37e6ae5ed66c1d8cbc10cc52dc3b3991dbb954f5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 12:38:26 2023 -0400
+
+    apparmor
+
+commit 52bc9170cf88b30f163ad6df7dbbeaf0f1ef6ab7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 10:38:35 2023 -0400
+
+    audit
+
+commit 04e89a3300650c2d4a5ea46104801b4554a8a21a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 09:33:35 2023 -0400
+
+    aa-logprof
+
+commit ad9891c2ddc92820751bcf1a280061a7a159677d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 09:27:28 2023 -0400
+
+    aa-logprof
+
+commit db8f59a24b27d4418a3034f70d28be8e6ac4e0ee
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 09:23:52 2023 -0400
+
+    apparmor
+
+commit b4fa580b2d05cc9277b09d9ca2949a2e3a7fcf69
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 09:12:30 2023 -0400
+
+    apparmor
+
+commit 47eee1de662fe50ed3fc10732020cf692697fdfe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 09:04:15 2023 -0400
+
+    harden
+
+commit 6dfd5e6dd2a548edd23187e0ddaf69493f2a4b7b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 08:55:25 2023 -0400
+
+    remove `/tmp/MozUpdater/bgupdate/updater rix,`
+
+commit 6a4e074628e55ed1c058639ba98a17d6e186a980
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 24 08:47:36 2023 -0400
+
+    bumped changelog version
+
 commit 9c882dd89b0fe5f2acd6fc9f8271d17f88d913ef
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Oct 24 08:43:21 2023 -0400
