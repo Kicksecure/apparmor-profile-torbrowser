@@ -43,8 +43,8 @@ include <tunables/global>
   deny @{PROC}/@{pid}/task/** r,
   deny @{PROC}/sys/kernel/random/uuid r,
   deny @{PROC}/sys/vm/overcommit_memory r,
-  deny owner /home/*/* r,
-  deny owner /home/*/.* rw,
+  audit deny owner /home/*/* r,
+  audit deny owner /home/*/.* rw,
 
   /bin/dash rix,
   /bin/ps rix,
