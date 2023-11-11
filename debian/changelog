@@ -1,3 +1,9 @@
+apparmor-profile-torbrowser (3:9.0-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 11 Nov 2023 20:12:29 +0000
+
 apparmor-profile-torbrowser (3:8.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
