@@ -48,8 +48,6 @@ include <tunables/global>
   deny @{PROC}/@{pid}/task/** r,
   deny @{PROC}/sys/kernel/random/uuid r,
   deny @{PROC}/sys/vm/overcommit_memory r,
-  audit deny owner /home/*/* r,
-  audit deny owner /home/*/.* rw,
 
   /bin/dash rix,
   /bin/ps rix,
@@ -104,9 +102,6 @@ include <tunables/global>
 
   /var/cache/fontconfig/ rk,
 
-  @{HOME}/ r,
-  @{HOME}/.config/ibus/bus/* r,
-  @{HOME}/.kde/share/config/* r,
   @{PROC}/*/environ r,
   @{PROC}/@{pid}/fd/ r,
   @{PROC}/@{pid}/gid_map rw,
@@ -119,9 +114,14 @@ include <tunables/global>
 
   owner /**/*-browser/** mrwlkix,
 
+  @{HOME}/ r,
+  @{HOME}/.config/ibus/bus/* r,
+  @{HOME}/.kde/share/config/* r,
   owner @{HOME}/[dD]ownload{,s}/ r,
   owner @{HOME}/[dD]ownload{,s}/** rw,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ r,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/** rw,
+  audit deny owner /home/*/* r,
+  audit deny owner /home/*/.* rw,
 
 }
