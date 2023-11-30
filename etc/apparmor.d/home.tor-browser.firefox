@@ -107,8 +107,8 @@ include <tunables/global>
   owner @{HOME}/[dD]ownload{,s}/** rw,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ r,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/** rw,
-  owner /proc/*/cgroup r,
-  owner /proc/*/mounts r,
-  owner /proc/*/oom_score_adj w,
+  owner @{PROC}/*/cgroup r,
+  owner @{PROC}/*/mounts r,
+  owner @{PROC}/*/oom_score_adj w,
 
 }
