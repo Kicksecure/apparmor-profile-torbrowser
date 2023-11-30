@@ -121,7 +121,7 @@ include <tunables/global>
   owner @{HOME}/[dD]ownload{,s}/** rw,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ r,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/** rw,
-  audit deny owner /home/*/* r,
-  audit deny owner /home/*/.* rw,
+  audit deny owner @{HOME}/*/* r,
+  audit deny owner @{HOME}/*/.* rw,
 
 }
