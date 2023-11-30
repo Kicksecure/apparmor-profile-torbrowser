@@ -1,3 +1,55 @@
+commit 0b66441206244333bb3329265bf5eb4465417e61
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 30 13:18:18 2023 -0500
+
+    @{HOME}
+
+commit 8086ceff14175287d202e7b60f4c01b696444167
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 30 13:17:49 2023 -0500
+
+    refactoring
+
+commit c89ef14ef93cbe49e4e46ae95d0dcc7ed94e4b7f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 30 13:17:00 2023 -0500
+
+    refactoring
+
+commit 1e29ead6cd375e53bdc5a9d8ae62ee3fea8888ee
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 30 13:14:58 2023 -0500
+
+    @{PROC}
+
+commit 873bec670db088c0a7fdb63f18d8a63b18b61b07
+Merge: f397fc6 a0a536a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Nov 28 11:16:25 2023 -0500
+
+    Merge pull request #15 from ben-grande/tbb-download
+    
+    Allow downloads directory under different syntaxes
+
+commit a0a536a9d7577aca798a240b51474022cf030005
+Author: Ben Grande <ben.grande.b@gmail.com>
+Date:   Tue Nov 28 11:16:20 2023 +0000
+
+    Allow downloads directory under different syntaxes
+    
+    Download directory can now:
+    - be capitalized or not with trailing 's' or not.
+    - be set by XDG_DOWNLOAD_DIR internal AppArmor variable.
+    - the home directory now uses the HOME internal AA variable.
+    - every subfolder inside the download dir is also allowed, helps saving
+      files in directories in a organized manner.
+
+commit f397fc675e224b3b0cb6f3c6c5d5f183dc0ad3e4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 20:12:30 2023 +0000
+
+    bumped changelog version
+
 commit 8e703f7873ccba9b56fbf675202b7688a6bce9f1
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:31 2023 -0500
