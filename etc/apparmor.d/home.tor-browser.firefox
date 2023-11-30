@@ -32,10 +32,13 @@ include <tunables/global>
   deny /etc/resolv.conf r,
   deny /etc/udev/udev.conf r,
   deny /run/udev/** r,
+
   deny /sys/devices/** r,
+
   /var/cache/fontconfig/** r,
   deny /var/cache/fontconfig/** wk,
   deny /var/lib/dbus/machine-id r,
+
   deny @{PROC}/@{pid}/cmdline r,
   deny @{PROC}/@{pid}/mountinfo r,
   deny @{PROC}/@{pid}/net/arp r,
@@ -50,10 +53,12 @@ include <tunables/global>
 
   /bin/dash rix,
   /bin/ps rix,
+
   /dev/dri/** r,
   /dev/shm/org.chromium.* rwk,
   /dev/shm/org.mozilla.ipc.* rwk,
   /dev/vboxuser rw,
+
   /etc/dconf/** r,
   /etc/debian_version r,
   /etc/glvnd/egl_vendor.d/ r,
@@ -64,6 +69,7 @@ include <tunables/global>
   /etc/timezone r,
   /etc/wildmidi/wildmidi.cfg r,
   /etc/xfce4/defaults.list r,
+
   /run/**/**/dconf/ rw,
   /run/**/**/dconf/** rw,
   /run/anon-ws-disable-stacked-tor/127.0.0.1_9150.sock rw,
@@ -72,10 +78,12 @@ include <tunables/global>
   /run/resolvconf/resolv.conf r,
   /run/split-browser-disp/from-firefox w,
   /run/split-browser-disp/into-firefox rw,
+
   /sys/bus/ r,
   /sys/bus/pci/devices/ r,
   /sys/class/ r,
   /sys/class/input/ r,
+
   /usr/bin/apt-cache rix,
   /usr/bin/cut mrix,
   /usr/bin/dash rix,
@@ -85,6 +93,7 @@ include <tunables/global>
   /usr/bin/lsb_release rix,
   /usr/bin/ps rix,
   /usr/bin/pulseaudio rix,
+
   /usr/bin/tr mrix,
   /usr/lib/*-linux-gnu/** mrix,
   /usr/lib/python*/lib-dynload/* mr,
@@ -92,7 +101,9 @@ include <tunables/global>
   /usr/local/lib/python*/dist-packages/** r,
   /usr/share/** r,
   /usr/share/applications/** rk,
+
   /var/cache/fontconfig/ rk,
+
   @{HOME}/ r,
   @{HOME}/.config/ibus/bus/* r,
   @{HOME}/.kde/share/config/* r,
@@ -102,13 +113,15 @@ include <tunables/global>
   @{PROC}/@{pid}/setgroups rw,
   @{PROC}/@{pid}/status r,
   @{PROC}/@{pid}/uid_map rw,
+  owner @{PROC}/*/cgroup r,
+  owner @{PROC}/*/mounts r,
+  owner @{PROC}/*/oom_score_adj w,
+
   owner /**/*-browser/** mrwlkix,
+
   owner @{HOME}/[dD]ownload{,s}/ r,
   owner @{HOME}/[dD]ownload{,s}/** rw,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ r,
   owner @{HOME}/@{XDG_DOWNLOAD_DIR}/** rw,
-  owner @{PROC}/*/cgroup r,
-  owner @{PROC}/*/mounts r,
-  owner @{PROC}/*/oom_score_adj w,
 
 }
