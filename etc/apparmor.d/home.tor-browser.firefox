@@ -101,6 +101,7 @@ include <tunables/global>
   /usr/share/applications/** rk,
 
   /var/cache/fontconfig/ rk,
+  /var/cache/fontconfig/** r,
 
   @{PROC}/*/environ r,
   @{PROC}/@{pid}/fd/ r,
