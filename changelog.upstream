@@ -1,3 +1,23 @@
+commit a3e1fa57b378557521da2e7596270c0431fcb735
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Feb 16 08:39:20 2024 -0500
+
+    https://forums.whonix.org/t/cannot-upload-files-with-tor-browser-apparmor-issue/18243
+    
+    fix uploads
+
+commit 6f82a0477a4d7d6df186890d62f29911549a692f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Feb 16 08:24:49 2024 -0500
+
+    fontconfig
+
+commit 9ba40fa1faaaf100e71e6f4b6f36afdc9bc6024b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Nov 30 18:18:38 2023 +0000
+
+    bumped changelog version
+
 commit 0b66441206244333bb3329265bf5eb4465417e61
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Nov 30 13:18:18 2023 -0500
