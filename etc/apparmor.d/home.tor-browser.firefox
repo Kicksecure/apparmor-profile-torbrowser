@@ -5,6 +5,7 @@ include <tunables/global>
 ## Copyright (C) 2014 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
+@{user_download_dirs}=@{HOME}/@{XDG_DOWNLOAD_DIR}
 
 /**/*-browser/Browser/firefox flags=(attach_disconnected) {
   include <abstractions/X>
@@ -118,11 +119,11 @@ include <tunables/global>
   @{HOME}/ r,
   @{HOME}/.config/ibus/bus/* r,
   @{HOME}/.kde/share/config/* r,
-  owner @{HOME}/[dD]ownload{,s}/ r,
-  owner @{HOME}/[dD]ownload{,s}/** rw,
-  owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ r,
-  owner @{HOME}/@{XDG_DOWNLOAD_DIR}/** rw,
-  audit deny owner @{HOME}/*/* r,
-  audit deny owner @{HOME}/*/.* rw,
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/ w,
+  owner @{HOME}/@{XDG_DOWNLOAD_DIR}/ w,
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/ r,
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/** rwkl,
+  owner @{user_download_dirs}/ r,
+  owner @{user_download_dirs}/** rwkl,
 
 }
