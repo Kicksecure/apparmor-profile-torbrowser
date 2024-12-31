@@ -2,7 +2,7 @@
 include <tunables/global>
 
 ## Copyright (C) 2014 troubadour <trobador@riseup.net>
-## Copyright (C) 2014 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
+## Copyright (C) 2014 - 2025 ENCRYPTED SUPPORT LLC <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
 @{user_download_dirs}=@{HOME}/@{XDG_DOWNLOAD_DIR}
