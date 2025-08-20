@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-apparmor
 Homepage: https://www.kicksecure.com/wiki/AppArmor
 Vcs-Browser: https://github.com/Kicksecure/apparmor-profile-torbrowser
 Vcs-Git: https://github.com/Kicksecure/apparmor-profile-torbrowser.git
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
 
 Package: apparmor-profile-torbrowser
