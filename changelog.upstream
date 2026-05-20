@@ -1,3 +1,9 @@
+commit a25ae1d5832bb004bf1bbc8d5bffecbc53724e68
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:40:13 2026 +0000
+
+    bumped changelog version
+
 commit 7d4e92f6f5d0d003591183a0120f688d170b7703
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:30:03 2026 -0400
@@ -94,7 +100,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Feb 16 08:39:20 2024 -0500
 
     https://forums.whonix.org/t/cannot-upload-files-with-tor-browser-apparmor-issue/18243
-    
+
     fix uploads
 
 commit 6f82a0477a4d7d6df186890d62f29911549a692f
@@ -139,7 +145,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Nov 28 11:16:25 2023 -0500
 
     Merge pull request #15 from ben-grande/tbb-download
-    
+
     Allow downloads directory under different syntaxes
 
 commit a0a536a9d7577aca798a240b51474022cf030005
@@ -147,7 +153,7 @@ Author: Ben Grande <ben.grande.b@gmail.com>
 Date:   Tue Nov 28 11:16:20 2023 +0000
 
     Allow downloads directory under different syntaxes
-    
+
     Download directory can now:
     - be capitalized or not with trailing 's' or not.
     - be set by XDG_DOWNLOAD_DIR internal AppArmor variable.
@@ -166,7 +172,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:31 2023 -0500
 
     change license to AGPL-3+
-    
+
     https://forums.whonix.org/t/license-change-to-agplv3/17455
 
 commit bce1bd8d8d267934b2d33688e8328593006353ac
@@ -378,9 +384,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Oct 9 09:15:07 2022 -0400
 
     @{HOME}/.config/ibus/bus/* r,
-    
+
     Thanks to @vvoovv for the suggestion!
-    
+
     Fixes https://forums.whonix.org/t/cant-type-japanese-only-in-tor-browser/14620/5
 
 commit bc0db7ac9598a42cd7638a1ef864548b510cdeb2
@@ -406,7 +412,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Jul 2 15:14:46 2022 -0400
 
     remove `#include <abstractions/totem>`
-    
+
     because not available by default
     to avoid error message during installation
 
@@ -454,7 +460,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 8 08:22:37 2022 -0400
 
     Merge pull request #12 from TNTBOMBOM/patch-1
-    
+
     Update home.tor-browser.firefox
 
 commit 403edb228c3695d983868e95f1452a756f1fc6ff
@@ -462,7 +468,7 @@ Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
 Date:   Mon Jun 6 09:06:16 2022 +0000
 
     Update home.tor-browser.firefox
-    
+
     Fixes numerous DENIED messages.
 
 commit 6c713952888df1209ebee1907a8fa8e32781ee56
@@ -634,7 +640,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Nov 2 05:42:35 2019 +0000
 
     Merge pull request #9 from miteigi/cleanup
-    
+
     Remove overridden rules on net/arp and net/route
 
 commit bfcdb3dff4449e845231b5401c8cf8ac6edca23f
@@ -642,7 +648,7 @@ Author: miteigi <miteigi@disroot.org>
 Date:   Fri Nov 1 22:52:19 2019 +0900
 
     Remove overridden rules on net/arp and net/route
-    
+
     See also: https://github.com/micahflee/torbrowser-launcher/commit/88d862a3828ef0b287232018e300dd6ce66b57a1
 
 commit b173d7989a232c1021faba881c5f6dfd7461b15c
@@ -664,7 +670,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Oct 31 07:04:25 2019 +0000
 
     Merge pull request #8 from miteigi/use-pid-variable
-    
+
     Use @{pid} variable where appropriate
 
 commit aa651e299ee60b21704be36dcacced9acfc05157
@@ -678,11 +684,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 29 10:37:16 2019 -0400
 
     /run/**/**/dconf/ rw,
-    
+
     fix:
-    
+
     host kernel: audit: type=1400 audit(1572359679.202:27): apparmor="DENIED" operation="mkdir" profile="/**/*-browser/Browser/firefox" name="/run/user/1000/dconf/" pid=2307 comm="firefox.real" requested_mask="c" denied_mask="c" fsuid=1000 ouid=1000
-    
+
     https://forums.whonix.org/t/tor-browser-issue/8358/7
 
 commit 13bbba2f4484ff2453bb6c8edd4a65dcfc7b9d3e
@@ -788,9 +794,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Aug 7 06:55:30 2019 +0000
 
     https://forums.whonix.org/t/why-does-the-tor-browser-apparmor-profile-have-sys-admin-sys-chroot-and-ptrace-capabilties/7409
-    
+
     Revert "Update home.tor-browser.firefox"
-    
+
     This reverts commit f72a36a1b6ea667e5245c52e338b57b5bc7df530.
 
 commit cefb9a9c2a03f2725a730bd68dca8e45b19ff041
@@ -834,9 +840,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jun 23 17:09:27 2019 +0000
 
     remove no longer existing profile
-    
+
     dh_apparmor --profile-name='home.tor-browser.start-tor-browser'
-    
+
     add support for local profile
 
 commit 7b75bc7f67e921eabfe191de199e2e49ee158934
@@ -894,7 +900,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 22 16:28:13 2019 +0000
 
     Merge pull request #6 from madaidan/patch-1
-    
+
     Removes unnecessary capabilities.
 
 commit f72a36a1b6ea667e5245c52e338b57b5bc7df530
@@ -974,18 +980,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:31:50 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -1001,7 +1007,7 @@ Date:   Sat Nov 17 06:10:40 2018 +0000
 
     deprecate /etc/apparmor.d/home.tor-browser.start-tor-browser due to
     low attack surface and broken. Patches welcome.
-    
+
     fix apparmor profile matching
 
 commit 8e76b163daca04e046100231b7999982be0a2e86
@@ -1023,7 +1029,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 16 23:54:44 2018 -0500
 
     Merge pull request #5 from Algernon-01/master
-    
+
     Fix.
 
 commit 095dcf036420ca09064161020ecaaa10b52eab9e
@@ -1051,7 +1057,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Oct 10 07:42:25 2018 +0000
 
     Merge pull request #4 from eyedeekay/master
-    
+
     More precise apparmor profile
 
 commit 3a3661026df44636bfae0756c229c3d226126c43
@@ -1098,7 +1104,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Oct 8 11:34:32 2018 +0000
 
     Merge pull request #3 from eyedeekay/master
-    
+
     wildcard for non-tor TBB's
 
 commit a69ae58f49037192d7de883153b346a611f6240d
@@ -1124,11 +1130,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Sep 6 07:23:26 2018 +0000
 
     fix for Tor Browser 8
-    
+
     /usr/bin/dirname rix,
-    
+
     https://forums.whonix.org/t/tor-browser-8-wont-launch/5863
-    
+
     Thanks to @qubenix for suggesting to fix!
 
 commit 00170353032f9d8d8402db82c5e0f6f0e4a0d20d
@@ -1304,7 +1310,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Nov 30 22:19:59 2017 +0100
 
     Merge pull request #2 from Algernon-01/master
-    
+
     Patches for Whonix live
 
 commit 0a5a01dddc0adda4762fe973c4f7632e465abd4e
@@ -1380,7 +1386,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 19 15:33:39 2017 +0200
 
     VPN support.
-    
+
     /run/resolvconf/resolv.conf r,
 
 commit 9032e909c2b10e20ecf104d4eb1acc120df167d1
@@ -1388,7 +1394,7 @@ Author: name <email@address.com>
 Date:   Fri May 5 16:11:32 2017 +0200
 
     Tor Browser 7.0a3 apparmor fixes
-    
+
     https://phabricator.whonix.org/T672
 
 commit 4c52a69cbad5767d5a3a476ed0e7bdd253b6174f
@@ -1414,7 +1420,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:49 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit 94cf73c8221b5d37cdf77f05d3fda2be95417a32
@@ -1434,7 +1440,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 12:20:42 2017 +0000
 
     renamed apparmor profile file names
-    
+
     removed '*' to fix lintian warning
 
 commit 5c41b5202b180776cee3d0d6491784e2ebc49c48
@@ -1486,7 +1492,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 4 22:12:23 2016 +0200
 
     Merge pull request #1 from 3n7r0p1/patch-1
-    
+
     Allow TBB installations in /home/user/ (not only /home/user/*/ )
 
 commit 173a2543cc5ff16b814be4ed9f969c4205c2d6d1
@@ -1600,7 +1606,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Nov 6 13:11:45 2015 +0000
 
     @{PROC}/*/environ r,
-    
+
     /usr/local/share/applications/mimeinfo.cache r,
 
 commit 029cdcb375280543e2926c520ac043024107606a
@@ -2263,14 +2269,14 @@ Author: troubadoour <trobador@riseup.net>
 Date:   Thu May 8 21:24:42 2014 +0000
 
     Squashed commit of the following:
-    
+
     commit 96a349a6e7b04d4e6a238ed303b476532b419c92
     Author: troubadoour <trobador@riseup.net>
     Date:   Thu May 8 21:22:28 2014 +0000
-    
+
         etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
         etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
-    
+
     etc/apparmor.d/home.user.tor-browser_en-US.Browser.firefox
     etc/apparmor.d/local/home.user.tor-browser_en-US.Browser.firefox
 
