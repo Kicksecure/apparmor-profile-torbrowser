@@ -60,7 +60,7 @@ include <tunables/global>
   /dev/dri/** r,
   /dev/shm/org.chromium.* rwk,
   /dev/shm/org.mozilla.ipc.* rwk,
-  /dev/udmabuf rw,
+  deny /dev/udmabuf rw,
   /dev/vboxuser rw,
 
   /etc/dconf/** r,
