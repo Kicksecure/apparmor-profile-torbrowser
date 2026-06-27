@@ -39,6 +39,7 @@ include <tunables/global>
   deny /sys/devices/** r,
 
   /var/cache/fontconfig/** r,
+  deny /var/cache/fontconfig/ w,
   deny /var/cache/fontconfig/** wk,
   deny /var/lib/dbus/machine-id r,
 
@@ -55,9 +56,11 @@ include <tunables/global>
   /bin/dash rix,
   /bin/ps rix,
 
+  /dev/ r,
   /dev/dri/** r,
   /dev/shm/org.chromium.* rwk,
   /dev/shm/org.mozilla.ipc.* rwk,
+  /dev/udmabuf rw,
   /dev/vboxuser rw,
 
   /etc/dconf/** r,
