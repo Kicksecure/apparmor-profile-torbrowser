@@ -1,3 +1,47 @@
+commit e874983b948d7ddb0c145f1bd78ba249f2ad8e74
+Merge: 3e3e72b a7f5fc7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jun 27 12:49:48 2026 -0400
+
+    Merge remote-tracking branch 'refs/remotes/org-ai-assisted/master'
+
+commit a7f5fc732c5ffa6ef8aa0943decd814c6d5c643b
+Author: claude (dev21 54f886d3-2b0b-4c80-a22a-8fae3d185984) <noreply@anthropic.com>
+Date:   Sat Jun 27 12:31:54 2026 -0400
+
+    deny /dev/udmabuf instead of granting rw
+
+    glxtest only needs /dev/udmabuf to probe dmabuf GPU buffer sharing, which
+    Tor Browser does not rely on under the Whonix threat model. Granting rw
+    would let confined Firefox mint dma-bufs (udmabuf kernel attack surface)
+    for no functional gain, so deny it silently like the fontconfig cache.
+    glxtest degrades gracefully (reports no udmabuf support).
+
+    Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01HK5faz2Q4YyXNRWLJbRXp9
+
+commit 81589ae164b45e7f3151307780c43df4c54f28cc
+Author: claude (dev21 54f886d3-2b0b-4c80-a22a-8fae3d185984) <noreply@anthropic.com>
+Date:   Sat Jun 27 12:24:33 2026 -0400
+
+    allow /dev/, /dev/udmabuf (glxtest GPU probe); silence fontconfig chmod
+
+    Fixes three AppArmor denials seen on Tor Browser startup:
+    - open /dev/ (r): directory listing during device probing
+    - open /dev/udmabuf (wr): glxtest dmabuf hardware-accel probe
+    - chmod /var/cache/fontconfig/ (w): denied silently; TB must not write
+      the root-owned system font cache (DAC blocks it anyway), matching the
+      existing "deny /var/cache/fontconfig/** wk" rule.
+
+    Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01HK5faz2Q4YyXNRWLJbRXp9
+
+commit 3e3e72bdaa09a79718b1ccbab1f9e36d9d4e6fe0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 20 21:57:05 2026 +0000
+
+    bumped changelog version
+
 commit 30e65321b18be70de37778f65ff98bd3134dc85e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed May 20 16:56:38 2026 -0400
